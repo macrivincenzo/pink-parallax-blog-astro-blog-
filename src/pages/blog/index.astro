@@ -1,0 +1,348 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+
+// SEO Powerhouse Articles Data
+const seoArticles = [
+	{
+		id: 'medical-practice-complete-seo-powerhouse',
+		title: 'Medical Practice Valuation Calculator 2025',
+		description: 'Calculate your medical practice worth with our 2025 SDE analysis calculator. Get accurate medical practice valuation using proven industry multiples and benchmarks.',
+		icon: '🏥',
+		url: '/medical-practice-complete-seo-powerhouse',
+		featured: true,
+		category: 'Healthcare'
+	},
+	{
+		id: 'ecommerce-complete-seo-powerhouse',
+		title: 'E-commerce Business Valuation Calculator',
+		description: 'Free e-commerce business valuation calculator using SDE methodology. Get instant estimates for your online store\'s worth with professional reports.',
+		icon: '🛒',
+		url: '/ecommerce-complete-seo-powerhouse',
+		featured: true,
+		category: 'E-commerce'
+	},
+	{
+		id: 'restaurant-complete-seo-powerhouse',
+		title: 'Restaurant Valuation Calculator 2025',
+		description: 'Value your restaurant with SDE analysis. Get instant estimates for your dining establishment\'s worth using industry-standard methodology.',
+		icon: '🍽️',
+		url: '/restaurant-complete-seo-powerhouse',
+		featured: false,
+		category: 'Food & Beverage'
+	},
+	{
+		id: 'saas-complete-seo-powerhouse',
+		title: 'SaaS Business Valuation Calculator',
+		description: 'Value your software company with ARR analysis. Get instant estimates for your SaaS business worth using proven industry multiples.',
+		icon: '💻',
+		url: '/saas-complete-seo-powerhouse',
+		featured: false,
+		category: 'Technology'
+	},
+	{
+		id: 'manufacturing-complete-seo-powerhouse',
+		title: 'Manufacturing Business Valuation Calculator',
+		description: 'Value your manufacturing company with SDE analysis. Get instant estimates for your production company\'s worth with equipment valuation.',
+		icon: '🏭',
+		url: '/manufacturing-complete-seo-powerhouse',
+		featured: false,
+		category: 'Manufacturing'
+	},
+	{
+		id: 'service-business-complete-seo-powerhouse',
+		title: 'Service Business Valuation Calculator',
+		description: 'Value your service company with SDE analysis. Get instant estimates for your service business worth using industry benchmarks.',
+		icon: '💼',
+		url: '/service-business-complete-seo-powerhouse',
+		featured: false,
+		category: 'Professional Services'
+	}
+];
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="Business Valuation Calculators 2025 - Free SDE Analysis Tools | TheValuationGenie" description="Professional business valuation calculators for medical practices, restaurants, e-commerce, SaaS, manufacturing, and service businesses. Free SDE analysis with instant estimates and $39 professional reports." />
+		
+		<!-- Enhanced SEO Meta Tags -->
+		<meta name="keywords" content="business valuation calculator, SDE analysis, medical practice valuation, restaurant valuation, e-commerce valuation, SaaS valuation, manufacturing valuation, service business valuation, business worth calculator, free valuation tools" />
+		<meta name="robots" content="index, follow" />
+		<meta name="author" content="TheValuationGenie" />
+		<link rel="canonical" href="https://thevaluationgenie.com/blog" />
+		
+		<!-- Open Graph Meta Tags -->
+		<meta property="og:title" content="Business Valuation Calculators 2025 - Free SDE Analysis Tools" />
+		<meta property="og:description" content="Professional business valuation calculators for medical practices, restaurants, e-commerce, SaaS, manufacturing, and service businesses. Free SDE analysis with instant estimates." />
+		<meta property="og:url" content="https://thevaluationgenie.com/blog" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="TheValuationGenie" />
+		
+		<!-- Twitter Card Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Business Valuation Calculators 2025 - Free SDE Analysis Tools" />
+		<meta name="twitter:description" content="Professional business valuation calculators for medical practices, restaurants, e-commerce, SaaS, manufacturing, and service businesses." />
+		
+		<!-- JSON-LD Schema Markup -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebPage",
+			"name": "Business Valuation Calculators 2025 - Free SDE Analysis Tools",
+			"description": "Professional business valuation calculators for medical practices, restaurants, e-commerce, SaaS, manufacturing, and service businesses.",
+			"url": "https://thevaluationgenie.com/blog",
+			"mainEntity": {
+				"@type": "ItemList",
+				"name": "Business Valuation Calculators",
+				"description": "Complete collection of professional business valuation calculators",
+				"numberOfItems": 6,
+				"itemListElement": [
+					{
+						"@type": "SoftwareApplication",
+						"name": "Medical Practice Valuation Calculator",
+						"description": "Calculate your medical practice worth with SDE analysis",
+						"url": "https://thevaluationgenie.com/medical-practice-complete-seo-powerhouse"
+					},
+					{
+						"@type": "SoftwareApplication", 
+						"name": "E-commerce Business Valuation Calculator",
+						"description": "Value your online store with SDE methodology",
+						"url": "https://thevaluationgenie.com/ecommerce-complete-seo-powerhouse"
+					}
+				]
+			},
+			"provider": {
+				"@type": "Organization",
+				"name": "TheValuationGenie",
+				"url": "https://thevaluationgenie.com"
+			}
+		}
+		</script>
+		
+		<style>
+			body {
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				line-height: 1.6;
+				margin: 0;
+				padding: 0;
+				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+				color: #333;
+			}
+			.hero-section {
+				background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+				color: white;
+				padding: 80px 20px;
+				text-align: center;
+				margin-bottom: 60px;
+			}
+			.hero-section h1 {
+				font-size: 3.5em;
+				margin: 0 0 20px 0;
+				text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+			}
+			.hero-section p {
+				font-size: 1.3em;
+				margin: 0 0 30px 0;
+				opacity: 0.9;
+				max-width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.cta-button {
+				background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+				color: white;
+				padding: 20px 40px;
+				border: none;
+				border-radius: 8px;
+				font-size: 1.2em;
+				font-weight: bold;
+				cursor: pointer;
+				text-decoration: none;
+				display: inline-block;
+				margin: 10px;
+				transition: transform 0.3s ease;
+			}
+			.cta-button:hover {
+				transform: translateY(-3px);
+				box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+			}
+			.container {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 0 20px;
+			}
+			.calculators-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+				gap: 30px;
+				margin-bottom: 60px;
+			}
+			.calculator-card {
+				background: white;
+				border-radius: 15px;
+				padding: 30px;
+				box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
+				text-decoration: none;
+				color: inherit;
+			}
+			.calculator-card:hover {
+				transform: translateY(-5px);
+				box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+			}
+			.calculator-card.featured {
+				grid-column: span 2;
+				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+				color: white;
+			}
+			.calculator-icon {
+				font-size: 3em;
+				margin-bottom: 20px;
+				display: block;
+			}
+			.calculator-title {
+				font-size: 1.8em;
+				margin: 0 0 15px 0;
+				font-weight: bold;
+			}
+			.calculator-description {
+				font-size: 1.1em;
+				margin: 0 0 20px 0;
+				opacity: 0.9;
+			}
+			.calculator-category {
+				display: inline-block;
+				background: rgba(52, 152, 219, 0.2);
+				color: #3498db;
+				padding: 5px 15px;
+				border-radius: 20px;
+				font-size: 0.9em;
+				font-weight: 500;
+				margin-bottom: 20px;
+			}
+			.calculator-card.featured .calculator-category {
+				background: rgba(255, 255, 255, 0.2);
+				color: white;
+			}
+			.calculator-cta {
+				background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+				color: white;
+				padding: 12px 25px;
+				border: none;
+				border-radius: 5px;
+				font-size: 1em;
+				font-weight: bold;
+				cursor: pointer;
+				text-decoration: none;
+				display: inline-block;
+				transition: transform 0.3s ease;
+			}
+			.calculator-cta:hover {
+				transform: translateY(-2px);
+			}
+			.calculator-card.featured .calculator-cta {
+				background: rgba(255, 255, 255, 0.2);
+				border: 2px solid white;
+			}
+			.features-section {
+				background: white;
+				padding: 60px 20px;
+				margin: 60px 0;
+				border-radius: 15px;
+				box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+			}
+			.features-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+				gap: 40px;
+				margin-top: 40px;
+			}
+			.feature-item {
+					text-align: center;
+			}
+			.feature-icon {
+				font-size: 2.5em;
+				margin-bottom: 20px;
+			}
+			.feature-title {
+				font-size: 1.3em;
+				margin: 0 0 15px 0;
+				font-weight: bold;
+				color: #2c3e50;
+			}
+			.feature-description {
+				color: #666;
+				line-height: 1.6;
+			}
+			@media (max-width: 768px) {
+				.hero-section h1 {
+					font-size: 2.5em;
+				}
+				.calculator-card.featured {
+					grid-column: span 1;
+				}
+				.calculators-grid {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		
+		<div class="hero-section">
+			<div class="container">
+				<h1>🚀 Business Valuation Calculators 2025</h1>
+				<p>Professional SDE analysis tools for medical practices, restaurants, e-commerce, SaaS, manufacturing, and service businesses. Get instant, accurate valuations with our industry-standard methodology.</p>
+				<a href="https://thevaluationgenie.com/" class="cta-button">Start Your Free Valuation Now</a>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="calculators-grid">
+				{seoArticles.map((article) => (
+					<a href={article.url} class={`calculator-card ${article.featured ? 'featured' : ''}`}>
+						<span class="calculator-icon">{article.icon}</span>
+						<div class="calculator-category">{article.category}</div>
+						<h3 class="calculator-title">{article.title}</h3>
+						<p class="calculator-description">{article.description}</p>
+						<span class="calculator-cta" onclick="window.open('https://thevaluationgenie.com/', '_blank')">Calculate My Value →</span>
+					</a>
+				))}
+			</div>
+			
+			<div class="features-section">
+				<h2 style="text-align: center; font-size: 2.5em; margin-bottom: 20px; color: #2c3e50;">Why Choose Our Valuation Calculators?</h2>
+				<p style="text-align: center; font-size: 1.2em; color: #666; max-width: 800px; margin: 0 auto 40px auto;">Professional-grade business valuation tools trusted by thousands of business owners, brokers, and investors nationwide.</p>
+				
+				<div class="features-grid">
+					<div class="feature-item">
+						<div class="feature-icon">⚡</div>
+						<h3 class="feature-title">Instant Results</h3>
+						<p class="feature-description">Get your business valuation in under 5 minutes using our proven SDE methodology and industry-standard multiples.</p>
+					</div>
+					<div class="feature-item">
+						<div class="feature-icon">🎯</div>
+						<h3 class="feature-title">Industry-Specific</h3>
+						<p class="feature-description">Specialized calculators for medical practices, restaurants, e-commerce, SaaS, manufacturing, and service businesses.</p>
+					</div>
+					<div class="feature-item">
+						<div class="feature-icon">📊</div>
+						<h3 class="feature-title">Professional Reports</h3>
+						<p class="feature-description">Upgrade to detailed $39 professional reports with comprehensive analysis, market comparisons, and actionable insights.</p>
+					</div>
+					<div class="feature-item">
+						<div class="feature-icon">🏆</div>
+						<h3 class="feature-title">Proven Methodology</h3>
+						<p class="feature-description">Based on industry-standard SDE analysis used by business brokers, lenders, and professional appraisers.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<Footer />
+	</body>
+</html>
