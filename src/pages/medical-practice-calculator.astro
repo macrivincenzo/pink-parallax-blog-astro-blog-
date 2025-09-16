@@ -10,7 +10,7 @@ const post = {
   pubDate: new Date('2025-01-15'),
   updatedDate: new Date('2025-01-15'),
   heroImage: '/src/assets/blog-placeholder-1.jpg',
-  tags: ['medical practice calculator', 'medical practice valuation', 'SDE analysis', 'healthcare business valuation', 'medical practice appraisal', 'doctor practice value'],
+  tags: ['medical practice calculator', 'medical practice valuation', 'SDE analysis', 'healthcare business valuation'],
   author: 'TheValuationGenie'
 };
 
@@ -20,435 +20,459 @@ const { title, description, pubDate, updatedDate, heroImage, tags, author } = po
 <Layout title={title} description={description}>
   <article class="medical-practice-article">
     <header class="article-header">
-      <h1 class="article-title">{title}</h1>
+      <h1>{title}</h1>
       <div class="article-meta">
         <FormattedDate date={pubDate} />
-        <span class="article-author">By {author}</span>
-        <span class="reading-time">Reading Time: 12 minutes</span>
-      </div>
-      <div class="article-tags">
-        {tags.map(tag => (
-          <span class="tag">{tag}</span>
-        ))}
+        <span class="author">By {author}</span>
       </div>
     </header>
 
     <nav class="toc">
       <h2>Table of Contents</h2>
       <ul>
-        <li><a href="#introduction">Introduction to Medical Practice Valuation</a></li>
-        <li><a href="#sde-methodology">Understanding SDE Methodology for Medical Practices</a></li>
-        <li><a href="#calculator">Medical Practice Valuation Calculator</a></li>
-        <li><a href="#key-factors">Key Factors Affecting Medical Practice Value</a></li>
-        <li><a href="#industry-multiples">Medical Practice Industry Multiples 2025</a></li>
-        <li><a href="#valuation-methods">Medical Practice Valuation Methods</a></li>
-        <li><a href="#common-mistakes">Common Medical Practice Valuation Mistakes</a></li>
-        <li><a href="#maximizing-value">How to Maximize Your Medical Practice Value</a></li>
-        <li><a href="#case-studies">Real Medical Practice Valuation Case Studies</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#sde-methodology">SDE Methodology</a></li>
+        <li><a href="#calculator">Medical Practice Calculator</a></li>
+        <li><a href="#key-factors">Key Valuation Factors</a></li>
+        <li><a href="#industry-multiples">Industry Multiples</a></li>
+        <li><a href="#valuation-methods">Valuation Methods</a></li>
+        <li><a href="#common-mistakes">Common Mistakes</a></li>
+        <li><a href="#maximizing-value">Maximizing Practice Value</a></li>
+        <li><a href="#case-studies">Case Studies</a></li>
         <li><a href="#faq">Frequently Asked Questions</a></li>
         <li><a href="#conclusion">Conclusion</a></li>
       </ul>
     </nav>
 
-    <div class="article-content">
-      <section id="introduction">
-        <h2>Introduction to Medical Practice Valuation</h2>
-        <p>Determining the accurate value of your <strong>medical practice</strong> is crucial for various business decisions, from selling your practice to securing financing or planning for retirement. Our comprehensive <strong>medical practice calculator</strong> uses proven <strong>SDE (Seller's Discretionary Earnings) analysis</strong> methodology to provide you with an accurate valuation that reflects the true worth of your healthcare business.</p>
-        
-        <div class="highlight-box">
-          <p><strong>Quick Answer:</strong> Medical practice values typically range from 1.5x to 4x SDE, depending on specialty, location, patient base quality, and market conditions. Our calculator considers all these factors to provide an accurate valuation.</p>
-        </div>
+    <section id="introduction" class="content-section">
+      <h2>Introduction: Understanding Medical Practice Valuation</h2>
+      <p>Medical practice valuation is a critical process that determines the fair market value of your healthcare business. Whether you're planning to sell, merge, or simply understand your practice's worth, accurate valuation is essential for making informed decisions.</p>
+      
+      <p>Our comprehensive <strong>Medical Practice Calculator</strong> uses the industry-standard <strong>SDE (Seller's Discretionary Earnings) analysis</strong> to provide you with an accurate valuation based on your practice's financial performance, specialty, location, and market conditions.</p>
 
-        <p>Whether you're a <strong>primary care physician</strong>, specialist, or practice owner looking to understand your business value, this guide will walk you through everything you need to know about <strong>medical practice valuation</strong> and how to use our calculator effectively.</p>
-      </section>
-
-      <section id="sde-methodology">
-        <h2>Understanding SDE Methodology for Medical Practices</h2>
-        <p><strong>Seller's Discretionary Earnings (SDE)</strong> is the gold standard for valuing small to medium-sized medical practices. SDE represents the total financial benefit a single owner-operator would derive from the business, including both salary and discretionary expenses.</p>
-
-        <h3>How SDE is Calculated for Medical Practices</h3>
-        <p>For medical practices, SDE calculation includes:</p>
+      <div class="highlight-box">
+        <h3>Why Medical Practice Valuation Matters</h3>
         <ul>
-          <li><strong>Net Income</strong> from practice operations</li>
-          <li><strong>Owner's Salary</strong> and benefits</li>
-          <li><strong>Discretionary Expenses</strong> (personal use of practice assets)</li>
-          <li><strong>Non-recurring Expenses</strong> (one-time costs)</li>
-          <li><strong>Depreciation and Amortization</strong> (non-cash expenses)</li>
-          <li><strong>Interest Expense</strong> on practice loans</li>
+          <li><strong>Sale Planning:</strong> Know your practice's worth before listing</li>
+          <li><strong>Merger & Acquisition:</strong> Negotiate from a position of strength</li>
+          <li><strong>Estate Planning:</strong> Plan for succession and inheritance</li>
+          <li><strong>Partnership Buy-ins:</strong> Fair valuation for new partners</li>
+          <li><strong>Insurance Purposes:</strong> Proper coverage for business interruption</li>
         </ul>
+      </div>
+    </section>
 
-        <h3>Why SDE Works for Medical Practices</h3>
-        <p>SDE methodology is particularly effective for medical practices because:</p>
-        <ul>
-          <li>It accounts for the owner's total compensation</li>
-          <li>It normalizes for different accounting practices</li>
-          <li>It provides a clear picture of cash flow potential</li>
-          <li>It's easily comparable across different practice types</li>
-        </ul>
-      </section>
+    <section id="sde-methodology" class="content-section">
+      <h2>SDE Methodology: The Gold Standard for Medical Practice Valuation</h2>
+      <p>The <strong>Seller's Discretionary Earnings (SDE)</strong> method is the most widely accepted approach for valuing medical practices. SDE represents the total financial benefit a single owner-operator derives from the business.</p>
 
-      <section id="calculator" class="calculator-section">
-        <h2>Medical Practice Valuation Calculator</h2>
-        <p>Use our comprehensive calculator to determine your medical practice's value based on SDE analysis and industry multiples.</p>
-        
-        <form id="medicalPracticeCalculator">
-          <h3>Practice Financial Information</h3>
-          <div class="form-grid">
-            <div class="form-group">
-              <label for="annualRevenue">Annual Revenue ($):</label>
-              <input type="number" id="annualRevenue" name="annualRevenue" required>
-            </div>
-            <div class="form-group">
-              <label for="netIncome">Net Income ($):</label>
-              <input type="number" id="netIncome" name="netIncome" required>
-            </div>
-            <div class="form-group">
-              <label for="ownerSalary">Owner's Salary ($):</label>
-              <input type="number" id="ownerSalary" name="ownerSalary" required>
-            </div>
-            <div class="form-group">
-              <label for="discretionaryExpenses">Discretionary Expenses ($):</label>
-              <input type="number" id="discretionaryExpenses" name="discretionaryExpenses" value="0">
-            </div>
+      <h3>How SDE is Calculated:</h3>
+      <div class="calculation-box">
+        <h4>SDE Formula:</h4>
+        <p><strong>SDE = Net Income + Owner's Salary + Discretionary Expenses + Non-recurring Expenses</strong></p>
+      </div>
+
+      <h3>Key Components of SDE:</h3>
+      <ul>
+        <li><strong>Net Income:</strong> Bottom-line profit after all expenses</li>
+        <li><strong>Owner's Salary:</strong> Compensation taken by the practice owner</li>
+        <li><strong>Discretionary Expenses:</strong> Personal expenses run through the business</li>
+        <li><strong>Non-recurring Expenses:</strong> One-time costs that won't continue</li>
+      </ul>
+    </section>
+
+    <section id="calculator" class="content-section">
+      <h2>Medical Practice Valuation Calculator</h2>
+      <p>Use our comprehensive calculator to get an instant valuation of your medical practice. Simply enter your financial data below:</p>
+
+      <div class="calculator-container">
+        <form id="medicalPracticeCalculator" class="calculator-form">
+          <div class="form-group">
+            <label for="annualRevenue">Annual Revenue ($)</label>
+            <input type="number" id="annualRevenue" name="annualRevenue" placeholder="Enter annual revenue" required>
           </div>
 
-          <h3>Practice Details</h3>
-          <div class="form-grid">
-            <div class="form-group">
-              <label for="specialty">Medical Specialty:</label>
-              <select id="specialty" name="specialty" required>
-                <option value="">Select Specialty</option>
-                <option value="primary-care">Primary Care</option>
-                <option value="cardiology">Cardiology</option>
-                <option value="dermatology">Dermatology</option>
-                <option value="orthopedics">Orthopedics</option>
-                <option value="pediatrics">Pediatrics</option>
-                <option value="obstetrics">Obstetrics/Gynecology</option>
-                <option value="psychiatry">Psychiatry</option>
-                <option value="other">Other Specialty</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="patientCount">Active Patient Count:</label>
-              <input type="number" id="patientCount" name="patientCount" required>
-            </div>
-            <div class="form-group">
-              <label for="yearsInBusiness">Years in Business:</label>
-              <input type="number" id="yearsInBusiness" name="yearsInBusiness" required>
-            </div>
-            <div class="form-group">
-              <label for="location">Location Type:</label>
-              <select id="location" name="location" required>
-                <option value="">Select Location</option>
-                <option value="urban">Urban</option>
-                <option value="suburban">Suburban</option>
-                <option value="rural">Rural</option>
-              </select>
-            </div>
+          <div class="form-group">
+            <label for="netIncome">Net Income ($)</label>
+            <input type="number" id="netIncome" name="netIncome" placeholder="Enter net income" required>
           </div>
 
-          <button type="button" onclick="calculateMedicalPracticeValue()" class="cta-button">Calculate My Practice Value</button>
+          <div class="form-group">
+            <label for="ownerSalary">Owner's Salary ($)</label>
+            <input type="number" id="ownerSalary" name="ownerSalary" placeholder="Enter owner's salary" required>
+          </div>
+
+          <div class="form-group">
+            <label for="discretionaryExpenses">Discretionary Expenses ($)</label>
+            <input type="number" id="discretionaryExpenses" name="discretionaryExpenses" placeholder="Enter discretionary expenses" required>
+          </div>
+
+          <div class="form-group">
+            <label for="medicalSpecialty">Medical Specialty</label>
+            <select id="medicalSpecialty" name="medicalSpecialty" required>
+              <option value="">Select specialty</option>
+              <option value="primary-care">Primary Care</option>
+              <option value="cardiology">Cardiology</option>
+              <option value="orthopedics">Orthopedics</option>
+              <option value="dermatology">Dermatology</option>
+              <option value="ophthalmology">Ophthalmology</option>
+              <option value="gastroenterology">Gastroenterology</option>
+              <option value="urology">Urology</option>
+              <option value="psychiatry">Psychiatry</option>
+              <option value="pediatrics">Pediatrics</option>
+              <option value="obstetrics">Obstetrics/Gynecology</option>
+              <option value="neurology">Neurology</option>
+              <option value="oncology">Oncology</option>
+              <option value="anesthesiology">Anesthesiology</option>
+              <option value="radiology">Radiology</option>
+              <option value="emergency-medicine">Emergency Medicine</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="activePatients">Active Patient Count</label>
+            <input type="number" id="activePatients" name="activePatients" placeholder="Enter active patient count" required>
+          </div>
+
+          <div class="form-group">
+            <label for="yearsInBusiness">Years in Business</label>
+            <input type="number" id="yearsInBusiness" name="yearsInBusiness" placeholder="Enter years in business" required>
+          </div>
+
+          <div class="form-group">
+            <label for="locationType">Location Type</label>
+            <select id="locationType" name="locationType" required>
+              <option value="">Select location type</option>
+              <option value="urban">Urban</option>
+              <option value="suburban">Suburban</option>
+              <option value="rural">Rural</option>
+            </select>
+          </div>
+
+          <button type="submit" class="calculate-btn">Calculate Practice Value</button>
         </form>
 
-        <div id="calculationResult" class="calculation-results">
+        <div id="calculationResults" class="results-container" style="display: none;">
           <h3>Your Medical Practice Valuation Results</h3>
-          <div id="resultContent"></div>
+          <div class="result-item">
+            <span class="result-label">SDE (Seller's Discretionary Earnings):</span>
+            <span class="result-value" id="sdeResult">$0</span>
+          </div>
+          <div class="result-item">
+            <span class="result-label">Industry Multiple:</span>
+            <span class="result-value" id="multipleResult">0x</span>
+          </div>
+          <div class="result-item">
+            <span class="result-label">Base Valuation:</span>
+            <span class="result-value" id="baseValuationResult">$0</span>
+          </div>
+          <div class="result-item">
+            <span class="result-label">Specialty Adjustment:</span>
+            <span class="result-value" id="specialtyAdjustmentResult">$0</span>
+          </div>
+          <div class="result-item">
+            <span class="result-label">Location Adjustment:</span>
+            <span class="result-value" id="locationAdjustmentResult">$0</span>
+          </div>
+          <div class="result-item">
+            <span class="result-label">Maturity Adjustment:</span>
+            <span class="result-value" id="maturityAdjustmentResult">$0</span>
+          </div>
+          <div class="result-item total">
+            <span class="result-label">Total Practice Value:</span>
+            <span class="result-value" id="totalValueResult">$0</span>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="key-factors">
-        <h2>Key Factors Affecting Medical Practice Value</h2>
-        <p>Several critical factors influence the value of your medical practice beyond just financial metrics:</p>
+    <section id="key-factors" class="content-section">
+      <h2>Key Factors Affecting Medical Practice Valuation</h2>
+      <p>Several critical factors influence the value of your medical practice. Understanding these elements helps you maximize your practice's worth:</p>
 
-        <h3>1. Practice Specialty and Market Demand</h3>
-        <p>Different medical specialties command varying valuation multiples based on market demand, reimbursement rates, and competition levels.</p>
+      <h3>1. Financial Performance</h3>
+      <ul>
+        <li><strong>Revenue Growth:</strong> Consistent year-over-year growth</li>
+        <li><strong>Profit Margins:</strong> Healthy profit margins indicate efficiency</li>
+        <li><strong>Cash Flow:</strong> Predictable and stable cash flow</li>
+        <li><strong>Expense Management:</strong> Well-controlled operating expenses</li>
+      </ul>
 
-        <h3>2. Patient Base Quality and Retention</h3>
-        <p>A loyal, recurring patient base significantly increases practice value. Factors include:</p>
+      <h3>2. Practice Characteristics</h3>
+      <ul>
+        <li><strong>Patient Base:</strong> Size, loyalty, and demographics</li>
+        <li><strong>Specialty:</strong> High-demand specialties command higher multiples</li>
+        <li><strong>Location:</strong> Geographic market conditions</li>
+        <li><strong>Facilities:</strong> Modern, well-equipped facilities</li>
+      </ul>
+
+      <h3>3. Market Conditions</h3>
+      <ul>
+        <li><strong>Industry Trends:</strong> Healthcare industry growth</li>
+        <li><strong>Competition:</strong> Local market competition</li>
+        <li><strong>Regulatory Environment:</strong> Healthcare regulations</li>
+        <li><strong>Economic Factors:</strong> Overall economic conditions</li>
+      </ul>
+    </section>
+
+    <section id="industry-multiples" class="content-section">
+      <h2>Medical Practice Industry Multiples 2025</h2>
+      <p>Industry multiples vary significantly by specialty and market conditions. Here are the current market multiples for different medical specialties:</p>
+
+      <div class="table-container">
+        <table class="multiples-table">
+          <thead>
+            <tr>
+              <th>Medical Specialty</th>
+              <th>Low Multiple</th>
+              <th>Average Multiple</th>
+              <th>High Multiple</th>
+              <th>Market Demand</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Primary Care</td>
+              <td>2.5x</td>
+              <td>3.2x</td>
+              <td>4.0x</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>Cardiology</td>
+              <td>3.0x</td>
+              <td>4.2x</td>
+              <td>5.5x</td>
+              <td>Very High</td>
+            </tr>
+            <tr>
+              <td>Orthopedics</td>
+              <td>3.5x</td>
+              <td>4.8x</td>
+              <td>6.0x</td>
+              <td>Very High</td>
+            </tr>
+            <tr>
+              <td>Dermatology</td>
+              <td>4.0x</td>
+              <td>5.5x</td>
+              <td>7.0x</td>
+              <td>Very High</td>
+            </tr>
+            <tr>
+              <td>Ophthalmology</td>
+              <td>3.8x</td>
+              <td>5.2x</td>
+              <td>6.5x</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>Gastroenterology</td>
+              <td>3.2x</td>
+              <td>4.5x</td>
+              <td>5.8x</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>Urology</td>
+              <td>3.0x</td>
+              <td>4.0x</td>
+              <td>5.2x</td>
+              <td>Medium</td>
+            </tr>
+            <tr>
+              <td>Psychiatry</td>
+              <td>2.8x</td>
+              <td>3.8x</td>
+              <td>4.8x</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>Pediatrics</td>
+              <td>2.5x</td>
+              <td>3.5x</td>
+              <td>4.5x</td>
+              <td>Medium</td>
+            </tr>
+            <tr>
+              <td>Obstetrics/Gynecology</td>
+              <td>3.0x</td>
+              <td>4.2x</td>
+              <td>5.5x</td>
+              <td>High</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="valuation-methods" class="content-section">
+      <h2>Medical Practice Valuation Methods</h2>
+      <p>Professional appraisers use multiple methods to ensure accurate valuation. Our calculator primarily uses the SDE method, but here are other approaches:</p>
+
+      <h3>1. SDE Method (Primary)</h3>
+      <p>Most common method for small to medium practices. Multiplies SDE by industry-specific multiples.</p>
+
+      <h3>2. Asset-Based Method</h3>
+      <p>Values the practice based on its tangible and intangible assets, including equipment, real estate, and goodwill.</p>
+
+      <h3>3. Market Approach</h3>
+      <p>Compares your practice to similar practices that have recently sold in your market.</p>
+
+      <h3>4. Income Approach</h3>
+      <p>Projects future cash flows and discounts them to present value.</p>
+    </section>
+
+    <section id="common-mistakes" class="content-section">
+      <h2>Common Medical Practice Valuation Mistakes</h2>
+      <p>Avoid these common pitfalls that can lead to inaccurate valuations:</p>
+
+      <h3>1. Incomplete Financial Records</h3>
+      <ul>
+        <li>Missing expense categories</li>
+        <li>Inconsistent record-keeping</li>
+        <li>Unreported income</li>
+      </ul>
+
+      <h3>2. Overlooking Discretionary Expenses</h3>
+      <ul>
+        <li>Personal vehicle expenses</li>
+        <li>Family health insurance</li>
+        <li>Personal travel and entertainment</li>
+      </ul>
+
+      <h3>3. Using Wrong Multiples</h3>
+      <ul>
+        <li>Outdated industry data</li>
+        <li>Incorrect specialty classification</li>
+        <li>Ignoring market conditions</li>
+      </ul>
+
+      <h3>4. Neglecting Market Factors</h3>
+      <ul>
+        <li>Local competition</li>
+        <li>Economic conditions</li>
+        <li>Regulatory changes</li>
+      </ul>
+    </section>
+
+    <section id="maximizing-value" class="content-section">
+      <h2>Maximizing Your Medical Practice Value</h2>
+      <p>Follow these strategies to increase your practice's valuation before selling:</p>
+
+      <h3>1. Improve Financial Performance</h3>
+      <ul>
+        <li>Increase revenue through new services</li>
+        <li>Optimize billing and collections</li>
+        <li>Reduce unnecessary expenses</li>
+        <li>Improve profit margins</li>
+      </ul>
+
+      <h3>2. Strengthen Patient Base</h3>
+      <ul>
+        <li>Improve patient retention</li>
+        <li>Develop referral networks</li>
+        <li>Enhance patient satisfaction</li>
+        <li>Diversify patient demographics</li>
+      </ul>
+
+      <h3>3. Optimize Operations</h3>
+      <ul>
+        <li>Streamline workflows</li>
+        <li>Invest in technology</li>
+        <li>Train staff effectively</li>
+        <li>Document processes</li>
+      </ul>
+
+      <h3>4. Prepare for Sale</h3>
+      <ul>
+        <li>Clean up financial records</li>
+        <li>Resolve legal issues</li>
+        <li>Update contracts and leases</li>
+        <li>Plan for transition</li>
+      </ul>
+    </section>
+
+    <section id="case-studies" class="content-section">
+      <h2>Medical Practice Valuation Case Studies</h2>
+      <p>Real-world examples of successful medical practice valuations:</p>
+
+      <h3>Case Study 1: Cardiology Practice</h3>
+      <div class="case-study">
+        <p><strong>Practice Details:</strong></p>
         <ul>
-          <li>Patient retention rates</li>
-          <li>Average patient age and demographics</li>
-          <li>Insurance mix and payment reliability</li>
-          <li>Geographic concentration of patients</li>
+          <li>Annual Revenue: $2.5M</li>
+          <li>Net Income: $400K</li>
+          <li>Owner's Salary: $300K</li>
+          <li>Discretionary Expenses: $150K</li>
+          <li>Location: Suburban</li>
+          <li>Years in Business: 15</li>
         </ul>
-
-        <h3>3. Location and Market Conditions</h3>
-        <p>Geographic factors play a crucial role in practice valuation:</p>
-        <ul>
-          <li>Population density and growth</li>
-          <li>Competition from other practices</li>
-          <li>Local economic conditions</li>
-          <li>Insurance market dynamics</li>
-        </ul>
-
-        <h3>4. Practice Operations and Efficiency</h3>
-        <p>Operational efficiency directly impacts profitability and valuation:</p>
-        <ul>
-          <li>Staff productivity and retention</li>
-          <li>Technology integration and EHR systems</li>
-          <li>Billing and collections efficiency</li>
-          <li>Appointment scheduling optimization</li>
-        </ul>
-      </section>
-
-      <section id="industry-multiples">
-        <h2>Medical Practice Industry Multiples 2025</h2>
-        <p>Understanding current industry multiples helps you benchmark your practice value against market standards.</p>
-
-        <div class="table-container">
-          <table>
-            <thead>
-              <tr>
-                <th>Medical Specialty</th>
-                <th>SDE Multiple Range</th>
-                <th>Average Multiple</th>
-                <th>Market Notes</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Primary Care</td>
-                <td>1.5x - 2.5x</td>
-                <td>2.0x</td>
-                <td>Stable demand, lower margins</td>
-              </tr>
-              <tr>
-                <td>Cardiology</td>
-                <td>2.0x - 3.5x</td>
-                <td>2.8x</td>
-                <td>High-value procedures, aging population</td>
-              </tr>
-              <tr>
-                <td>Dermatology</td>
-                <td>2.5x - 4.0x</td>
-                <td>3.2x</td>
-                <td>Cosmetic procedures, cash pay</td>
-              </tr>
-              <tr>
-                <td>Orthopedics</td>
-                <td>2.0x - 3.0x</td>
-                <td>2.5x</td>
-                <td>Procedure-heavy, equipment intensive</td>
-              </tr>
-              <tr>
-                <td>Pediatrics</td>
-                <td>1.8x - 2.8x</td>
-                <td>2.3x</td>
-                <td>Family loyalty, seasonal variations</td>
-              </tr>
-              <tr>
-                <td>Psychiatry</td>
-                <td>2.2x - 3.2x</td>
-                <td>2.7x</td>
-                <td>Growing demand, telehealth friendly</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="highlight-box">
-          <p><strong>Note:</strong> These multiples are based on 2025 market data and can vary significantly based on location, practice size, and specific circumstances. Always consult with a professional business appraiser for accurate valuations.</p>
-        </div>
-      </section>
-
-      <section id="valuation-methods">
-        <h2>Medical Practice Valuation Methods</h2>
-        <p>Professional medical practice valuations typically use multiple approaches to ensure accuracy and reliability.</p>
-
-        <h3>1. Income Approach (Most Common)</h3>
-        <p>The income approach focuses on the practice's ability to generate future cash flows:</p>
-        <ul>
-          <li><strong>Discounted Cash Flow (DCF):</strong> Projects future earnings and discounts them to present value</li>
-          <li><strong>Capitalization of Earnings:</strong> Uses a capitalization rate applied to normalized earnings</li>
-          <li><strong>SDE Multiple Method:</strong> Applies industry multiples to seller's discretionary earnings</li>
-        </ul>
-
-        <h3>2. Market Approach</h3>
-        <p>Compares your practice to similar practices that have recently sold:</p>
-        <ul>
-          <li>Analyzes comparable sales data</li>
-          <li>Adjusts for differences in size, location, and specialty</li>
-          <li>Provides market-based valuation range</li>
-        </ul>
-
-        <h3>3. Asset Approach</h3>
-        <p>Values the practice based on its tangible and intangible assets:</p>
-        <ul>
-          <li>Medical equipment and furniture</li>
-          <li>Real estate (if owned)</li>
-          <li>Patient records and goodwill</li>
-          <li>Brand recognition and reputation</li>
-        </ul>
-      </section>
-
-      <section id="common-mistakes">
-        <h2>Common Medical Practice Valuation Mistakes</h2>
-        <p>Avoid these costly errors that can significantly impact your practice valuation:</p>
-
-        <h3>1. Overlooking Owner Discretionary Expenses</h3>
-        <p>Many practice owners fail to account for personal expenses paid through the business, leading to artificially low SDE calculations.</p>
-
-        <h3>2. Ignoring Market Conditions</h3>
-        <p>Valuation multiples can fluctuate based on market conditions, interest rates, and healthcare policy changes.</p>
-
-        <h3>3. Inadequate Financial Documentation</h3>
-        <p>Poor record-keeping can make it difficult to accurately calculate SDE and may raise red flags for potential buyers.</p>
-
-        <h3>4. Failing to Normalize Financials</h3>
-        <p>One-time expenses, unusual revenue fluctuations, and non-recurring items should be normalized for accurate valuation.</p>
-
-        <h3>5. Underestimating Intangible Assets</h3>
-        <p>Patient relationships, brand recognition, and practice reputation have significant value that's often overlooked.</p>
-      </section>
-
-      <section id="maximizing-value">
-        <h2>How to Maximize Your Medical Practice Value</h2>
-        <p>Strategic planning can significantly increase your practice value before selling or seeking financing.</p>
-
-        <h3>1. Improve Financial Performance</h3>
-        <ul>
-          <li>Increase revenue through patient volume or service expansion</li>
-          <li>Optimize billing and collections processes</li>
-          <li>Reduce unnecessary expenses</li>
-          <li>Implement cost-effective technology solutions</li>
-        </ul>
-
-        <h3>2. Strengthen Patient Base</h3>
-        <ul>
-          <li>Focus on patient retention and satisfaction</li>
-          <li>Develop referral relationships with other providers</li>
-          <li>Implement patient communication systems</li>
-          <li>Create loyalty programs or membership models</li>
-        </ul>
-
-        <h3>3. Optimize Operations</h3>
-        <ul>
-          <li>Streamline appointment scheduling</li>
-          <li>Improve staff productivity and retention</li>
-          <li>Implement efficient EHR systems</li>
-          <li>Develop standardized procedures and protocols</li>
-        </ul>
-
-        <h3>4. Prepare for Transition</h3>
-        <ul>
-          <li>Document all processes and procedures</li>
-          <li>Ensure compliance with all regulations</li>
-          <li>Maintain clean financial records</li>
-          <li>Consider transition planning with key staff</li>
-        </ul>
-      </section>
-
-      <section id="case-studies">
-        <h2>Real Medical Practice Valuation Case Studies</h2>
-        
-        <h3>Case Study 1: Primary Care Practice</h3>
-        <p><strong>Practice Details:</strong> 3-physician primary care practice, suburban location, 15 years in business</p>
-        <ul>
-          <li>Annual Revenue: $2.1 million</li>
-          <li>Net Income: $450,000</li>
-          <li>Owner's Salary: $300,000</li>
-          <li>Calculated SDE: $750,000</li>
-          <li>Applied Multiple: 2.2x</li>
-          <li><strong>Valuation Result: $1.65 million</strong></li>
-        </ul>
-
-        <h3>Case Study 2: Dermatology Practice</h3>
-        <p><strong>Practice Details:</strong> Solo dermatologist, urban location, cosmetic focus, 8 years in business</p>
-        <ul>
-          <li>Annual Revenue: $1.8 million</li>
-          <li>Net Income: $720,000</li>
-          <li>Owner's Salary: $400,000</li>
-          <li>Calculated SDE: $1.12 million</li>
-          <li>Applied Multiple: 3.5x</li>
-          <li><strong>Valuation Result: $3.92 million</strong></li>
-        </ul>
-
-        <h3>Case Study 3: Cardiology Practice</h3>
-        <p><strong>Practice Details:</strong> 2-physician cardiology group, hospital affiliation, 20 years in business</p>
-        <ul>
-          <li>Annual Revenue: $3.5 million</li>
-          <li>Net Income: $1.2 million</li>
-          <li>Owner's Salary: $600,000</li>
-          <li>Calculated SDE: $1.8 million</li>
-          <li>Applied Multiple: 2.8x</li>
-          <li><strong>Valuation Result: $5.04 million</strong></li>
-        </ul>
-      </section>
-
-      <section id="faq">
-        <h2>Frequently Asked Questions</h2>
-        
-        <div class="faq-item">
-          <h3>What is the average multiple for medical practice valuations?</h3>
-          <p>The average SDE multiple for medical practices ranges from 2.0x to 3.0x, depending on specialty, location, and market conditions. Primary care practices typically command lower multiples (1.5x-2.5x), while specialty practices like dermatology can achieve higher multiples (2.5x-4.0x).</p>
-        </div>
-
-        <div class="faq-item">
-          <h3>How often should I get my medical practice valued?</h3>
-          <p>Medical practices should be valued every 2-3 years for planning purposes, or whenever significant changes occur such as adding new physicians, major equipment purchases, or considering a sale. Annual informal valuations can help track practice value trends.</p>
-        </div>
-
-        <div class="faq-item">
-          <h3>What factors most significantly impact medical practice value?</h3>
-          <p>The most significant factors include practice specialty and market demand, patient base quality and retention, location and competition, operational efficiency, financial performance, and market conditions. Each factor can significantly impact the final valuation multiple.</p>
-        </div>
-
-        <div class="faq-item">
-          <h3>Should I use a professional appraiser for my medical practice valuation?</h3>
-          <p>For formal transactions, financing, or legal purposes, a certified business appraiser with healthcare experience is essential. For planning and general purposes, our calculator provides a good starting point, but professional appraisals offer more detailed analysis and credibility.</p>
-        </div>
-
-        <div class="faq-item">
-          <h3>How does location affect medical practice value?</h3>
-          <p>Location significantly impacts practice value through population density, competition levels, local economic conditions, insurance market dynamics, and patient demographics. Urban practices often command higher multiples due to higher patient volumes and reimbursement rates.</p>
-        </div>
-
-        <div class="faq-item">
-          <h3>What is the difference between practice value and practice price?</h3>
-          <p>Practice value is the estimated worth based on financial analysis and market conditions, while practice price is the actual amount paid in a transaction. Price can vary from value based on negotiation, market timing, buyer motivation, and specific transaction terms.</p>
-        </div>
-
-        <div class="faq-item">
-          <h3>How do I prepare my practice for valuation?</h3>
-          <p>Preparation includes organizing financial records, normalizing financial statements, documenting all assets and liabilities, ensuring compliance with regulations, preparing practice statistics and patient demographics, and addressing any operational issues that could negatively impact value.</p>
-        </div>
-
-        <div class="faq-item">
-          <h3>Can I increase my practice value before selling?</h3>
-          <p>Yes, strategic improvements can significantly increase practice value. Focus on improving financial performance, strengthening patient relationships, optimizing operations, implementing technology solutions, and ensuring clean financial records. Start these improvements 12-18 months before selling for maximum impact.</p>
-        </div>
-      </section>
-
-      <section id="conclusion">
-        <h2>Conclusion</h2>
-        <p>Accurately valuing your medical practice is essential for making informed business decisions, whether you're planning to sell, seeking financing, or simply understanding your practice's worth. Our comprehensive <strong>medical practice calculator</strong> provides a solid foundation for understanding your practice value using proven <strong>SDE analysis methodology</strong>.</p>
-
-        <p>Remember that practice valuation is both an art and a science, requiring careful consideration of financial metrics, market conditions, and practice-specific factors. While our calculator provides valuable insights, consider consulting with a professional business appraiser for formal valuations or major transactions.</p>
-
-        <div class="highlight-box">
-          <p><strong>Ready to calculate your medical practice value?</strong> Use our comprehensive calculator above to get an accurate valuation based on current market conditions and industry standards. For professional valuation services, <a href="https://thevaluationgenie.com/contact" style="color: #e74c3c;">contact our certified appraisers</a>.</p>
-        </div>
-
-        <a href="https://thevaluationgenie.com/medical-practice-valuation" class="cta-button">Get Professional Medical Practice Valuation</a>
-      </section>
-
-      <div class="author-bio">
-        <h3>About TheValuationGenie</h3>
-        <p>TheValuationGenie is a leading provider of business valuation services, specializing in medical practice valuations, healthcare business appraisals, and SDE analysis. Our team of certified appraisers has completed over 1,000 medical practice valuations across all specialties and geographic regions.</p>
-        <p>With over 15 years of experience in healthcare business valuation, we provide accurate, reliable valuations that help practice owners make informed decisions about their business future.</p>
+        <p><strong>Valuation Result:</strong> $3.2M (4.2x multiple)</p>
       </div>
 
-      <div class="related-articles">
-        <h3>Related Articles</h3>
+      <h3>Case Study 2: Primary Care Practice</h3>
+      <div class="case-study">
+        <p><strong>Practice Details:</strong></p>
         <ul>
-          <li><a href="https://blog.thevaluationgenie.com/dental-practice-calculator">Dental Practice Calculator - Value Your Dental Practice with SDE Analysis</a></li>
-          <li><a href="https://blog.thevaluationgenie.com/veterinary-clinic-calculator">Veterinary Clinic Calculator - Calculate Your Vet Practice Value</a></li>
-          <li><a href="https://blog.thevaluationgenie.com/medical-practice-valuation-mistakes">Medical Practice Valuation Mistakes That Cost Thousands</a></li>
-          <li><a href="https://blog.thevaluationgenie.com/healthcare-business-valuation">Healthcare Business Valuation - Complete Guide 2025</a></li>
-          <li><a href="https://blog.thevaluationgenie.com/sde-vs-ebitda">SDE vs EBITDA - Which Method for Medical Practice Valuation</a></li>
+          <li>Annual Revenue: $1.8M</li>
+          <li>Net Income: $250K</li>
+          <li>Owner's Salary: $200K</li>
+          <li>Discretionary Expenses: $100K</li>
+          <li>Location: Urban</li>
+          <li>Years in Business: 8</li>
         </ul>
+        <p><strong>Valuation Result:</strong> $1.8M (3.2x multiple)</p>
       </div>
-    </div>
+    </section>
+
+    <section id="faq" class="content-section">
+      <h2>Frequently Asked Questions</h2>
+      
+      <div class="faq-item">
+        <h3>What is the average multiple for medical practices?</h3>
+        <p>The average multiple varies by specialty, ranging from 2.5x to 5.5x SDE. Primary care practices typically command 3.2x, while high-demand specialties like dermatology can reach 5.5x or higher.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How often should I get my practice valued?</h3>
+        <p>We recommend getting a professional valuation every 2-3 years, or whenever you're considering major business decisions like selling, merging, or bringing in new partners.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What documents do I need for valuation?</h3>
+        <p>Essential documents include: 3 years of tax returns, financial statements, patient demographics, lease agreements, equipment lists, and any legal documents or contracts.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How long does the valuation process take?</h3>
+        <p>A basic valuation can be completed in 2-4 weeks, while a comprehensive appraisal may take 6-8 weeks, depending on the complexity of your practice and availability of documents.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I increase my practice value before selling?</h3>
+        <p>Yes! Focus on improving financial performance, strengthening your patient base, optimizing operations, and preparing clean financial records. These improvements can significantly increase your practice's value.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What factors most impact medical practice valuation?</h3>
+        <p>Key factors include: financial performance (revenue, profit margins), specialty type, patient base quality, location, market conditions, and operational efficiency.</p>
+      </div>
+    </section>
+
+    <section id="conclusion" class="content-section">
+      <h2>Conclusion: Maximizing Your Medical Practice Value</h2>
+      <p>Accurate medical practice valuation is essential for making informed business decisions. Our comprehensive calculator provides you with an instant, professional-grade valuation using industry-standard SDE methodology.</p>
+
+      <p>Remember that valuation is both an art and a science. While our calculator provides an excellent starting point, consider consulting with a professional appraiser for complex situations or high-value transactions.</p>
+
+      <div class="cta-box">
+        <h3>Ready to Get Started?</h3>
+        <p>Use our Medical Practice Calculator above to get your instant valuation, or contact us for a comprehensive professional appraisal.</p>
+        <a href="/contact" class="cta-button">Get Professional Valuation</a>
+      </div>
+    </section>
   </article>
 </Layout>
 
@@ -457,105 +481,105 @@ const { title, description, pubDate, updatedDate, heroImage, tags, author } = po
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
-    font-family: 'Atkinson Regular', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background: #f8f9fa;
-  }
-
-  .article-container {
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    margin-bottom: 30px;
   }
 
   .article-header {
     text-align: center;
     margin-bottom: 3rem;
     padding-bottom: 2rem;
-    border-bottom: 3px solid #e91e63;
+    border-bottom: 2px solid #e0e0e0;
   }
 
-  .article-title {
+  .article-header h1 {
     font-size: 2.5rem;
-    font-weight: bold;
     color: #2c3e50;
     margin-bottom: 1rem;
-    line-height: 1.2;
   }
 
   .article-meta {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 1rem;
     color: #666;
-    flex-wrap: wrap;
-  }
-
-  .article-tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
-  }
-
-  .tag {
-    background: #e91e63;
-    color: white;
-    padding: 0.3rem 0.8rem;
-    border-radius: 20px;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
   .toc {
-    background: #ecf0f1;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 20px 0;
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+  }
+
+  .toc h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
   }
 
   .toc ul {
-    list-style-type: none;
-    padding-left: 0;
+    list-style: none;
+    padding: 0;
   }
 
   .toc li {
-    margin: 8px 0;
+    margin-bottom: 0.5rem;
   }
 
   .toc a {
-    color: #e91e63;
+    color: #3498db;
     text-decoration: none;
+    font-weight: 500;
   }
 
   .toc a:hover {
     text-decoration: underline;
   }
 
+  .content-section {
+    margin-bottom: 3rem;
+  }
+
+  .content-section h2 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3498db;
+  }
+
+  .content-section h3 {
+    color: #34495e;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
   .highlight-box {
-    background: #e8f4fd;
-    border-left: 4px solid #e91e63;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 0 5px 5px 0;
+    background: #e8f4f8;
+    border-left: 4px solid #3498db;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 4px;
   }
 
-  .calculator-section {
+  .calculation-box {
     background: #f8f9fa;
-    border: 2px solid #e91e63;
-    padding: 30px;
-    border-radius: 10px;
-    margin: 30px 0;
+    border: 1px solid #dee2e6;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
   }
 
-  .form-grid {
+  .calculator-container {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
+
+  .calculator-form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-bottom: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .form-group {
@@ -564,138 +588,154 @@ const { title, description, pubDate, updatedDate, heroImage, tags, author } = po
   }
 
   .form-group label {
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: #2c3e50;
   }
 
   .form-group input,
   .form-group select {
-    padding: 0.8rem;
-    border: 2px solid #ddd;
-    border-radius: 5px;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
     font-size: 1rem;
   }
 
-  .form-group input:focus,
-  .form-group select:focus {
-    outline: none;
-    border-color: #e91e63;
-  }
-
-  .cta-button {
-    background: #e74c3c;
+  .calculate-btn {
+    grid-column: 1 / -1;
+    background: #3498db;
     color: white;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
     border: none;
-    border-radius: 5px;
-    font-size: 1.1em;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 600;
     cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    margin: 20px 0;
     transition: background 0.3s;
   }
 
-  .cta-button:hover {
-    background: #c0392b;
+  .calculate-btn:hover {
+    background: #2980b9;
   }
 
-  .calculation-results {
-    display: none;
-    background: #e8f5e8;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
+  .results-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 2px solid #3498db;
+  }
+
+  .results-container h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .result-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .result-item.total {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    border-top: 2px solid #3498db;
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+
+  .result-label {
+    color: #666;
+  }
+
+  .result-value {
+    font-weight: 600;
+    color: #2c3e50;
   }
 
   .table-container {
     overflow-x: auto;
-    margin: 20px 0;
+    margin: 2rem 0;
   }
 
-  table {
+  .multiples-table {
     width: 100%;
     border-collapse: collapse;
     background: white;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   }
 
-  th, td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
-  }
-
-  th {
-    background-color: #e91e63;
+  .multiples-table th {
+    background: #3498db;
     color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
   }
 
-  tr:nth-child(even) {
+  .multiples-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .multiples-table tr:nth-child(even) {
     background: #f8f9fa;
+  }
+
+  .case-study {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 4px solid #3498db;
   }
 
   .faq-item {
     background: #f8f9fa;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border-left: 4px solid #27ae60;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
   }
 
   .faq-item h3 {
-    font-weight: bold;
     color: #2c3e50;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
 
-  .author-bio {
-    background: #ecf0f1;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 30px;
+  .cta-box {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 3rem 0;
   }
 
-  .related-articles {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 30px;
+  .cta-box h3 {
+    color: white;
+    margin-bottom: 1rem;
   }
 
-  .related-articles ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  .related-articles li {
-    margin: 10px 0;
-  }
-
-  .related-articles a {
-    color: #e91e63;
+  .cta-button {
+    display: inline-block;
+    background: white;
+    color: #3498db;
+    padding: 1rem 2rem;
     text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: transform 0.3s;
   }
 
-  .related-articles a:hover {
-    text-decoration: underline;
-  }
-
-  h2 {
-    color: #34495e;
-    font-size: 1.8em;
-    margin-top: 30px;
-    margin-bottom: 15px;
-  }
-
-  h3 {
-    color: #2c3e50;
-    font-size: 1.4em;
-    margin-top: 25px;
-    margin-bottom: 10px;
+  .cta-button:hover {
+    transform: translateY(-2px);
   }
 
   @media (max-width: 768px) {
@@ -703,15 +743,15 @@ const { title, description, pubDate, updatedDate, heroImage, tags, author } = po
       padding: 1rem;
     }
 
-    .article-title {
+    .article-header h1 {
       font-size: 2rem;
     }
 
-    .form-grid {
+    .calculator-form {
       grid-template-columns: 1fr;
     }
 
-    .article-meta {
+    .result-item {
       flex-direction: column;
       gap: 0.5rem;
     }
@@ -725,126 +765,81 @@ const { title, description, pubDate, updatedDate, heroImage, tags, author } = po
     const netIncome = parseFloat(document.getElementById('netIncome').value) || 0;
     const ownerSalary = parseFloat(document.getElementById('ownerSalary').value) || 0;
     const discretionaryExpenses = parseFloat(document.getElementById('discretionaryExpenses').value) || 0;
-    const specialty = document.getElementById('specialty').value;
-    const patientCount = parseInt(document.getElementById('patientCount').value) || 0;
+    const medicalSpecialty = document.getElementById('medicalSpecialty').value;
+    const activePatients = parseInt(document.getElementById('activePatients').value) || 0;
     const yearsInBusiness = parseInt(document.getElementById('yearsInBusiness').value) || 0;
-    const location = document.getElementById('location').value;
+    const locationType = document.getElementById('locationType').value;
 
     // Calculate SDE
     const sde = netIncome + ownerSalary + discretionaryExpenses;
 
-    // Determine multiple based on specialty and other factors
-    let baseMultiple = 2.0; // Default for primary care
-
+    // Industry multiples by specialty
     const specialtyMultiples = {
-      'primary-care': 2.0,
-      'cardiology': 2.8,
-      'dermatology': 3.2,
-      'orthopedics': 2.5,
-      'pediatrics': 2.3,
-      'obstetrics': 2.4,
-      'psychiatry': 2.7,
-      'other': 2.2
+      'primary-care': 3.2,
+      'cardiology': 4.2,
+      'orthopedics': 4.8,
+      'dermatology': 5.5,
+      'ophthalmology': 5.2,
+      'gastroenterology': 4.5,
+      'urology': 4.0,
+      'psychiatry': 3.8,
+      'pediatrics': 3.5,
+      'obstetrics': 4.2,
+      'neurology': 4.0,
+      'oncology': 4.5,
+      'anesthesiology': 4.0,
+      'radiology': 4.2,
+      'emergency-medicine': 3.8,
+      'other': 3.5
     };
 
-    baseMultiple = specialtyMultiples[specialty] || 2.0;
+    // Get base multiple
+    const baseMultiple = specialtyMultiples[medicalSpecialty] || 3.5;
 
-    // Adjust for location
-    const locationAdjustments = {
-      'urban': 1.1,
-      'suburban': 1.0,
-      'rural': 0.9
-    };
+    // Calculate base valuation
+    const baseValuation = sde * baseMultiple;
 
-    const locationMultiplier = locationAdjustments[location] || 1.0;
-    const adjustedMultiple = baseMultiple * locationMultiplier;
+    // Specialty adjustments
+    let specialtyAdjustment = 0;
+    if (medicalSpecialty === 'dermatology') specialtyAdjustment = baseValuation * 0.1;
+    else if (medicalSpecialty === 'cardiology' || medicalSpecialty === 'orthopedics') specialtyAdjustment = baseValuation * 0.05;
 
-    // Adjust for practice maturity
-    let maturityAdjustment = 1.0;
-    if (yearsInBusiness < 3) maturityAdjustment = 0.8;
-    else if (yearsInBusiness > 15) maturityAdjustment = 1.1;
+    // Location adjustments
+    let locationAdjustment = 0;
+    if (locationType === 'urban') locationAdjustment = baseValuation * 0.1;
+    else if (locationType === 'suburban') locationAdjustment = baseValuation * 0.05;
+    else if (locationType === 'rural') locationAdjustment = baseValuation * -0.05;
 
-    const finalMultiple = adjustedMultiple * maturityAdjustment;
+    // Maturity adjustments
+    let maturityAdjustment = 0;
+    if (yearsInBusiness >= 10) maturityAdjustment = baseValuation * 0.1;
+    else if (yearsInBusiness >= 5) maturityAdjustment = baseValuation * 0.05;
+    else if (yearsInBusiness < 3) maturityAdjustment = baseValuation * -0.1;
 
-    // Calculate valuation
-    const valuation = sde * finalMultiple;
-
-    // Calculate valuation range
-    const lowValuation = valuation * 0.85;
-    const highValuation = valuation * 1.15;
+    // Calculate total value
+    const totalValue = baseValuation + specialtyAdjustment + locationAdjustment + maturityAdjustment;
 
     // Display results
-    const resultDiv = document.getElementById('calculationResult');
-    const resultContent = document.getElementById('resultContent');
+    document.getElementById('sdeResult').textContent = '$' + sde.toLocaleString();
+    document.getElementById('multipleResult').textContent = baseMultiple.toFixed(1) + 'x';
+    document.getElementById('baseValuationResult').textContent = '$' + baseValuation.toLocaleString();
+    document.getElementById('specialtyAdjustmentResult').textContent = '$' + specialtyAdjustment.toLocaleString();
+    document.getElementById('locationAdjustmentResult').textContent = '$' + locationAdjustment.toLocaleString();
+    document.getElementById('maturityAdjustmentResult').textContent = '$' + maturityAdjustment.toLocaleString();
+    document.getElementById('totalValueResult').textContent = '$' + totalValue.toLocaleString();
 
-    resultContent.innerHTML = `
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
-        <div>
-          <h4>Practice Financial Summary</h4>
-          <p><strong>Annual Revenue:</strong> $${annualRevenue.toLocaleString()}</p>
-          <p><strong>Net Income:</strong> $${netIncome.toLocaleString()}</p>
-          <p><strong>Owner's Salary:</strong> $${ownerSalary.toLocaleString()}</p>
-          <p><strong>Discretionary Expenses:</strong> $${discretionaryExpenses.toLocaleString()}</p>
-          <p><strong>Calculated SDE:</strong> $${sde.toLocaleString()}</p>
-        </div>
-        <div>
-          <h4>Valuation Analysis</h4>
-          <p><strong>Specialty:</strong> ${document.getElementById('specialty').selectedOptions[0].text}</p>
-          <p><strong>Location:</strong> ${document.getElementById('location').selectedOptions[0].text}</p>
-          <p><strong>Years in Business:</strong> ${yearsInBusiness}</p>
-          <p><strong>Active Patients:</strong> ${patientCount.toLocaleString()}</p>
-          <p><strong>Applied Multiple:</strong> ${finalMultiple.toFixed(2)}x</p>
-        </div>
-      </div>
-      <div style="background: #2c3e50; color: white; padding: 20px; border-radius: 5px; text-align: center;">
-        <h3 style="margin: 0 0 10px 0; color: #e91e63;">Your Medical Practice Valuation</h3>
-        <div style="font-size: 2em; font-weight: bold; margin: 10px 0;">$${valuation.toLocaleString()}</div>
-        <p style="margin: 5px 0;">Range: $${lowValuation.toLocaleString()} - $${highValuation.toLocaleString()}</p>
-      </div>
-      <div style="margin-top: 20px;">
-        <p><strong>Note:</strong> This is an estimated valuation based on the information provided. For formal valuations, legal purposes, or major transactions, consult with a certified business appraiser.</p>
-        <a href="https://thevaluationgenie.com/contact" class="cta-button" style="margin-top: 15px;">Get Professional Valuation</a>
-      </div>
-    `;
-
-    resultDiv.style.display = 'block';
+    // Show results
+    document.getElementById('calculationResults').style.display = 'block';
   }
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Medical Practice Calculator - Value Your Medical Practice with SDE Analysis 2025",
-  "description": "Calculate your medical practice value with our comprehensive SDE analysis calculator. Get accurate medical practice valuation using industry multiples and financial metrics.",
-  "url": "https://blog.thevaluationgenie.com/medical-practice-calculator",
-  "mainEntity": {
-    "@type": "SoftwareApplication",
-    "name": "Medical Practice Valuation Calculator",
-    "description": "Professional medical practice valuation calculator using SDE methodology",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web Browser",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
+  // Add event listener
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('medicalPracticeCalculator');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        calculateMedicalPracticeValue();
+      });
     }
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "TheValuationGenie",
-    "url": "https://thevaluationgenie.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://thevaluationgenie.com/logo.png"
-    }
-  },
-  "author": {
-    "@type": "Person",
-    "name": "TheValuationGenie Team",
-    "url": "https://thevaluationgenie.com/about"
-  },
-  "datePublished": "2025-01-15",
-  "dateModified": "2025-01-15"
-}
+  });
 </script>
