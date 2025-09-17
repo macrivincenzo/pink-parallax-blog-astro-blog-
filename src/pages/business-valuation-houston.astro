@@ -1,0 +1,212 @@
+---
+export const prerender = true;
+
+const city = {
+  "id": "houston",
+  "name": "Houston",
+  "state": "Texas",
+  "title": "Business Valuation in Houston - Houston Business Appraisal & Industry Multiples",
+  "description": "Expert business valuation services in Houston. Professional Houston business appraisers specializing in energy, healthcare, and aerospace industries.",
+  "keywords": "business valuation Houston, Houston business appraisal, Texas business valuation services, Houston business worth, energy business valuation",
+  "population": "2,304,580",
+  "market_characteristics": [
+    "Energy industry dominance",
+    "Medical center presence",
+    "Aerospace & defense",
+    "International trade",
+    "No state income tax"
+  ],
+  "key_industries": [
+    "Energy & petrochemicals",
+    "Healthcare & biomedical",
+    "Aerospace",
+    "International trade",
+    "Technology"
+  ]
+};
+const canonicalURL = new URL(`/business-valuation-${city.id}`, Astro.site);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{city.title} | TheValuationGenie</title>
+    <meta name="description" content={city.description}>
+    <meta name="keywords" content={city.keywords}>
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href={canonicalURL}>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content={city.title}>
+    <meta property="og:description" content={city.description}>
+    <meta property="og:url" content={canonicalURL}>
+    <meta property="og:type" content="website">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": `TheValuationGenie - ${city.name}`,
+        "description": city.description,
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": city.name,
+            "addressRegion": city.state,
+            "addressCountry": "US"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": city.name,
+            "containedInPlace": {
+                "@type": "State",
+                "name": city.state
+            }
+        },
+        "serviceType": "Business Valuation Services"
+    })}>
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Business Valuation Services in {city.name}, {city.state}</h1>
+            <p>Professional business appraisal and valuation services in {city.name} with local market expertise</p>
+        </header>
+        
+        <section>
+            <h2>Why Choose {city.name} Business Valuation Services?</h2>
+            <p>Our {city.name} business valuation experts understand the local market dynamics and provide accurate, comprehensive business appraisals for all industries.</p>
+            
+            <h3>{city.name} Market Characteristics</h3>
+            <ul>
+                {city.market_characteristics.map(characteristic => (
+                    <li>{characteristic}</li>
+                ))}
+            </ul>
+            
+            <h3>Key Industries in {city.name}</h3>
+            <ul>
+                {city.key_industries.map(industry => (
+                    <li>{industry}</li>
+                ))}
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Our {city.name} Business Valuation Process</h2>
+            <ol>
+                <li><strong>Initial Consultation:</strong> Understanding your business and valuation needs</li>
+                <li><strong>Data Collection:</strong> Gathering financial and operational information</li>
+                <li><strong>Market Analysis:</strong> Analyzing {city.name} market conditions and comparable sales</li>
+                <li><strong>Valuation Analysis:</strong> Applying appropriate valuation methodologies</li>
+                <li><strong>Report Delivery:</strong> Providing comprehensive valuation report</li>
+            </ol>
+        </section>
+        
+        <div class="cta-section">
+            <h3>Get Your {city.name} Business Valuation Today</h3>
+            <p>Professional business valuation services in {city.name} starting at $39</p>
+            <a href="#" class="cta-btn">Order Report - $39</a>
+            <a href="#" class="cta-btn">Free Consultation</a>
+        </div>
+    </div>
+    
+    <style>
+        /* Include the same styling as the calculator template */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            border-radius: 10px;
+            margin: -20px -20px 40px -20px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        h2 {
+            color: #1e3c72;
+            border-bottom: 3px solid #2a5298;
+            padding-bottom: 10px;
+            margin: 30px 0 20px 0;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #2a5298;
+            margin: 25px 0 15px 0;
+            font-size: 1.4em;
+        }
+        
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .cta-btn {
+            background: white;
+            color: #ff6b6b;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</body>
+</html>

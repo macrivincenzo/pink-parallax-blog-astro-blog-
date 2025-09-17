@@ -1,0 +1,31 @@
+---
+import CalculatorTemplate from '../components/CalculatorTemplate.astro';
+
+const industry = {
+  "id": "service-business",
+  "name": "Service Business",
+  "title": "Service Business Calculator - Calculate Service Business Worth & SDE",
+  "description": "Professional service business valuation calculator with client base analysis, recurring revenue assessment, and service industry multiples.",
+  "keywords": "service business valuation calculator, service company value, professional services valuation, service business worth, consulting valuation",
+  "multiple_range": {
+    "min": 1.1,
+    "max": 2.3
+  },
+  "characteristics": [
+    "People-dependent operations",
+    "Client relationship focus",
+    "Lower capital requirements",
+    "Scalability challenges",
+    "Expertise premium"
+  ],
+  "key_factors": [
+    "Client retention rates",
+    "Service differentiation",
+    "Team expertise",
+    "Recurring contracts",
+    "Market positioning"
+  ]
+};
+---
+
+<CalculatorTemplate industry={industry} />

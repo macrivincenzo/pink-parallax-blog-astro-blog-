@@ -1,0 +1,537 @@
+{
+  "industry_to_location": {
+    "restaurant": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Restaurant Valuation in New York City",
+        "title": "Professional Restaurant valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Restaurant Valuation in Los Angeles",
+        "title": "Professional Restaurant valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Restaurant Valuation in Chicago",
+        "title": "Professional Restaurant valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Restaurant Valuation in Houston",
+        "title": "Professional Restaurant valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Restaurant Valuation in Phoenix",
+        "title": "Professional Restaurant valuation services in Phoenix"
+      }
+    ],
+    "ecommerce": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "E-commerce Valuation in New York City",
+        "title": "Professional E-commerce valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "E-commerce Valuation in Los Angeles",
+        "title": "Professional E-commerce valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "E-commerce Valuation in Chicago",
+        "title": "Professional E-commerce valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "E-commerce Valuation in Houston",
+        "title": "Professional E-commerce valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "E-commerce Valuation in Phoenix",
+        "title": "Professional E-commerce valuation services in Phoenix"
+      }
+    ],
+    "saas": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "SaaS Company Valuation in New York City",
+        "title": "Professional SaaS Company valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "SaaS Company Valuation in Los Angeles",
+        "title": "Professional SaaS Company valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "SaaS Company Valuation in Chicago",
+        "title": "Professional SaaS Company valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "SaaS Company Valuation in Houston",
+        "title": "Professional SaaS Company valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "SaaS Company Valuation in Phoenix",
+        "title": "Professional SaaS Company valuation services in Phoenix"
+      }
+    ],
+    "manufacturing": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Manufacturing Business Valuation in New York City",
+        "title": "Professional Manufacturing Business valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Manufacturing Business Valuation in Los Angeles",
+        "title": "Professional Manufacturing Business valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Manufacturing Business Valuation in Chicago",
+        "title": "Professional Manufacturing Business valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Manufacturing Business Valuation in Houston",
+        "title": "Professional Manufacturing Business valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Manufacturing Business Valuation in Phoenix",
+        "title": "Professional Manufacturing Business valuation services in Phoenix"
+      }
+    ],
+    "service-business": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Service Business Valuation in New York City",
+        "title": "Professional Service Business valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Service Business Valuation in Los Angeles",
+        "title": "Professional Service Business valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Service Business Valuation in Chicago",
+        "title": "Professional Service Business valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Service Business Valuation in Houston",
+        "title": "Professional Service Business valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Service Business Valuation in Phoenix",
+        "title": "Professional Service Business valuation services in Phoenix"
+      }
+    ],
+    "retail-store": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Retail Store Valuation in New York City",
+        "title": "Professional Retail Store valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Retail Store Valuation in Los Angeles",
+        "title": "Professional Retail Store valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Retail Store Valuation in Chicago",
+        "title": "Professional Retail Store valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Retail Store Valuation in Houston",
+        "title": "Professional Retail Store valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Retail Store Valuation in Phoenix",
+        "title": "Professional Retail Store valuation services in Phoenix"
+      }
+    ],
+    "franchise": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Franchise Valuation in New York City",
+        "title": "Professional Franchise valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Franchise Valuation in Los Angeles",
+        "title": "Professional Franchise valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Franchise Valuation in Chicago",
+        "title": "Professional Franchise valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Franchise Valuation in Houston",
+        "title": "Professional Franchise valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Franchise Valuation in Phoenix",
+        "title": "Professional Franchise valuation services in Phoenix"
+      }
+    ],
+    "medical-practice": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Medical Practice Valuation in New York City",
+        "title": "Professional Medical Practice valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Medical Practice Valuation in Los Angeles",
+        "title": "Professional Medical Practice valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Medical Practice Valuation in Chicago",
+        "title": "Professional Medical Practice valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Medical Practice Valuation in Houston",
+        "title": "Professional Medical Practice valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Medical Practice Valuation in Phoenix",
+        "title": "Professional Medical Practice valuation services in Phoenix"
+      }
+    ],
+    "law-firm": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Law Firm Valuation in New York City",
+        "title": "Professional Law Firm valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Law Firm Valuation in Los Angeles",
+        "title": "Professional Law Firm valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Law Firm Valuation in Chicago",
+        "title": "Professional Law Firm valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Law Firm Valuation in Houston",
+        "title": "Professional Law Firm valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Law Firm Valuation in Phoenix",
+        "title": "Professional Law Firm valuation services in Phoenix"
+      }
+    ],
+    "accounting-firm": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Accounting Firm Valuation in New York City",
+        "title": "Professional Accounting Firm valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Accounting Firm Valuation in Los Angeles",
+        "title": "Professional Accounting Firm valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Accounting Firm Valuation in Chicago",
+        "title": "Professional Accounting Firm valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Accounting Firm Valuation in Houston",
+        "title": "Professional Accounting Firm valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Accounting Firm Valuation in Phoenix",
+        "title": "Professional Accounting Firm valuation services in Phoenix"
+      }
+    ]
+  },
+  "location_to_industry": {
+    "new-york-city": [
+      {
+        "url": "/restaurant-valuation-calculator",
+        "anchor": "Restaurant Calculator",
+        "title": "Calculate Restaurant value in New York City"
+      },
+      {
+        "url": "/ecommerce-valuation-calculator",
+        "anchor": "E-commerce Calculator",
+        "title": "Calculate E-commerce value in New York City"
+      },
+      {
+        "url": "/saas-valuation-calculator",
+        "anchor": "SaaS Company Calculator",
+        "title": "Calculate SaaS Company value in New York City"
+      },
+      {
+        "url": "/manufacturing-valuation-calculator",
+        "anchor": "Manufacturing Business Calculator",
+        "title": "Calculate Manufacturing Business value in New York City"
+      },
+      {
+        "url": "/service-business-valuation-calculator",
+        "anchor": "Service Business Calculator",
+        "title": "Calculate Service Business value in New York City"
+      },
+      {
+        "url": "/retail-store-valuation-calculator",
+        "anchor": "Retail Store Calculator",
+        "title": "Calculate Retail Store value in New York City"
+      },
+      {
+        "url": "/franchise-valuation-calculator",
+        "anchor": "Franchise Calculator",
+        "title": "Calculate Franchise value in New York City"
+      },
+      {
+        "url": "/medical-practice-valuation-calculator",
+        "anchor": "Medical Practice Calculator",
+        "title": "Calculate Medical Practice value in New York City"
+      },
+      {
+        "url": "/law-firm-valuation-calculator",
+        "anchor": "Law Firm Calculator",
+        "title": "Calculate Law Firm value in New York City"
+      },
+      {
+        "url": "/accounting-firm-valuation-calculator",
+        "anchor": "Accounting Firm Calculator",
+        "title": "Calculate Accounting Firm value in New York City"
+      }
+    ],
+    "los-angeles": [
+      {
+        "url": "/restaurant-valuation-calculator",
+        "anchor": "Restaurant Calculator",
+        "title": "Calculate Restaurant value in Los Angeles"
+      },
+      {
+        "url": "/ecommerce-valuation-calculator",
+        "anchor": "E-commerce Calculator",
+        "title": "Calculate E-commerce value in Los Angeles"
+      },
+      {
+        "url": "/saas-valuation-calculator",
+        "anchor": "SaaS Company Calculator",
+        "title": "Calculate SaaS Company value in Los Angeles"
+      },
+      {
+        "url": "/manufacturing-valuation-calculator",
+        "anchor": "Manufacturing Business Calculator",
+        "title": "Calculate Manufacturing Business value in Los Angeles"
+      },
+      {
+        "url": "/service-business-valuation-calculator",
+        "anchor": "Service Business Calculator",
+        "title": "Calculate Service Business value in Los Angeles"
+      },
+      {
+        "url": "/retail-store-valuation-calculator",
+        "anchor": "Retail Store Calculator",
+        "title": "Calculate Retail Store value in Los Angeles"
+      },
+      {
+        "url": "/franchise-valuation-calculator",
+        "anchor": "Franchise Calculator",
+        "title": "Calculate Franchise value in Los Angeles"
+      },
+      {
+        "url": "/medical-practice-valuation-calculator",
+        "anchor": "Medical Practice Calculator",
+        "title": "Calculate Medical Practice value in Los Angeles"
+      },
+      {
+        "url": "/law-firm-valuation-calculator",
+        "anchor": "Law Firm Calculator",
+        "title": "Calculate Law Firm value in Los Angeles"
+      },
+      {
+        "url": "/accounting-firm-valuation-calculator",
+        "anchor": "Accounting Firm Calculator",
+        "title": "Calculate Accounting Firm value in Los Angeles"
+      }
+    ],
+    "chicago": [
+      {
+        "url": "/restaurant-valuation-calculator",
+        "anchor": "Restaurant Calculator",
+        "title": "Calculate Restaurant value in Chicago"
+      },
+      {
+        "url": "/ecommerce-valuation-calculator",
+        "anchor": "E-commerce Calculator",
+        "title": "Calculate E-commerce value in Chicago"
+      },
+      {
+        "url": "/saas-valuation-calculator",
+        "anchor": "SaaS Company Calculator",
+        "title": "Calculate SaaS Company value in Chicago"
+      },
+      {
+        "url": "/manufacturing-valuation-calculator",
+        "anchor": "Manufacturing Business Calculator",
+        "title": "Calculate Manufacturing Business value in Chicago"
+      },
+      {
+        "url": "/service-business-valuation-calculator",
+        "anchor": "Service Business Calculator",
+        "title": "Calculate Service Business value in Chicago"
+      },
+      {
+        "url": "/retail-store-valuation-calculator",
+        "anchor": "Retail Store Calculator",
+        "title": "Calculate Retail Store value in Chicago"
+      },
+      {
+        "url": "/franchise-valuation-calculator",
+        "anchor": "Franchise Calculator",
+        "title": "Calculate Franchise value in Chicago"
+      },
+      {
+        "url": "/medical-practice-valuation-calculator",
+        "anchor": "Medical Practice Calculator",
+        "title": "Calculate Medical Practice value in Chicago"
+      },
+      {
+        "url": "/law-firm-valuation-calculator",
+        "anchor": "Law Firm Calculator",
+        "title": "Calculate Law Firm value in Chicago"
+      },
+      {
+        "url": "/accounting-firm-valuation-calculator",
+        "anchor": "Accounting Firm Calculator",
+        "title": "Calculate Accounting Firm value in Chicago"
+      }
+    ],
+    "houston": [
+      {
+        "url": "/restaurant-valuation-calculator",
+        "anchor": "Restaurant Calculator",
+        "title": "Calculate Restaurant value in Houston"
+      },
+      {
+        "url": "/ecommerce-valuation-calculator",
+        "anchor": "E-commerce Calculator",
+        "title": "Calculate E-commerce value in Houston"
+      },
+      {
+        "url": "/saas-valuation-calculator",
+        "anchor": "SaaS Company Calculator",
+        "title": "Calculate SaaS Company value in Houston"
+      },
+      {
+        "url": "/manufacturing-valuation-calculator",
+        "anchor": "Manufacturing Business Calculator",
+        "title": "Calculate Manufacturing Business value in Houston"
+      },
+      {
+        "url": "/service-business-valuation-calculator",
+        "anchor": "Service Business Calculator",
+        "title": "Calculate Service Business value in Houston"
+      },
+      {
+        "url": "/retail-store-valuation-calculator",
+        "anchor": "Retail Store Calculator",
+        "title": "Calculate Retail Store value in Houston"
+      },
+      {
+        "url": "/franchise-valuation-calculator",
+        "anchor": "Franchise Calculator",
+        "title": "Calculate Franchise value in Houston"
+      },
+      {
+        "url": "/medical-practice-valuation-calculator",
+        "anchor": "Medical Practice Calculator",
+        "title": "Calculate Medical Practice value in Houston"
+      },
+      {
+        "url": "/law-firm-valuation-calculator",
+        "anchor": "Law Firm Calculator",
+        "title": "Calculate Law Firm value in Houston"
+      },
+      {
+        "url": "/accounting-firm-valuation-calculator",
+        "anchor": "Accounting Firm Calculator",
+        "title": "Calculate Accounting Firm value in Houston"
+      }
+    ],
+    "phoenix": [
+      {
+        "url": "/restaurant-valuation-calculator",
+        "anchor": "Restaurant Calculator",
+        "title": "Calculate Restaurant value in Phoenix"
+      },
+      {
+        "url": "/ecommerce-valuation-calculator",
+        "anchor": "E-commerce Calculator",
+        "title": "Calculate E-commerce value in Phoenix"
+      },
+      {
+        "url": "/saas-valuation-calculator",
+        "anchor": "SaaS Company Calculator",
+        "title": "Calculate SaaS Company value in Phoenix"
+      },
+      {
+        "url": "/manufacturing-valuation-calculator",
+        "anchor": "Manufacturing Business Calculator",
+        "title": "Calculate Manufacturing Business value in Phoenix"
+      },
+      {
+        "url": "/service-business-valuation-calculator",
+        "anchor": "Service Business Calculator",
+        "title": "Calculate Service Business value in Phoenix"
+      },
+      {
+        "url": "/retail-store-valuation-calculator",
+        "anchor": "Retail Store Calculator",
+        "title": "Calculate Retail Store value in Phoenix"
+      },
+      {
+        "url": "/franchise-valuation-calculator",
+        "anchor": "Franchise Calculator",
+        "title": "Calculate Franchise value in Phoenix"
+      },
+      {
+        "url": "/medical-practice-valuation-calculator",
+        "anchor": "Medical Practice Calculator",
+        "title": "Calculate Medical Practice value in Phoenix"
+      },
+      {
+        "url": "/law-firm-valuation-calculator",
+        "anchor": "Law Firm Calculator",
+        "title": "Calculate Law Firm value in Phoenix"
+      },
+      {
+        "url": "/accounting-firm-valuation-calculator",
+        "anchor": "Accounting Firm Calculator",
+        "title": "Calculate Accounting Firm value in Phoenix"
+      }
+    ]
+  },
+  "related_industries": {}
+}

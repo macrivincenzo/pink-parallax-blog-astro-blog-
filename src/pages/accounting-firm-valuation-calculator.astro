@@ -1,0 +1,31 @@
+---
+import CalculatorTemplate from '../components/CalculatorTemplate.astro';
+
+const industry = {
+  "id": "accounting-firm",
+  "name": "Accounting Firm",
+  "title": "Accounting Firm Calculator - Value Your Accounting Practice & Client Base",
+  "description": "Accounting practice valuation calculator with client base analysis, recurring revenue assessment, and CPA firm industry multiples.",
+  "keywords": "accounting firm valuation calculator, accounting practice value, CPA firm worth, accounting practice appraisal, tax practice valuation",
+  "multiple_range": {
+    "min": 1,
+    "max": 2
+  },
+  "characteristics": [
+    "Recurring client base",
+    "Seasonal revenue patterns",
+    "Compliance requirements",
+    "Technology dependence",
+    "Staff expertise"
+  ],
+  "key_factors": [
+    "Client retention rates",
+    "Service mix diversity",
+    "Technology efficiency",
+    "Staff qualifications",
+    "Market positioning"
+  ]
+};
+---
+
+<CalculatorTemplate industry={industry} />

@@ -1,0 +1,224 @@
+{
+  "industries": [
+    {
+      "id": "restaurant",
+      "name": "Restaurant",
+      "title": "Restaurant Valuation Calculator - Calculate Your Restaurant's Worth in 2025",
+      "description": "Free restaurant business valuation calculator using SDE methodology. Get instant estimates for your restaurant's worth with industry-specific multiples and analysis.",
+      "keywords": "restaurant valuation calculator, restaurant worth calculator, restaurant business value, food service valuation, restaurant appraisal, restaurant SDE valuation",
+      "multiple_range": { "min": 1.2, "max": 2.0 },
+      "characteristics": [
+        "Location-dependent revenue",
+        "High labor costs",
+        "Inventory turnover critical",
+        "Seasonal variations",
+        "Brand value important"
+      ],
+      "key_factors": [
+        "Prime location value",
+        "Customer base loyalty",
+        "Menu differentiation",
+        "Operational efficiency",
+        "Brand recognition"
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce",
+      "title": "E-commerce Business Calculator - Value Your Online Store with SDE Methodology",
+      "description": "Free e-commerce business valuation calculator using SDE methodology. Calculate your online store's worth with digital asset analysis and market multiples.",
+      "keywords": "ecommerce valuation calculator, online store worth calculator, ecommerce business value, online business appraisal, digital business valuation",
+      "multiple_range": { "min": 1.5, "max": 2.8 },
+      "characteristics": [
+        "Scalable business model",
+        "Digital asset value",
+        "Customer acquisition costs",
+        "Platform dependencies",
+        "Inventory management"
+      ],
+      "key_factors": [
+        "Traffic and conversion rates",
+        "Customer lifetime value",
+        "Brand strength",
+        "Supply chain efficiency",
+        "Technology stack"
+      ]
+    },
+    {
+      "id": "saas",
+      "name": "SaaS Company",
+      "title": "SaaS Company Calculator - Calculate SaaS Business Value & Revenue Multiples",
+      "description": "Professional SaaS business valuation calculator with ARR multiples, churn analysis, and growth metrics for accurate software company valuations.",
+      "keywords": "saas valuation calculator, software company valuation, saas business value, arr multiples, saas company worth, software valuation",
+      "multiple_range": { "min": 2.0, "max": 4.5 },
+      "characteristics": [
+        "Recurring revenue model",
+        "High scalability",
+        "Customer churn rates",
+        "Growth trajectory critical",
+        "Technology moats"
+      ],
+      "key_factors": [
+        "Monthly recurring revenue",
+        "Customer acquisition cost",
+        "Churn rate",
+        "Market size",
+        "Competitive advantages"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufacturing Business",
+      "title": "Manufacturing Business Calculator - Value Your Manufacturing Company Today",
+      "description": "Comprehensive manufacturing business valuation calculator with asset-based analysis, production capacity evaluation, and industry-specific multiples.",
+      "keywords": "manufacturing valuation calculator, manufacturing business value, industrial company valuation, manufacturing company worth, factory valuation",
+      "multiple_range": { "min": 1.0, "max": 2.2 },
+      "characteristics": [
+        "Asset-heavy operations",
+        "Production capacity limits",
+        "Supply chain dependencies",
+        "Regulatory compliance",
+        "Equipment depreciation"
+      ],
+      "key_factors": [
+        "Production efficiency",
+        "Asset condition",
+        "Market demand",
+        "Supply chain stability",
+        "Regulatory compliance"
+      ]
+    },
+    {
+      "id": "service-business",
+      "name": "Service Business",
+      "title": "Service Business Calculator - Calculate Service Business Worth & SDE",
+      "description": "Professional service business valuation calculator with client base analysis, recurring revenue assessment, and service industry multiples.",
+      "keywords": "service business valuation calculator, service company value, professional services valuation, service business worth, consulting valuation",
+      "multiple_range": { "min": 1.1, "max": 2.3 },
+      "characteristics": [
+        "People-dependent operations",
+        "Client relationship focus",
+        "Lower capital requirements",
+        "Scalability challenges",
+        "Expertise premium"
+      ],
+      "key_factors": [
+        "Client retention rates",
+        "Service differentiation",
+        "Team expertise",
+        "Recurring contracts",
+        "Market positioning"
+      ]
+    },
+    {
+      "id": "retail-store",
+      "name": "Retail Store",
+      "title": "Retail Store Calculator - Value Your Retail Business with Industry Multiples",
+      "description": "Retail business valuation calculator with inventory analysis, location assessment, and retail industry multiples for accurate store valuations.",
+      "keywords": "retail valuation calculator, retail store value, retail business worth, store valuation, retail appraisal, retail business calculator",
+      "multiple_range": { "min": 0.8, "max": 1.8 },
+      "characteristics": [
+        "Location critical",
+        "Inventory management",
+        "Seasonal fluctuations",
+        "Customer foot traffic",
+        "Competition pressure"
+      ],
+      "key_factors": [
+        "Location premium",
+        "Inventory turnover",
+        "Customer loyalty",
+        "Brand recognition",
+        "Lease terms"
+      ]
+    },
+    {
+      "id": "franchise",
+      "name": "Franchise",
+      "title": "Franchise Valuation Calculator - Calculate Franchise Value & ROI",
+      "description": "Franchise business valuation calculator with brand premium analysis, territory rights assessment, and franchise-specific multiples.",
+      "keywords": "franchise valuation calculator, franchise value, franchise business worth, franchise appraisal, franchise ROI calculator",
+      "multiple_range": { "min": 1.3, "max": 2.5 },
+      "characteristics": [
+        "Brand support benefits",
+        "Territory restrictions",
+        "Franchise fee obligations",
+        "Operational guidelines",
+        "Marketing support"
+      ],
+      "key_factors": [
+        "Brand strength",
+        "Territory exclusivity",
+        "Franchisor support",
+        "Unit economics",
+        "Growth potential"
+      ]
+    },
+    {
+      "id": "medical-practice",
+      "name": "Medical Practice",
+      "title": "Medical Practice Calculator - Value Your Medical Practice with SDE Analysis",
+      "description": "Professional medical practice valuation calculator with patient base analysis, insurance reimbursement factors, and healthcare industry multiples.",
+      "keywords": "medical practice valuation calculator, medical practice value, healthcare practice worth, medical practice appraisal, doctor practice valuation",
+      "multiple_range": { "min": 1.2, "max": 2.2 },
+      "characteristics": [
+        "Patient base value",
+        "Insurance dependencies",
+        "Regulatory compliance",
+        "Specialized equipment",
+        "Location importance"
+      ],
+      "key_factors": [
+        "Patient retention",
+        "Payer mix quality",
+        "Physician reputation",
+        "Location demographics",
+        "Practice efficiency"
+      ]
+    },
+    {
+      "id": "law-firm",
+      "name": "Law Firm",
+      "title": "Law Firm Calculator - Calculate Law Firm Worth & Partnership Value",
+      "description": "Professional law firm valuation calculator with practice area analysis, client base assessment, and legal industry multiples for accurate valuations.",
+      "keywords": "law firm valuation calculator, law firm value, legal practice worth, attorney practice appraisal, law firm partnership value",
+      "multiple_range": { "min": 0.75, "max": 2.5 },
+      "characteristics": [
+        "Practice area specialization",
+        "Client relationship focus",
+        "Attorney reputation",
+        "Case outcome dependency",
+        "Regulatory requirements"
+      ],
+      "key_factors": [
+        "Practice area demand",
+        "Client retention",
+        "Attorney expertise",
+        "Case success rate",
+        "Referral networks"
+      ]
+    },
+    {
+      "id": "accounting-firm",
+      "name": "Accounting Firm",
+      "title": "Accounting Firm Calculator - Value Your Accounting Practice & Client Base",
+      "description": "Accounting practice valuation calculator with client base analysis, recurring revenue assessment, and CPA firm industry multiples.",
+      "keywords": "accounting firm valuation calculator, accounting practice value, CPA firm worth, accounting practice appraisal, tax practice valuation",
+      "multiple_range": { "min": 1.0, "max": 2.0 },
+      "characteristics": [
+        "Recurring client base",
+        "Seasonal revenue patterns",
+        "Compliance requirements",
+        "Technology dependence",
+        "Staff expertise"
+      ],
+      "key_factors": [
+        "Client retention rates",
+        "Service mix diversity",
+        "Technology efficiency",
+        "Staff qualifications",
+        "Market positioning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+---
+import CalculatorTemplate from '../components/CalculatorTemplate.astro';
+
+const industry = {
+  "id": "restaurant",
+  "name": "Restaurant",
+  "title": "Restaurant Valuation Calculator - Calculate Your Restaurant's Worth in 2025",
+  "description": "Free restaurant business valuation calculator using SDE methodology. Get instant estimates for your restaurant's worth with industry-specific multiples and analysis.",
+  "keywords": "restaurant valuation calculator, restaurant worth calculator, restaurant business value, food service valuation, restaurant appraisal, restaurant SDE valuation",
+  "multiple_range": {
+    "min": 1.2,
+    "max": 2
+  },
+  "characteristics": [
+    "Location-dependent revenue",
+    "High labor costs",
+    "Inventory turnover critical",
+    "Seasonal variations",
+    "Brand value important"
+  ],
+  "key_factors": [
+    "Prime location value",
+    "Customer base loyalty",
+    "Menu differentiation",
+    "Operational efficiency",
+    "Brand recognition"
+  ]
+};
+---
+
+<CalculatorTemplate industry={industry} />

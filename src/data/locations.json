@@ -1,0 +1,119 @@
+{
+  "cities": [
+    {
+      "id": "new-york-city",
+      "name": "New York City",
+      "state": "New York",
+      "title": "Business Valuation in New York City - NYC Business Appraisal & Valuation Services",
+      "description": "Professional business valuation services in New York City. Expert NYC business appraisers providing comprehensive valuations for all industries with local market expertise.",
+      "keywords": "business valuation New York City, NYC business appraisal, New York business valuation services, Manhattan business valuation, NYC business worth",
+      "population": "8,336,817",
+      "market_characteristics": [
+        "High-value market premiums",
+        "Diverse industry presence",
+        "Premium real estate costs",
+        "Access to capital markets",
+        "Competitive business environment"
+      ],
+      "key_industries": [
+        "Financial services",
+        "Real estate",
+        "Technology",
+        "Media & entertainment",
+        "Healthcare"
+      ]
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "state": "California",
+      "title": "Business Valuation in Los Angeles - LA Business Worth Calculator & SDE Analysis",
+      "description": "Expert business valuation services in Los Angeles. Professional LA business appraisers with entertainment, tech, and retail industry specialization.",
+      "keywords": "business valuation Los Angeles, LA business appraisal, Los Angeles business valuation services, California business valuation, LA business worth",
+      "population": "3,898,747",
+      "market_characteristics": [
+        "Entertainment industry focus",
+        "Technology sector growth",
+        "High real estate values",
+        "Diverse economic base",
+        "International business hub"
+      ],
+      "key_industries": [
+        "Entertainment & media",
+        "Technology",
+        "Manufacturing",
+        "International trade",
+        "Tourism & hospitality"
+      ]
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "state": "Illinois",
+      "title": "Business Valuation in Chicago - Chicago Business Valuation & Market Analysis",
+      "description": "Professional business valuation services in Chicago. Expert Chicago business appraisers providing comprehensive valuations with Midwest market expertise.",
+      "keywords": "business valuation Chicago, Chicago business appraisal, Illinois business valuation services, Chicago business worth, Midwest business valuation",
+      "population": "2,746,388",
+      "market_characteristics": [
+        "Manufacturing hub",
+        "Financial center",
+        "Transportation nexus",
+        "Diverse economy",
+        "Midwest market access"
+      ],
+      "key_industries": [
+        "Manufacturing",
+        "Financial services",
+        "Transportation & logistics",
+        "Technology",
+        "Healthcare"
+      ]
+    },
+    {
+      "id": "houston",
+      "name": "Houston",
+      "state": "Texas",
+      "title": "Business Valuation in Houston - Houston Business Appraisal & Industry Multiples",
+      "description": "Expert business valuation services in Houston. Professional Houston business appraisers specializing in energy, healthcare, and aerospace industries.",
+      "keywords": "business valuation Houston, Houston business appraisal, Texas business valuation services, Houston business worth, energy business valuation",
+      "population": "2,304,580",
+      "market_characteristics": [
+        "Energy industry dominance",
+        "Medical center presence",
+        "Aerospace & defense",
+        "International trade",
+        "No state income tax"
+      ],
+      "key_industries": [
+        "Energy & petrochemicals",
+        "Healthcare & biomedical",
+        "Aerospace",
+        "International trade",
+        "Technology"
+      ]
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "state": "Arizona",
+      "title": "Business Valuation in Phoenix - Phoenix Business Valuation Calculator & SDE",
+      "description": "Professional business valuation services in Phoenix. Expert Phoenix business appraisers with Southwest market knowledge and industry expertise.",
+      "keywords": "business valuation Phoenix, Phoenix business appraisal, Arizona business valuation services, Phoenix business worth, Southwest business valuation",
+      "population": "1,608,139",
+      "market_characteristics": [
+        "Rapid growth market",
+        "Technology sector expansion",
+        "Tourism & hospitality",
+        "Manufacturing presence",
+        "Favorable business climate"
+      ],
+      "key_industries": [
+        "Technology",
+        "Manufacturing",
+        "Tourism & hospitality",
+        "Healthcare",
+        "Real estate & construction"
+      ]
+    }
+  ]
+}

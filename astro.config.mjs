@@ -6,6 +6,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://thevaluationgenie.astro.build',
+	site: 'https://blog.thevaluationgenie.com',
 	integrations: [mdx(), sitemap()],
 });

@@ -1,7 +1,6 @@
 ---
-// Import the global.css file here so that it is included on
-// all pages through the use of the <BaseHead /> component.
-import '../styles/global.css';
+// Import the critical CSS inline and defer global CSS
+import '../styles/critical.css';
 import type { ImageMetadata } from 'astro';
 import FallbackImage from '../assets/blog-placeholder-1.jpg';
 import { SITE_TITLE } from '../consts';
@@ -34,6 +33,10 @@ const { title, description, image = FallbackImage } = Astro.props;
 <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
 <link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
 
+<!-- Deferred global CSS -->
+<link rel="preload" href="/styles/global.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/styles/global.css"></noscript>
+
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
@@ -58,3 +61,29 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": `${title}`,
+  "description": `${description}`,
+  "url": `${Astro.url}`,
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "The Valuation Genie",
+    "url": "https://blog.thevaluationgenie.com",
+    "logo": "https://blog.thevaluationgenie.com/logo.png",
+    "sameAs": [
+      "https://www.linkedin.com/company/thevaluationgenie",
+      "https://twitter.com/valuationgenie"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Valuation Genie",
+    "url": "https://blog.thevaluationgenie.com"
+  }
+}
+</script>
