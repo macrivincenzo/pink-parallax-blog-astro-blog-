@@ -3,6 +3,7 @@ title: 'Medical Practice Calculator - Complete Business Valuation Guide'
 description: 'Comprehensive guide to valuing medical practices using our advanced calculator. Learn key metrics, industry benchmarks, and valuation methods for healthcare businesses.'
 pubDate: 2024-09-16T10:00:00Z
 updatedDate: 2024-09-16T10:00:00Z
+# heroImage: '../assets/blog-placeholder-1.jpg'
 tags: ['medical practice', 'business valuation', 'healthcare', 'SDE analysis']
 ---
 
