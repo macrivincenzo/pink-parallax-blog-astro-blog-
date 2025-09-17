@@ -123,13 +123,32 @@ const seoArticles = [
 		</script>
 		
 		<style>
+			/* Screen reader only content */
+			.sr-only {
+				position: absolute;
+				width: 1px;
+				height: 1px;
+				padding: 0;
+				margin: -1px;
+				overflow: hidden;
+				clip: rect(0, 0, 0, 0);
+				white-space: nowrap;
+				border: 0;
+			}
+
+			/* Focus management */
+			*:focus {
+				outline: 3px solid #e74c3c;
+				outline-offset: 2px;
+			}
+
 			body {
 				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 				line-height: 1.6;
 				margin: 0;
 				padding: 0;
-				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-				color: #333;
+				background: #f8f9fa;
+				color: #212529;
 			}
 			.hero-section {
 				background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
@@ -152,10 +171,10 @@ const seoArticles = [
 				margin-right: auto;
 			}
 			.cta-button {
-				background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+				background: #dc3545;
 				color: white;
 				padding: 20px 40px;
-				border: none;
+				border: 2px solid transparent;
 				border-radius: 8px;
 				font-size: 1.2em;
 				font-weight: bold;
@@ -163,11 +182,16 @@ const seoArticles = [
 				text-decoration: none;
 				display: inline-block;
 				margin: 10px;
-				transition: transform 0.3s ease;
+				transition: all 0.3s ease;
+				min-height: 44px;
+				min-width: 44px;
 			}
-			.cta-button:hover {
-				transform: translateY(-3px);
-				box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+			.cta-button:hover,
+			.cta-button:focus {
+				background: #c82333;
+				transform: translateY(-2px);
+				box-shadow: 0 4px 15px rgba(220, 53, 69, 0.3);
+				border-color: white;
 			}
 			.container {
 				max-width: 1200px;
@@ -182,21 +206,27 @@ const seoArticles = [
 			}
 			.calculator-card {
 				background: white;
+				border: 2px solid #e9ecef;
 				border-radius: 15px;
 				padding: 30px;
-				box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-				transition: transform 0.3s ease, box-shadow 0.3s ease;
+				box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+				transition: all 0.3s ease;
 				text-decoration: none;
-				color: inherit;
+				color: #212529;
+				display: block;
+				min-height: 44px;
 			}
-			.calculator-card:hover {
-				transform: translateY(-5px);
-				box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+			.calculator-card:hover,
+			.calculator-card:focus {
+				transform: translateY(-3px);
+				box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+				border-color: #007bff;
 			}
 			.calculator-card.featured {
 				grid-column: span 2;
-				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+				background: #2c3e50;
 				color: white;
+				border-color: #34495e;
 			}
 			.calculator-icon {
 				font-size: 3em;
@@ -230,24 +260,35 @@ const seoArticles = [
 				border: 1px solid rgba(255, 255, 255, 0.3);
 			}
 			.calculator-cta {
-				background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+				background: #dc3545;
 				color: white;
 				padding: 12px 25px;
-				border: none;
+				border: 2px solid transparent;
 				border-radius: 5px;
 				font-size: 1em;
 				font-weight: bold;
 				cursor: pointer;
 				text-decoration: none;
 				display: inline-block;
-				transition: transform 0.3s ease;
+				transition: all 0.3s ease;
+				min-height: 44px;
+				min-width: 44px;
 			}
-			.calculator-cta:hover {
+			.calculator-cta:hover,
+			.calculator-cta:focus {
+				background: #c82333;
 				transform: translateY(-2px);
+				border-color: currentColor;
 			}
 			.calculator-card.featured .calculator-cta {
-				background: rgba(255, 255, 255, 0.2);
+				background: white;
+				color: #2c3e50;
 				border: 2px solid white;
+			}
+			.calculator-card.featured .calculator-cta:hover,
+			.calculator-card.featured .calculator-cta:focus {
+				background: #f8f9fa;
+				color: #2c3e50;
 			}
 			.features-section {
 				background: white;
@@ -295,23 +336,26 @@ const seoArticles = [
 	<body>
 		<Header />
 		
-		<div class="hero-section">
+		<header class="hero-section" role="banner">
 			<div class="container">
 				<h1>🚀 Business Valuation Calculators 2025</h1>
 				<p>Professional SDE analysis tools for medical practices, restaurants, e-commerce, SaaS, manufacturing, and service businesses. Get instant, accurate valuations with our industry-standard methodology.</p>
-				<a href="https://thevaluationgenie.com/" class="cta-button">Start Your Free Valuation Now</a>
+				<a href="https://thevaluationgenie.com/" class="cta-button" aria-label="Start your free business valuation now">Start Your Free Valuation Now</a>
 			</div>
-		</div>
+		</header>
 		
-		<div class="container">
-			<div class="calculators-grid">
+		<main class="container" role="main">
+			<h2 class="sr-only">Business Valuation Calculator Tools</h2>
+			<div class="calculators-grid" role="grid" aria-label="Business valuation calculators">
 				{seoArticles.map((article) => (
-					<a href={article.url} class={`calculator-card ${article.featured ? 'featured' : ''}`}>
-						<span class="calculator-icon">{article.icon}</span>
+					<a href={article.url} class={`calculator-card ${article.featured ? 'featured' : ''}`}
+					   aria-label={`Calculate ${article.title} - ${article.description}`}
+					   role="gridcell">
+						<span class="calculator-icon" aria-hidden="true">{article.icon}</span>
 						<div class="calculator-category">{article.category}</div>
 						<h3 class="calculator-title">{article.title}</h3>
 						<p class="calculator-description">{article.description}</p>
-						<span class="calculator-cta" onclick="window.open('https://thevaluationgenie.com/', '_blank')">Calculate My Value →</span>
+						<span class="calculator-cta" aria-hidden="true">Calculate My Value →</span>
 					</a>
 				))}
 			</div>
