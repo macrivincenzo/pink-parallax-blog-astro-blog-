@@ -1,5 +1,5 @@
 ---
-// Import the critical CSS inline and defer global CSS
+// Import the critical CSS inline and global CSS
 import '../styles/critical.css';
 import type { ImageMetadata } from 'astro';
 import FallbackImage from '../assets/blog-placeholder-1.jpg';
@@ -35,9 +35,8 @@ const { title, description, image = FallbackImage } = Astro.props;
 <link rel="preconnect" href="https://thevaluationgenie.com" crossorigin />
 <link rel="dns-prefetch" href="https://thevaluationgenie.com" />
 
-<!-- Deferred global CSS -->
-<link rel="preload" href="/styles/global.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="/styles/global.css"></noscript>
+<!-- Global CSS -->
+<link rel="stylesheet" href="/styles/global.css">
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
