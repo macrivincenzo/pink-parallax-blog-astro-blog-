@@ -203,6 +203,8 @@ const seoArticles = [
 				grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 				gap: 30px;
 				margin-bottom: 60px;
+				contain: layout;
+				min-height: 800px; /* Prevent layout shift */
 			}
 			.calculator-card {
 				background: white;
@@ -214,7 +216,8 @@ const seoArticles = [
 				text-decoration: none;
 				color: #212529;
 				display: block;
-				min-height: 44px;
+				min-height: 320px; /* Fixed height to prevent layout shift */
+				contain: layout style;
 			}
 			.calculator-card:hover,
 			.calculator-card:focus {
@@ -346,11 +349,10 @@ const seoArticles = [
 		
 		<main class="container" role="main">
 			<h2 class="sr-only">Business Valuation Calculator Tools</h2>
-			<div class="calculators-grid" role="grid" aria-label="Business valuation calculators">
+			<section class="calculators-grid" aria-label="Business valuation calculators">
 				{seoArticles.map((article) => (
 					<a href={article.url} class={`calculator-card ${article.featured ? 'featured' : ''}`}
-					   aria-label={`Calculate ${article.title} - ${article.description}`}
-					   role="gridcell">
+					   aria-label={`Calculate ${article.title} - ${article.description}`}>
 						<span class="calculator-icon" aria-hidden="true">{article.icon}</span>
 						<div class="calculator-category">{article.category}</div>
 						<h3 class="calculator-title">{article.title}</h3>
@@ -358,7 +360,7 @@ const seoArticles = [
 						<span class="calculator-cta" aria-hidden="true">Calculate My Value →</span>
 					</a>
 				))}
-			</div>
+			</section>
 			
 			<div class="features-section">
 				<h2 style="text-align: center; font-size: 2.5em; margin-bottom: 20px; color: #2c3e50;">Why Choose Our Valuation Calculators?</h2>
