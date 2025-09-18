@@ -1,0 +1,89 @@
+/* Critical CSS for Above-the-Fold Content */
+:root {
+	--accent: #2337ff;
+	--accent-dark: #000d8a;
+	--black: 15, 18, 25;
+	--gray: 96, 115, 159;
+	--gray-light: 229, 233, 240;
+	--gray-dark: 34, 41, 57;
+	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
+}
+
+/* Critical font loading */
+@font-face {
+	font-family: "Atkinson";
+	src: url("/fonts/atkinson-regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Critical layout styles */
+body {
+	font-family: "Atkinson", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background: linear-gradient(var(--gray-gradient)) no-repeat;
+	background-size: 100% 600px;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	color: rgb(var(--gray-dark));
+	font-size: 20px;
+	line-height: 1.7;
+}
+
+/* Header and navigation */
+header {
+	margin: 0;
+	padding: 0 1em;
+	background: white;
+	box-shadow: 0 2px 8px rgba(var(--gray), 25%);
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav a {
+	color: rgb(var(--black));
+	text-decoration: none;
+}
+
+nav a.active {
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+/* Critical content containers */
+main {
+	width: 720px;
+	max-width: calc(100% - 2em);
+	margin: auto;
+	padding: 3em 1em;
+}
+
+.hero-image {
+	width: 100%;
+}
+
+.hero-image img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 12px;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Mobile critical styles */
+@media (max-width: 720px) {
+	body {
+		font-size: 18px;
+	}
+
+	main {
+		padding: 1em;
+	}
+}

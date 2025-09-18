@@ -1,6 +1,5 @@
 ---
-// Import the critical CSS inline and global CSS
-import '../styles/critical.css';
+// CSS is now loaded via public directory to prevent console errors
 import type { ImageMetadata } from 'astro';
 import FallbackImage from '../assets/blog-placeholder-1.jpg';
 import { SITE_TITLE } from '../consts';
@@ -35,7 +34,8 @@ const { title, description, image = FallbackImage } = Astro.props;
 <link rel="preconnect" href="https://thevaluationgenie.com" crossorigin />
 <link rel="dns-prefetch" href="https://thevaluationgenie.com" />
 
-<!-- Global CSS -->
+<!-- Critical and Global CSS -->
+<link rel="stylesheet" href="/styles/critical.css">
 <link rel="stylesheet" href="/styles/global.css">
 
 <!-- Canonical URL -->
