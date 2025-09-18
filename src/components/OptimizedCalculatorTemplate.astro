@@ -1,0 +1,272 @@
+---
+export interface Props {
+  industry: {
+    id: string;
+    name: string;
+    title: string;
+    description: string;
+    keywords: string;
+    multiple_range: { min: number; max: number };
+    characteristics: string[];
+    key_factors: string[];
+  }
+}
+
+const { industry } = Astro.props;
+const canonicalURL = new URL(`/${industry.id}-valuation-calculator`, Astro.site);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{industry.title} | TheValuationGenie</title>
+    <meta name="description" content={industry.description}>
+    <meta name="keywords" content={industry.keywords}>
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="TheValuationGenie">
+    <link rel="canonical" href={canonicalURL}>
+    
+    <!-- Performance optimizations -->
+    <meta name="theme-color" content="#1e3c72">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preload" href="/styles/calculator.css" as="style">
+    
+    <!-- Critical CSS inlined for LCP -->
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;color:#333;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh}
+        .container{max-width:1200px;margin:0 auto;padding:20px;background:#fff;box-shadow:0 0 20px rgba(0,0,0,.1);margin-top:20px;margin-bottom:20px;border-radius:10px}
+        .header{text-align:center;margin-bottom:40px;padding:40px 0;background:linear-gradient(135deg,#1e3c72 0%,#2a5298 100%);color:#fff;border-radius:10px;margin:-20px -20px 40px -20px}
+        h1{font-size:2.5em;margin-bottom:15px;text-shadow:2px 2px 4px rgba(0,0,0,.3)}
+        .subtitle{font-size:1.2em;opacity:.9;font-weight:300}
+    </style>
+    
+    <!-- Load non-critical CSS asynchronously -->
+    <link rel="stylesheet" href="/styles/calculator.css" media="print" onload="this.media='all'; this.onload=null;">
+    <noscript><link rel="stylesheet" href="/styles/calculator.css"></noscript>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content={industry.title}>
+    <meta property="og:description" content={industry.description}>
+    <meta property="og:url" content={canonicalURL}>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TheValuationGenie">
+    <meta property="og:image" content={`https://thevaluationgenie.com/images/${industry.id}-calculator-og.webp`}>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content={industry.title}>
+    <meta name="twitter:description" content={industry.description}>
+    <meta name="twitter:image" content={`https://thevaluationgenie.com/images/${industry.id}-calculator-twitter.webp`}>
+    
+    <!-- Optimized Schema Markup -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": canonicalURL.toString(),
+        "url": canonicalURL.toString(),
+        "name": industry.title,
+        "description": industry.description,
+        "datePublished": "2025-01-15T10:00:00+00:00",
+        "dateModified": "2025-01-15T10:00:00+00:00",
+        "inLanguage": "en-US",
+        "author": {
+            "@type": "Organization",
+            "name": "TheValuationGenie",
+            "url": "https://thevaluationgenie.com"
+        },
+        "mainEntity": {
+            "@type": "SoftwareApplication",
+            "name": `${industry.name} Valuation Calculator`,
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web Browser",
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+            }
+        }
+    })}>
+    </script>
+</head>
+<body>
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="https://thevaluationgenie.com">Home</a> > 
+            <a href="https://thevaluationgenie.com/calculators">Calculators</a> > 
+            {industry.name} Calculator
+        </nav>
+        
+        <header class="header">
+            <h1>{industry.name} Valuation Calculator</h1>
+            <p class="subtitle">Professional {industry.name.toLowerCase()} valuation using SDE methodology</p>
+        </header>
+        
+        <section class="calculator-section">
+            <h2>🧮 Free {industry.name} Valuation Calculator</h2>
+            <p>Calculate your {industry.name.toLowerCase()}'s worth using our professional SDE-based methodology. Get instant estimates with industry multiples from {industry.multiple_range.min}x to {industry.multiple_range.max}x SDE.</p>
+            
+            <form id="calculator-form">
+                <div class="form-group">
+                    <label for="annual-revenue">Annual Gross Revenue ($)</label>
+                    <input type="number" id="annual-revenue" placeholder="Enter annual revenue" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="owner-salary">Owner's Salary/Draws ($)</label>
+                    <input type="number" id="owner-salary" placeholder="Enter owner compensation" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="operating-expenses">Annual Operating Expenses ($)</label>
+                    <input type="number" id="operating-expenses" placeholder="Enter total expenses" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="years-established">Years Established</label>
+                    <input type="number" id="years-established" placeholder="Years in business" min="0" max="100">
+                </div>
+                
+                <div class="form-group">
+                    <label for="growth-rate">Annual Growth Rate (%)</label>
+                    <input type="number" id="growth-rate" placeholder="Average annual growth" min="-50" max="200">
+                </div>
+                
+                <button type="submit" class="calculate-btn">Calculate {industry.name} Value</button>
+            </form>
+            
+            <div id="results" class="results" role="region" aria-live="polite">
+                <h3>🎯 Your {industry.name} Valuation Results</h3>
+                <div class="result-item">
+                    <strong>Seller's Discretionary Earnings (SDE):</strong>
+                    <div class="result-value" id="sde-result">$0</div>
+                </div>
+                <div class="result-item">
+                    <strong>Estimated Business Value Range:</strong>
+                    <div class="result-value" id="value-range">$0 - $0</div>
+                </div>
+                <div class="result-item">
+                    <strong>Industry Multiple Applied:</strong>
+                    <div class="result-value" id="multiple-applied">{industry.multiple_range.min}x - {industry.multiple_range.max}x SDE</div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="cta-section">
+            <h3>🎯 Want a Professional {industry.name} Valuation Report?</h3>
+            <p>Get a comprehensive 25-page professional valuation report with detailed analysis for just $39!</p>
+            <a href="/professional-report" class="cta-btn" rel="nofollow">Get Professional Report - $39</a>
+            <a href="/consultation" class="cta-btn" rel="nofollow">Schedule Consultation</a>
+        </div>
+        
+        <section>
+            <h2>🎓 Understanding {industry.name} Valuation</h2>
+            <p>{industry.name} valuation requires specialized knowledge of industry-specific factors. Our calculator uses the Seller's Discretionary Earnings (SDE) methodology, the gold standard for business valuations.</p>
+            
+            <div class="highlight-box">
+                <h4>💡 Key Insight</h4>
+                <p>{industry.name} businesses typically sell for {industry.multiple_range.min}x to {industry.multiple_range.max}x SDE, with variations based on specific business characteristics.</p>
+            </div>
+            
+            <h3>Key {industry.name} Characteristics</h3>
+            <ul>
+                {industry.characteristics.map(characteristic => (
+                    <li>{characteristic}</li>
+                ))}
+            </ul>
+            
+            <h3>Primary Valuation Factors</h3>
+            <ul>
+                {industry.key_factors.map(factor => (
+                    <li><strong>{factor}</strong></li>
+                ))}
+            </ul>
+        </section>
+        
+        <div class="cta-section">
+            <h3>🚀 Ready to Maximize Your {industry.name} Value?</h3>
+            <p>Get expert analysis and strategic recommendations to optimize your business value.</p>
+            <a href="/professional-report" class="cta-btn" rel="nofollow">Order Professional Report - $39</a>
+            <a href="/consultation" class="cta-btn" rel="nofollow">Free Consultation</a>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 TheValuationGenie. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <!-- Optimized JavaScript - loaded asynchronously -->
+    <script type="module">
+        const industry = {industry};
+        
+        // Efficient calculator function
+        function calculateValue(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            const revenue = parseFloat(document.getElementById('annual-revenue').value) || 0;
+            const ownerSalary = parseFloat(document.getElementById('owner-salary').value) || 0;
+            const expenses = parseFloat(document.getElementById('operating-expenses').value) || 0;
+            const yearsEstablished = parseFloat(document.getElementById('years-established').value) || 0;
+            const growthRate = parseFloat(document.getElementById('growth-rate').value) || 0;
+            
+            if (revenue <= 0 || expenses < 0) {
+                alert('Please enter valid revenue and expense amounts.');
+                return;
+            }
+            
+            const netIncome = revenue - expenses;
+            const sde = netIncome + ownerSalary;
+            
+            let minMultiple = industry.multiple_range.min;
+            let maxMultiple = industry.multiple_range.max;
+            
+            // Performance adjustments
+            if (yearsEstablished > 10) {
+                minMultiple *= 1.1;
+                maxMultiple *= 1.1;
+            } else if (yearsEstablished < 3) {
+                minMultiple *= 0.9;
+                maxMultiple *= 0.9;
+            }
+            
+            if (growthRate > 20) {
+                minMultiple *= 1.2;
+                maxMultiple *= 1.2;
+            } else if (growthRate < 0) {
+                minMultiple *= 0.8;
+                maxMultiple *= 0.8;
+            }
+            
+            const minValue = sde * minMultiple;
+            const maxValue = sde * maxMultiple;
+            
+            // Update results efficiently
+            document.getElementById('sde-result').textContent = '$' + sde.toLocaleString();
+            document.getElementById('value-range').textContent = '$' + Math.round(minValue).toLocaleString() + ' - $' + Math.round(maxValue).toLocaleString();
+            
+            const resultsEl = document.getElementById('results');
+            resultsEl.style.display = 'block';
+            resultsEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+        
+        // Event listener with passive option for performance
+        document.getElementById('calculator-form').addEventListener('submit', calculateValue, { passive: false });
+        
+        // Preload critical resources
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(() => {
+                const link = document.createElement('link');
+                link.rel = 'prefetch';
+                link.href = '/professional-report';
+                document.head.appendChild(link);
+            });
+        }
+    </script>
+</body>
+</html>
