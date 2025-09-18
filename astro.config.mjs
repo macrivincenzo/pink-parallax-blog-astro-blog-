@@ -20,6 +20,7 @@ export default defineConfig({
 			Image: true,
 			JavaScript: true,
 			SVG: false,
+			XML: false, // Don't compress XML files (sitemaps)
 		})
 	],
 	build: {
