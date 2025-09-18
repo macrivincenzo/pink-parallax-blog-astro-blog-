@@ -39,9 +39,39 @@ h1{font-size:2em}
 }
 
 /* Performance optimizations */
-.calculator-section{contain:layout style}
-.results{contain:layout}
+.calculator-section{contain:layout style;min-height:600px}
+.results{contain:layout;min-height:200px}
 .cta-section{contain:layout style}
+.form-group{contain:layout}
+
+/* Accessibility improvements */
+.help-text{font-size:0.875rem;color:#666;margin-top:4px}
+.error-message{color:#dc3545;font-size:0.875rem;margin-top:4px;font-weight:600}
+.required::after{content:''}
+input:invalid{border-color:#dc3545}
+input:valid{border-color:#28a745}
+.skip-link{position:absolute;top:-40px;left:6px;background:#1e3c72;color:#fff;padding:8px;text-decoration:none;border-radius:4px;z-index:1000}
+.skip-link:focus{top:6px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Focus indicators */
+a:focus,button:focus,input:focus,select:focus{outline:2px solid #1e3c72;outline-offset:2px}
+
+/* High contrast mode support */
+@media (prefers-contrast:high){
+.calculate-btn{border:2px solid currentColor}
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion:reduce){
+.calculate-btn{transition:none}
+*{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme:dark){
+.help-text{color:#aaa}
+}
 
 /* Preload critical fonts */
 @font-face{font-family:'Segoe UI';font-display:swap}

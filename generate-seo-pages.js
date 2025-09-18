@@ -17,12 +17,12 @@ function generateIndustryPages() {
     
     industriesData.industries.forEach(industry => {
         const pageContent = `---
-import CalculatorTemplate from '../components/CalculatorTemplate.astro';
+import AccessibleCalculatorTemplate from '../components/AccessibleCalculatorTemplate.astro';
 
 const industry = ${JSON.stringify(industry, null, 2)};
 ---
 
-<CalculatorTemplate industry={industry} />
+<AccessibleCalculatorTemplate industry={industry} />
 `;
         
         const fileName = `${industry.id}-valuation-calculator.astro`;
