@@ -66,9 +66,9 @@ const { title, description, image = FallbackImage } = Astro.props;
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": `${title}`,
-  "description": `${description}`,
-  "url": `${Astro.url}`,
+  "name": "${title}",
+  "description": "${description}",
+  "url": "${Astro.url}",
   "mainEntity": {
     "@type": "Organization",
     "name": "The Valuation Genie",
