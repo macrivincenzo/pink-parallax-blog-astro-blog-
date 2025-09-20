@@ -1,0 +1,639 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+
+export const prerender = true;
+
+const post = {
+  title: 'Franchise Valuation Calculator 2025 - Calculate Franchise Value & ROI',
+  description: 'Calculate your franchise value with comprehensive ROI analysis, industry multiples, and expert insights. Free franchise valuation calculator with professional-grade assessments.',
+  pubDate: new Date('2024-09-20'),
+  updatedDate: new Date('2024-09-20'),
+  heroImage: '/src/assets/blog-placeholder-1.jpg',
+  tags: ['franchise valuation calculator', 'franchise value', 'franchise ROI calculator', 'franchise business worth', 'franchise appraisal'],
+  author: 'TheValuationGenie'
+};
+
+const { title, description, pubDate, updatedDate, heroImage, tags, author } = post;
+---
+
+<Layout title={title} description={description}>
+  <article class="franchise-article">
+    <header class="article-header">
+      <h1>{title}</h1>
+      <div class="article-meta">
+        <FormattedDate date={pubDate} />
+        <span class="author">By {author}</span>
+      </div>
+    </header>
+
+    <nav class="toc">
+      <h2>📋 Table of Contents</h2>
+      <ul>
+        <li><a href="#what-is-franchise-valuation">What is Franchise Valuation?</a></li>
+        <li><a href="#why-franchise-valuation-matters">Why Franchise Valuation Matters</a></li>
+        <li><a href="#key-methods">Key Franchise Valuation Methods</a></li>
+        <li><a href="#factors-affecting-value">Factors Affecting Franchise Value</a></li>
+        <li><a href="#how-to-calculate">How to Calculate Franchise Value</a></li>
+        <li><a href="#roi-calculation">Franchise ROI Calculation Guide</a></li>
+        <li><a href="#valuation-multiples">Industry Valuation Multiples</a></li>
+        <li><a href="#case-studies">Real-World Case Studies</a></li>
+        <li><a href="#common-mistakes">Common Valuation Mistakes</a></li>
+        <li><a href="#expert-tips">Expert Valuation Tips</a></li>
+        <li><a href="#tools-resources">Professional Tools & Resources</a></li>
+        <li><a href="#faq">Frequently Asked Questions</a></li>
+      </ul>
+    </nav>
+
+    <div class="calculator-box">
+      <h3>🚀 Professional Franchise Valuation Calculator</h3>
+      <p>Get accurate franchise valuations with our advanced calculator tools and expert guidance. Determine your franchise worth, calculate ROI, and make informed investment decisions.</p>
+      <a href="https://thevaluationgenie.com/" class="cta-button">Access Free Calculator Now</a>
+    </div>
+
+    <section id="introduction" class="content-section">
+      <p>Determining the true value of a franchise investment is crucial for both buyers and sellers in today's competitive market. Our comprehensive <strong>franchise valuation calculator</strong> provides precise, data-driven assessments that help you make informed decisions about franchise opportunities, sales, and acquisitions.</p>
+
+      <div class="highlight-box">
+        <p><strong>Key Insight:</strong> The franchise industry generates over $787 billion annually in the United States alone, with more than 750,000 franchise establishments operating across various sectors. Accurate valuation is essential for navigating this massive market effectively.</p>
+      </div>
+
+      <p>A professional franchise valuation considers both tangible and intangible assets, including equipment, inventory, customer relationships, brand recognition, and the value of the franchise agreement itself. This comprehensive approach ensures that all value drivers are properly assessed and quantified.</p>
+
+      <h3>Components of Franchise Value</h3>
+      <ul>
+        <li><strong>Tangible Assets:</strong> Equipment, inventory, real estate, and working capital</li>
+        <li><strong>Intangible Assets:</strong> Brand value, customer relationships, and goodwill</li>
+        <li><strong>Franchise Rights:</strong> Territory exclusivity, contract terms, and renewal options</li>
+        <li><strong>Cash Flow:</strong> Historical and projected earnings potential</li>
+        <li><strong>Market Position:</strong> Competitive advantages and market share</li>
+      </ul>
+    </section>
+
+    <section id="what-is-franchise-valuation" class="content-section">
+      <h2>What is Franchise Valuation?</h2>
+      <p>Franchise valuation is the comprehensive process of determining the fair market value of a franchise business based on its financial performance, market position, brand strength, and growth potential. Unlike traditional business valuations, franchise valuations must account for unique factors such as franchise fees, royalty structures, territorial rights, and franchisor support systems.</p>
+    </section>
+
+    <section id="why-franchise-valuation-matters" class="content-section">
+      <h2>Why Franchise Valuation Matters</h2>
+      <p>Understanding the true value of a franchise investment is critical for multiple stakeholders and various business scenarios. Whether you're buying, selling, or expanding your franchise portfolio, accurate valuation provides the foundation for sound decision-making.</p>
+
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">92%</span>
+          <p>of franchise sales rely on professional valuations</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">35%</span>
+          <p>average premium paid for well-valued franchises</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">67%</span>
+          <p>of buyers use valuation for financing decisions</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">$2.3M</span>
+          <p>average franchise transaction value in 2024</p>
+        </div>
+      </div>
+
+      <h3>Critical Scenarios Requiring Franchise Valuation</h3>
+
+      <h4>1. Franchise Purchase Decisions</h4>
+      <p>When acquiring an existing franchise, buyers need accurate valuations to negotiate fair purchase prices, secure financing, and assess return on investment potential. Professional valuations help identify overpriced opportunities and uncover hidden value in undervalued franchises.</p>
+
+      <h4>2. Franchise Sale Preparation</h4>
+      <p>Sellers benefit from professional valuations to set competitive asking prices, identify value enhancement opportunities, and prepare comprehensive financial documentation for potential buyers. A well-documented valuation can reduce time on market and increase final sale prices by up to 15%.</p>
+
+      <h4>3. Partnership and Investment Decisions</h4>
+      <p>When bringing in investors or partners, accurate valuations ensure equitable ownership structures and protect existing stakeholder interests. This is particularly important in multi-unit franchise operations where partnership dynamics can be complex.</p>
+
+      <h4>4. Strategic Planning and Expansion</h4>
+      <p>Franchise valuations inform growth strategies, helping operators decide between organic expansion, acquisition of additional units, or investment in alternative opportunities. Understanding unit values enables better resource allocation and strategic planning.</p>
+    </section>
+
+    <section id="key-methods" class="content-section">
+      <h2>Key Franchise Valuation Methods</h2>
+      <p>Professional franchise valuation employs multiple methodologies to ensure comprehensive and accurate assessments. Each method provides unique insights and, when combined, creates a robust valuation framework that accounts for all aspects of franchise value.</p>
+
+      <h3>1. Income Approach (Discounted Cash Flow)</h3>
+      <p>The income approach, particularly the discounted cash flow (DCF) method, is considered the gold standard for franchise valuations. This method projects future cash flows and discounts them to present value using an appropriate discount rate that reflects the franchise's risk profile.</p>
+
+      <div class="formula-box">
+        <strong>DCF Formula:</strong><br>
+        Franchise Value = Σ [CFt ÷ (1 + r)^t] + Terminal Value<br>
+        Where: CFt = Cash Flow in year t, r = Discount Rate, t = Time period
+      </div>
+
+      <h4>Key Considerations for Franchise DCF:</h4>
+      <ul>
+        <li>Franchise fee amortization over contract term</li>
+        <li>Royalty payments and marketing fees impact</li>
+        <li>Territory exclusivity and growth limitations</li>
+        <li>Contract renewal terms and associated costs</li>
+        <li>Franchisor support and system stability</li>
+      </ul>
+
+      <h3>2. Market Approach (Comparable Sales)</h3>
+      <p>The market approach analyzes recent sales of similar franchises to establish value benchmarks. This method requires careful selection of comparable transactions and appropriate adjustments for differences in size, location, performance, and market conditions.</p>
+
+      <div class="table-container">
+        <table class="multiples-table">
+          <thead>
+            <tr>
+              <th>Franchise Sector</th>
+              <th>Typical Revenue Multiple</th>
+              <th>EBITDA Multiple Range</th>
+              <th>Key Value Drivers</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Quick Service Restaurants</td>
+              <td>0.8x - 1.2x</td>
+              <td>3.0x - 5.0x</td>
+              <td>Location, Brand Strength, Drive-thru</td>
+            </tr>
+            <tr>
+              <td>Fitness Centers</td>
+              <td>1.0x - 1.5x</td>
+              <td>4.0x - 7.0x</td>
+              <td>Membership Base, Equipment, Lease Terms</td>
+            </tr>
+            <tr>
+              <td>Automotive Services</td>
+              <td>1.2x - 1.8x</td>
+              <td>5.0x - 8.0x</td>
+              <td>Customer Loyalty, Technical Expertise</td>
+            </tr>
+            <tr>
+              <td>Education Services</td>
+              <td>1.5x - 2.5x</td>
+              <td>6.0x - 10.0x</td>
+              <td>Student Retention, Program Quality</td>
+            </tr>
+            <tr>
+              <td>Home Services</td>
+              <td>1.0x - 2.0x</td>
+              <td>4.5x - 7.5x</td>
+              <td>Territory Size, Recurring Revenue</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>3. Asset Approach</h3>
+      <p>The asset approach focuses on the franchise's tangible and intangible assets, providing a floor value for the business. This method is particularly useful for asset-heavy franchises or when other approaches yield inconclusive results.</p>
+
+      <h4>Asset Categories in Franchise Valuation:</h4>
+      <ul>
+        <li><strong>Fixed Assets:</strong> Equipment, fixtures, and leasehold improvements</li>
+        <li><strong>Current Assets:</strong> Inventory, accounts receivable, and cash</li>
+        <li><strong>Intangible Assets:</strong> Franchise rights, customer lists, and non-compete agreements</li>
+        <li><strong>Goodwill:</strong> Brand recognition and established customer relationships</li>
+      </ul>
+    </section>
+
+    <section id="factors-affecting-value" class="content-section">
+      <h2>Factors Affecting Franchise Value</h2>
+      <p>Numerous factors influence franchise valuations, ranging from financial performance metrics to qualitative aspects of the franchise system. Understanding these factors is crucial for accurate valuation and identifying opportunities for value enhancement.</p>
+
+      <h3>Financial Performance Factors</h3>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>✅ Value-Enhancing Factors</h4>
+          <ul>
+            <li>Consistent revenue growth (>10% annually)</li>
+            <li>Strong profit margins (>15% EBITDA)</li>
+            <li>Diversified revenue streams</li>
+            <li>Low customer concentration risk</li>
+            <li>Efficient cost structure</li>
+            <li>Strong working capital management</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>❌ Value-Reducing Factors</h4>
+          <ul>
+            <li>Declining or volatile revenues</li>
+            <li>Compressed profit margins</li>
+            <li>High customer turnover</li>
+            <li>Excessive owner dependence</li>
+            <li>Poor financial controls</li>
+            <li>Significant capital expenditure needs</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="calculator-box">
+        <h3>🎯 Ready to Value Your Franchise?</h3>
+        <p>Use our professional-grade franchise valuation tools to get accurate, comprehensive assessments tailored to your specific franchise and market conditions.</p>
+        <a href="https://thevaluationgenie.com/" class="cta-button">Start Your Valuation Today</a>
+      </div>
+    </section>
+
+    <section id="how-to-calculate" class="content-section">
+      <h2>How to Calculate Franchise Value: Step-by-Step Guide</h2>
+      <p>Calculating franchise value requires a systematic approach that combines financial analysis, market research, and industry expertise. Follow this comprehensive step-by-step process to perform accurate franchise valuations.</p>
+
+      <div class="step-by-step">
+        <div class="step">
+          <h4>Step 1: Gather Financial Information</h4>
+          <p>Collect comprehensive financial data including profit and loss statements, balance sheets, and cash flow statements for the past 3-5 years. Ensure all financial information is accurate, complete, and properly categorized according to franchise accounting standards.</p>
+          <ul>
+            <li>Historical financial statements (3-5 years)</li>
+            <li>Monthly financial data for current year</li>
+            <li>Tax returns and supporting schedules</li>
+            <li>Franchise fee and royalty payment records</li>
+            <li>Capital expenditure history and plans</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h4>Step 2: Normalize Financial Performance</h4>
+          <p>Adjust financial statements to reflect the true operational performance of the franchise. This includes removing owner-specific expenses, one-time items, and non-recurring charges that don't represent ongoing business operations.</p>
+          <ul>
+            <li>Remove excess owner compensation</li>
+            <li>Eliminate non-recurring expenses</li>
+            <li>Adjust for market-rate management costs</li>
+            <li>Normalize rent and lease expenses</li>
+            <li>Account for deferred maintenance</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h4>Step 3: Analyze Historical Performance Trends</h4>
+          <p>Examine historical financial trends to identify patterns, seasonality, and growth trajectories. This analysis provides crucial insights into the franchise's stability and future prospects.</p>
+          <div class="formula-box">
+            <strong>Revenue Growth Rate:</strong><br>
+            ((Current Year Revenue ÷ Base Year Revenue)^(1/Number of Years)) - 1
+          </div>
+        </div>
+
+        <div class="step">
+          <h4>Step 4: Project Future Cash Flows</h4>
+          <p>Develop detailed financial projections based on historical performance, market conditions, and strategic initiatives. Consider the impact of franchise contract terms, territory limitations, and competitive dynamics.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="roi-calculation" class="content-section">
+      <h2>Franchise ROI Calculation Guide</h2>
+      <p>Return on Investment (ROI) analysis is fundamental to franchise investment decisions. Understanding how to calculate and interpret ROI metrics helps investors compare opportunities and assess the attractiveness of franchise investments relative to alternative opportunities.</p>
+
+      <h3>Key ROI Metrics for Franchise Investments</h3>
+
+      <h4>1. Simple ROI Calculation</h4>
+      <div class="formula-box">
+        <strong>ROI = (Net Profit ÷ Total Investment) × 100</strong><br>
+        Where: Net Profit = Annual earnings after all expenses<br>
+        Total Investment = Initial franchise fee + startup costs + working capital
+      </div>
+
+      <div class="highlight-box">
+        <p><strong>Example:</strong> A franchise generates $120,000 annual net profit with a total investment of $400,000. ROI = ($120,000 ÷ $400,000) × 100 = 30%</p>
+      </div>
+
+      <h4>2. Cash-on-Cash Return</h4>
+      <p>This metric measures the return on actual cash invested, excluding any financed portions of the investment. It's particularly useful when comparing leveraged investment opportunities.</p>
+
+      <div class="formula-box">
+        <strong>Cash-on-Cash Return = (Annual Cash Flow ÷ Cash Invested) × 100</strong>
+      </div>
+
+      <h4>3. Internal Rate of Return (IRR)</h4>
+      <p>IRR represents the discount rate that makes the net present value of all cash flows equal to zero. It's the most comprehensive measure of investment attractiveness, considering both the magnitude and timing of returns.</p>
+    </section>
+
+    <section id="faq" class="content-section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3>How much does a franchise valuation cost?</h3>
+        <p>Professional franchise valuations typically range from $3,000 to $15,000 depending on the complexity of the business, purpose of the valuation, and level of analysis required. Simple desktop valuations may cost less, while comprehensive appraisals for litigation or complex transactions command higher fees.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What information is needed for a franchise valuation?</h3>
+        <p>A comprehensive franchise valuation requires financial statements for 3-5 years, tax returns, franchise agreement and disclosure documents, lease agreements, equipment lists, customer information, and market data. The more complete and accurate the information provided, the more reliable the valuation results.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How long does a franchise valuation take?</h3>
+        <p>Most franchise valuations take 2-4 weeks to complete, depending on the complexity of the analysis and availability of required information. Rush valuations can often be completed in 7-10 days for an additional fee.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What's a good ROI for a franchise investment?</h3>
+        <p>Target franchise ROI varies by industry and risk level, but most investors seek 15-30% annual returns. Service-based franchises often achieve higher returns (25-40%) due to lower capital requirements, while restaurant and retail franchises typically generate 15-25% returns.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>When should I get a franchise valuation?</h3>
+        <p>Franchise valuations are valuable when buying or selling a franchise, seeking financing or investment, planning estate or succession strategies, resolving partnership disputes, conducting periodic business assessments, or evaluating expansion opportunities.</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Conclusion: Maximizing Your Franchise Value</h2>
+      <p>Accurate franchise valuation is essential for making informed investment and business decisions. Our comprehensive approach provides you with professional-grade assessments using industry-standard methodologies and market intelligence.</p>
+
+      <p>Whether you're considering a franchise purchase, planning to sell, or evaluating your current investment, understanding your franchise's true value is crucial for success in today's competitive marketplace.</p>
+
+      <div class="cta-box">
+        <h3>🚀 Ready to Value Your Franchise Investment?</h3>
+        <p>Get started with our comprehensive franchise valuation tools and professional services. Whether you're buying, selling, or optimizing your franchise investment, we provide the insights you need for success.</p>
+        <a href="https://thevaluationgenie.com/" class="cta-button">Start Your Valuation Now</a>
+        <a href="https://thevaluationgenie.com/" class="cta-button">Contact Our Experts</a>
+      </div>
+    </section>
+  </article>
+</Layout>
+
+<style>
+  .franchise-article {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+
+  .article-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #e0e0e0;
+  }
+
+  .article-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+
+  .article-meta {
+    color: #666;
+    font-size: 1.1rem;
+  }
+
+  .toc {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+  }
+
+  .toc h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+
+  .toc ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .toc li {
+    margin-bottom: 0.5rem;
+  }
+
+  .toc a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .toc a:hover {
+    text-decoration: underline;
+  }
+
+  .content-section {
+    margin-bottom: 3rem;
+  }
+
+  .content-section h2 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3498db;
+  }
+
+  .content-section h3 {
+    color: #34495e;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .content-section h4 {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .highlight-box {
+    background: #e8f4f8;
+    border-left: 4px solid #3498db;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 4px;
+  }
+
+  .calculator-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    margin: 2rem 0;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(102, 126, 234, 0.3);
+  }
+
+  .calculator-box h3 {
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .cta-button {
+    background: #fff;
+    color: #667eea;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+
+  .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .stat-item {
+    text-align: center;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #667eea;
+    display: block;
+  }
+
+  .table-container {
+    overflow-x: auto;
+    margin: 2rem 0;
+  }
+
+  .multiples-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .multiples-table th {
+    background: #3498db;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .multiples-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .multiples-table tr:nth-child(even) {
+    background: #f8f9fa;
+  }
+
+  .formula-box {
+    background: #f8f9fa;
+    border: 2px solid #667eea;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+  }
+
+  .pros-cons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .pros, .cons {
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+
+  .pros {
+    background: #d4edda;
+    border-left: 5px solid #28a745;
+  }
+
+  .cons {
+    background: #f8d7da;
+    border-left: 5px solid #dc3545;
+  }
+
+  .step-by-step {
+    counter-reset: step-counter;
+  }
+
+  .step {
+    counter-increment: step-counter;
+    position: relative;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+  }
+
+  .step::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: -15px;
+    top: 1.5rem;
+    background: #667eea;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .faq-item {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+  }
+
+  .faq-item h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+
+  .cta-box {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .cta-box h3 {
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .franchise-article {
+      padding: 1rem;
+    }
+
+    .article-header h1 {
+      font-size: 2rem;
+    }
+
+    .pros-cons {
+      grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+</style>
