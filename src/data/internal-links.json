@@ -162,6 +162,33 @@
         "title": "Professional Retail Store valuation services in Phoenix"
       }
     ],
+    "franchise": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Franchise Valuation in New York City",
+        "title": "Professional Franchise valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Franchise Valuation in Los Angeles",
+        "title": "Professional Franchise valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Franchise Valuation in Chicago",
+        "title": "Professional Franchise valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Franchise Valuation in Houston",
+        "title": "Professional Franchise valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Franchise Valuation in Phoenix",
+        "title": "Professional Franchise valuation services in Phoenix"
+      }
+    ],
     "medical-practice": [
       {
         "url": "/business-valuation-new-york-city",
@@ -277,6 +304,11 @@
         "title": "Calculate Retail Store value in New York City"
       },
       {
+        "url": "/franchise-calculator",
+        "anchor": "Franchise Calculator",
+        "title": "Calculate Franchise value in New York City"
+      },
+      {
         "url": "/medical-practice-valuation-calculator",
         "anchor": "Medical Practice Calculator",
         "title": "Calculate Medical Practice value in New York City"
@@ -322,6 +354,11 @@
         "url": "/retail-store-valuation-calculator",
         "anchor": "Retail Store Calculator",
         "title": "Calculate Retail Store value in Los Angeles"
+      },
+      {
+        "url": "/franchise-calculator",
+        "anchor": "Franchise Calculator",
+        "title": "Calculate Franchise value in Los Angeles"
       },
       {
         "url": "/medical-practice-valuation-calculator",
@@ -371,6 +408,11 @@
         "title": "Calculate Retail Store value in Chicago"
       },
       {
+        "url": "/franchise-calculator",
+        "anchor": "Franchise Calculator",
+        "title": "Calculate Franchise value in Chicago"
+      },
+      {
         "url": "/medical-practice-valuation-calculator",
         "anchor": "Medical Practice Calculator",
         "title": "Calculate Medical Practice value in Chicago"
@@ -418,6 +460,11 @@
         "title": "Calculate Retail Store value in Houston"
       },
       {
+        "url": "/franchise-calculator",
+        "anchor": "Franchise Calculator",
+        "title": "Calculate Franchise value in Houston"
+      },
+      {
         "url": "/medical-practice-valuation-calculator",
         "anchor": "Medical Practice Calculator",
         "title": "Calculate Medical Practice value in Houston"
@@ -463,6 +510,11 @@
         "url": "/retail-store-valuation-calculator",
         "anchor": "Retail Store Calculator",
         "title": "Calculate Retail Store value in Phoenix"
+      },
+      {
+        "url": "/franchise-calculator",
+        "anchor": "Franchise Calculator",
+        "title": "Calculate Franchise value in Phoenix"
       },
       {
         "url": "/medical-practice-valuation-calculator",

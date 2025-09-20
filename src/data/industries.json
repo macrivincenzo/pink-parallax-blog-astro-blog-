@@ -133,6 +133,28 @@
       ]
     },
     {
+      "id": "franchise",
+      "name": "Franchise",
+      "title": "Franchise Valuation Calculator - Calculate Franchise Value & ROI",
+      "description": "Franchise business valuation calculator with brand premium analysis, territory rights assessment, and franchise-specific multiples.",
+      "keywords": "franchise valuation calculator, franchise value, franchise business worth, franchise appraisal, franchise ROI calculator",
+      "multiple_range": { "min": 2.5, "max": 6.5 },
+      "characteristics": [
+        "Brand support benefits",
+        "Territory restrictions",
+        "Franchise fee obligations",
+        "Operational guidelines",
+        "Marketing support"
+      ],
+      "key_factors": [
+        "Brand strength",
+        "Territory exclusivity",
+        "Franchisor support",
+        "Unit economics",
+        "Growth potential"
+      ]
+    },
+    {
       "id": "medical-practice",
       "name": "Medical Practice",
       "title": "Medical Practice Calculator - Value Your Medical Practice with SDE Analysis",
