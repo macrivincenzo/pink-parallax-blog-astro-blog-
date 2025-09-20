@@ -189,6 +189,33 @@
         "title": "Professional Franchise valuation services in Phoenix"
       }
     ],
+    "law-firm": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Law Firm Valuation in New York City",
+        "title": "Professional Law Firm valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Law Firm Valuation in Los Angeles",
+        "title": "Professional Law Firm valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Law Firm Valuation in Chicago",
+        "title": "Professional Law Firm valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Law Firm Valuation in Houston",
+        "title": "Professional Law Firm valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Law Firm Valuation in Phoenix",
+        "title": "Professional Law Firm valuation services in Phoenix"
+      }
+    ],
     "medical-practice": [
       {
         "url": "/business-valuation-new-york-city",
@@ -309,6 +336,11 @@
         "title": "Calculate Franchise value in New York City"
       },
       {
+        "url": "/law-firm-calculator",
+        "anchor": "Law Firm Calculator",
+        "title": "Calculate Law Firm value in New York City"
+      },
+      {
         "url": "/medical-practice-valuation-calculator",
         "anchor": "Medical Practice Calculator",
         "title": "Calculate Medical Practice value in New York City"
@@ -359,6 +391,11 @@
         "url": "/franchise-calculator",
         "anchor": "Franchise Calculator",
         "title": "Calculate Franchise value in Los Angeles"
+      },
+      {
+        "url": "/law-firm-calculator",
+        "anchor": "Law Firm Calculator",
+        "title": "Calculate Law Firm value in Los Angeles"
       },
       {
         "url": "/medical-practice-valuation-calculator",
@@ -413,6 +450,11 @@
         "title": "Calculate Franchise value in Chicago"
       },
       {
+        "url": "/law-firm-calculator",
+        "anchor": "Law Firm Calculator",
+        "title": "Calculate Law Firm value in Chicago"
+      },
+      {
         "url": "/medical-practice-valuation-calculator",
         "anchor": "Medical Practice Calculator",
         "title": "Calculate Medical Practice value in Chicago"
@@ -465,6 +507,11 @@
         "title": "Calculate Franchise value in Houston"
       },
       {
+        "url": "/law-firm-calculator",
+        "anchor": "Law Firm Calculator",
+        "title": "Calculate Law Firm value in Houston"
+      },
+      {
         "url": "/medical-practice-valuation-calculator",
         "anchor": "Medical Practice Calculator",
         "title": "Calculate Medical Practice value in Houston"
@@ -515,6 +562,11 @@
         "url": "/franchise-calculator",
         "anchor": "Franchise Calculator",
         "title": "Calculate Franchise value in Phoenix"
+      },
+      {
+        "url": "/law-firm-calculator",
+        "anchor": "Law Firm Calculator",
+        "title": "Calculate Law Firm value in Phoenix"
       },
       {
         "url": "/medical-practice-valuation-calculator",
