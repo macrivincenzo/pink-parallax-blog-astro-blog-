@@ -241,6 +241,28 @@
         "Staff qualifications",
         "Market positioning"
       ]
+    },
+    {
+      "id": "dental-practice",
+      "name": "Dental Practice",
+      "title": "Dental Practice Calculator - Calculate Dental Practice Value & Patient Base",
+      "description": "Dental practice valuation calculator with patient base analysis, equipment valuation, and dental industry multiples for accurate practice valuations.",
+      "keywords": "dental practice valuation calculator, dental practice value, dentist practice worth, dental practice appraisal, dental office valuation, dentist practice calculator",
+      "multiple_range": { "min": 0.8, "max": 2.5 },
+      "characteristics": [
+        "Patient base dependency",
+        "Equipment intensive",
+        "Insurance reimbursement",
+        "Location critical",
+        "Specialized expertise"
+      ],
+      "key_factors": [
+        "Active patient count",
+        "Patient retention rates",
+        "Equipment age and technology",
+        "Location demographics",
+        "Practice specialty type"
+      ]
     }
   ]
 }
