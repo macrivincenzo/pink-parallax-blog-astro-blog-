@@ -263,6 +263,28 @@
         "Location demographics",
         "Practice specialty type"
       ]
+    },
+    {
+      "id": "veterinary-clinic",
+      "name": "Veterinary Clinic",
+      "title": "Veterinary Clinic Calculator - Value Your Vet Clinic with SDE Methodology",
+      "description": "Veterinary clinic valuation calculator with patient base analysis, equipment valuation, and veterinary industry multiples for accurate clinic valuations.",
+      "keywords": "veterinary clinic valuation calculator, veterinary practice value, vet clinic worth, veterinary practice appraisal, animal hospital valuation, vet clinic calculator",
+      "multiple_range": { "min": 2.5, "max": 5.5 },
+      "characteristics": [
+        "Client base dependency",
+        "Equipment intensive",
+        "Service mix variety",
+        "Location critical",
+        "Specialized expertise"
+      ],
+      "key_factors": [
+        "Active client count",
+        "Client retention rates",
+        "Equipment age and technology",
+        "Location demographics",
+        "Practice specialty type"
+      ]
     }
   ]
 }

@@ -323,6 +323,33 @@
         "anchor": "Dental Practice Valuation in Phoenix",
         "title": "Professional Dental Practice valuation services in Phoenix"
       }
+    ],
+    "veterinary-clinic": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Veterinary Clinic Valuation in New York City",
+        "title": "Professional Veterinary Clinic valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Veterinary Clinic Valuation in Los Angeles",
+        "title": "Professional Veterinary Clinic valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Veterinary Clinic Valuation in Chicago",
+        "title": "Professional Veterinary Clinic valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Veterinary Clinic Valuation in Houston",
+        "title": "Professional Veterinary Clinic valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Veterinary Clinic Valuation in Phoenix",
+        "title": "Professional Veterinary Clinic valuation services in Phoenix"
+      }
     ]
   },
   "location_to_industry": {
@@ -386,6 +413,11 @@
         "url": "/dental-practice-valuation-calculator",
         "anchor": "Dental Practice Calculator",
         "title": "Calculate Dental Practice value in New York City"
+      },
+      {
+        "url": "/veterinary-clinic-valuation-calculator",
+        "anchor": "Veterinary Clinic Calculator",
+        "title": "Calculate Veterinary Clinic value in New York City"
       }
     ],
     "los-angeles": [
@@ -448,6 +480,11 @@
         "url": "/dental-practice-valuation-calculator",
         "anchor": "Dental Practice Calculator",
         "title": "Calculate Dental Practice value in Los Angeles"
+      },
+      {
+        "url": "/veterinary-clinic-valuation-calculator",
+        "anchor": "Veterinary Clinic Calculator",
+        "title": "Calculate Veterinary Clinic value in Los Angeles"
       }
     ],
     "chicago": [
@@ -510,6 +547,11 @@
         "url": "/dental-practice-valuation-calculator",
         "anchor": "Dental Practice Calculator",
         "title": "Calculate Dental Practice value in Chicago"
+      },
+      {
+        "url": "/veterinary-clinic-valuation-calculator",
+        "anchor": "Veterinary Clinic Calculator",
+        "title": "Calculate Veterinary Clinic value in Chicago"
       }
     ],
     "houston": [
@@ -572,6 +614,11 @@
         "url": "/dental-practice-valuation-calculator",
         "anchor": "Dental Practice Calculator",
         "title": "Calculate Dental Practice value in Houston"
+      },
+      {
+        "url": "/veterinary-clinic-valuation-calculator",
+        "anchor": "Veterinary Clinic Calculator",
+        "title": "Calculate Veterinary Clinic value in Houston"
       }
     ],
     "phoenix": [
@@ -634,6 +681,11 @@
         "url": "/dental-practice-valuation-calculator",
         "anchor": "Dental Practice Calculator",
         "title": "Calculate Dental Practice value in Phoenix"
+      },
+      {
+        "url": "/veterinary-clinic-valuation-calculator",
+        "anchor": "Veterinary Clinic Calculator",
+        "title": "Calculate Veterinary Clinic value in Phoenix"
       }
     ]
   },

@@ -1,0 +1,75 @@
+PROMPT FOR NEW CALCULATOR ARTICLE:
+
+  "Create a new [TOPIC] valuation calculator article following
+  the EXACT blueprint structure. Requirements:
+
+  Topic: [INSERT TOPIC HERE - e.g. "Dental Practice
+  Calculator", "Auto Repair Shop Calculator", etc.]
+
+  Technical Requirements:
+  - ✅ Complete standalone .html file following
+  medical-practice-calculator.html blueprint EXACTLY
+  - ✅ USE THE SAME EXISTING NAVIGATION BAR with logo "🏥 The       
+  Valuation Genie"
+  - ✅ DO NOT CREATE NEW NAVIGATION - copy the exact navigation     
+   from medical-practice-calculator.html
+  - ✅ Complete SEO meta tags, OpenGraph, Twitter Cards, Schema     
+   markup 
+  - ✅ Self-contained CSS styling and JavaScript (copy exact        
+  styles)
+  - ✅ ADD the new [TOPIC] link to the EXISTING navigation bar      
+  in ALL HTML files
+  - ✅ ADD [TOPIC] link to Header.astro component (used by Home     
+   and About pages)
+  - ✅ ADD [TOPIC] calculator to blog/index.astro articles grid     
+   (Home page)
+  - ✅ Add to internal-links.json and industries.json data
+  files
+  - ✅ UPDATE navigation in all existing calculator HTML files      
+  to include new [TOPIC] link
+  - ✅ Commit and push to GitHub
+
+  Navigation Requirements:
+  - ✅ COPY the exact navigation structure from 
+  medical-practice-calculator.html
+  - ✅ ADD new [TOPIC] link to the existing navigation list
+  - ✅ UPDATE all other HTML files to include the new [TOPIC]       
+  link in their navigation
+  - ✅ ADD [TOPIC] link to Header.astro component for Home and      
+  About pages
+  - ✅ ADD [TOPIC] to blog/index.astro seoArticles array for        
+  Home page grid
+  - ✅ Maintain exact same styling and structure
+
+  Content Requirements:
+  - 4000+ word comprehensive SEO & GEO-OPTIMIZED article
+  - Optimized for AI searches (ChatGPT, Claude, Gemini,
+  Perplexity, etc.)
+  - Industry-specific valuation multiples and factors
+  - Interactive calculator with [TOPIC]-specific inputs
+  - Case studies, FAQ section, table of contents
+  - Complete schema markup for SEO
+  - Target Google #1 ranking AND AI search #1 ranking for
+  "[TOPIC] valuation calculator" keywords
+
+  Call-to-Action Requirements:
+  - ✅ ALL call-to-action buttons must lead to:
+  https://thevaluationgenie.com/
+  - ✅ Multiple CTAs throughout the article
+  - ✅ Calculator box CTA, highlight box CTAs, and final CTA        
+
+  Action: Create the complete article using FACTS from the
+  existing blueprint structure. COPY the existing navigation -     
+  don't create new navigation. ENSURE [TOPIC] link appears in      
+  navigation on ALL pages including Home and About. No
+  assumptions - follow the exact pattern of
+  medical-practice-calculator.html."
+
+  ---
+  KEY SUCCESS FACTORS WE DISCOVERED:
+  - Must be .html files (not .astro files)
+  - Must update 3 navigation locations: HTML files +
+  Header.astro + blog/index.astro
+  - Must add to 2 data files: internal-links.json +
+  industries.json
+  - All CTAs must point to: https://thevaluationgenie.com/
