@@ -285,6 +285,28 @@
         "Location demographics",
         "Practice specialty type"
       ]
+    },
+    {
+      "id": "gym-fitness-center",
+      "name": "Gym & Fitness Center",
+      "title": "Gym & Fitness Center Calculator - Value Your Gym with Membership Revenue Analysis",
+      "description": "Gym and fitness center valuation calculator with membership analysis, equipment valuation, and fitness industry multiples for accurate gym valuations.",
+      "keywords": "gym valuation calculator, fitness center calculator, gym business worth, fitness club valuation, gym appraisal, fitness business value, gym membership revenue calculator",
+      "multiple_range": { "min": 2.5, "max": 5.5 },
+      "characteristics": [
+        "Membership-based revenue",
+        "Equipment intensive operations",
+        "Location and demographics critical",
+        "Retention-focused business model",
+        "Seasonal membership patterns"
+      ],
+      "key_factors": [
+        "Active membership count",
+        "Member retention rates",
+        "Monthly recurring revenue",
+        "Equipment age and condition",
+        "Location demographics and competition"
+      ]
     }
   ]
 }

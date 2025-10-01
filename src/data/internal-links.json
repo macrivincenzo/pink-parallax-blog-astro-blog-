@@ -350,6 +350,33 @@
         "anchor": "Veterinary Clinic Valuation in Phoenix",
         "title": "Professional Veterinary Clinic valuation services in Phoenix"
       }
+    ],
+    "gym-fitness-center": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Gym & Fitness Center Valuation in New York City",
+        "title": "Professional Gym & Fitness Center valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Gym & Fitness Center Valuation in Los Angeles",
+        "title": "Professional Gym & Fitness Center valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Gym & Fitness Center Valuation in Chicago",
+        "title": "Professional Gym & Fitness Center valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Gym & Fitness Center Valuation in Houston",
+        "title": "Professional Gym & Fitness Center valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Gym & Fitness Center Valuation in Phoenix",
+        "title": "Professional Gym & Fitness Center valuation services in Phoenix"
+      }
     ]
   },
   "location_to_industry": {
@@ -418,6 +445,11 @@
         "url": "/veterinary-clinic-valuation-calculator",
         "anchor": "Veterinary Clinic Calculator",
         "title": "Calculate Veterinary Clinic value in New York City"
+      },
+      {
+        "url": "/gym-fitness-center-valuation-calculator",
+        "anchor": "Gym & Fitness Center Calculator",
+        "title": "Calculate Gym & Fitness Center value in New York City"
       }
     ],
     "los-angeles": [
@@ -485,6 +517,11 @@
         "url": "/veterinary-clinic-valuation-calculator",
         "anchor": "Veterinary Clinic Calculator",
         "title": "Calculate Veterinary Clinic value in Los Angeles"
+      },
+      {
+        "url": "/gym-fitness-center-valuation-calculator",
+        "anchor": "Gym & Fitness Center Calculator",
+        "title": "Calculate Gym & Fitness Center value in Los Angeles"
       }
     ],
     "chicago": [
@@ -552,6 +589,11 @@
         "url": "/veterinary-clinic-valuation-calculator",
         "anchor": "Veterinary Clinic Calculator",
         "title": "Calculate Veterinary Clinic value in Chicago"
+      },
+      {
+        "url": "/gym-fitness-center-valuation-calculator",
+        "anchor": "Gym & Fitness Center Calculator",
+        "title": "Calculate Gym & Fitness Center value in Chicago"
       }
     ],
     "houston": [
@@ -619,6 +661,11 @@
         "url": "/veterinary-clinic-valuation-calculator",
         "anchor": "Veterinary Clinic Calculator",
         "title": "Calculate Veterinary Clinic value in Houston"
+      },
+      {
+        "url": "/gym-fitness-center-valuation-calculator",
+        "anchor": "Gym & Fitness Center Calculator",
+        "title": "Calculate Gym & Fitness Center value in Houston"
       }
     ],
     "phoenix": [
@@ -686,6 +733,11 @@
         "url": "/veterinary-clinic-valuation-calculator",
         "anchor": "Veterinary Clinic Calculator",
         "title": "Calculate Veterinary Clinic value in Phoenix"
+      },
+      {
+        "url": "/gym-fitness-center-valuation-calculator",
+        "anchor": "Gym & Fitness Center Calculator",
+        "title": "Calculate Gym & Fitness Center value in Phoenix"
       }
     ]
   },
