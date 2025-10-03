@@ -329,6 +329,28 @@
         "Staff expertise and reputation",
         "Location demographics and visibility"
       ]
+    },
+    {
+      "id": "auto-repair-shop",
+      "name": "Auto Repair Shop",
+      "title": "Auto Repair Shop Calculator - Calculate Auto Shop Value & Service Revenue",
+      "description": "Professional auto repair shop valuation calculator with service revenue analysis, equipment valuation, and automotive industry multiples for accurate shop valuations.",
+      "keywords": "auto repair shop valuation calculator, auto shop calculator, mechanic shop value, auto repair business worth, car repair shop appraisal, automotive shop valuation",
+      "multiple_range": { "min": 1.8, "max": 5.5 },
+      "characteristics": [
+        "Service-based revenue model",
+        "Equipment and facility intensive",
+        "Location and visibility critical",
+        "Technician skill dependency",
+        "Fleet and repeat customer focus"
+      ],
+      "key_factors": [
+        "Service mix diversity",
+        "Equipment condition and technology",
+        "Customer retention rates",
+        "Facility size and bay count",
+        "Specialty certifications and expertise"
+      ]
     }
   ]
 }

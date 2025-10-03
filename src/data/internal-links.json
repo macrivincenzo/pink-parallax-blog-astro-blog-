@@ -404,6 +404,33 @@
         "anchor": "Salon & Barbershop Valuation in Phoenix",
         "title": "Professional Salon & Barbershop valuation services in Phoenix"
       }
+    ],
+    "auto-repair-shop": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Auto Repair Shop Valuation in New York City",
+        "title": "Professional Auto Repair Shop valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Auto Repair Shop Valuation in Los Angeles",
+        "title": "Professional Auto Repair Shop valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Auto Repair Shop Valuation in Chicago",
+        "title": "Professional Auto Repair Shop valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Auto Repair Shop Valuation in Houston",
+        "title": "Professional Auto Repair Shop valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Auto Repair Shop Valuation in Phoenix",
+        "title": "Professional Auto Repair Shop valuation services in Phoenix"
+      }
     ]
   },
   "location_to_industry": {
@@ -482,6 +509,11 @@
         "url": "/salon-barbershop-valuation-calculator",
         "anchor": "Salon & Barbershop Calculator",
         "title": "Calculate Salon & Barbershop value in New York City"
+      },
+      {
+        "url": "/auto-repair-shop-valuation-calculator",
+        "anchor": "Auto Repair Shop Calculator",
+        "title": "Calculate Auto Repair Shop value in New York City"
       }
     ],
     "los-angeles": [
@@ -559,6 +591,11 @@
         "url": "/salon-barbershop-valuation-calculator",
         "anchor": "Salon & Barbershop Calculator",
         "title": "Calculate Salon & Barbershop value in Los Angeles"
+      },
+      {
+        "url": "/auto-repair-shop-valuation-calculator",
+        "anchor": "Auto Repair Shop Calculator",
+        "title": "Calculate Auto Repair Shop value in Los Angeles"
       }
     ],
     "chicago": [
@@ -636,6 +673,11 @@
         "url": "/salon-barbershop-valuation-calculator",
         "anchor": "Salon & Barbershop Calculator",
         "title": "Calculate Salon & Barbershop value in Chicago"
+      },
+      {
+        "url": "/auto-repair-shop-valuation-calculator",
+        "anchor": "Auto Repair Shop Calculator",
+        "title": "Calculate Auto Repair Shop value in Chicago"
       }
     ],
     "houston": [
@@ -713,6 +755,11 @@
         "url": "/salon-barbershop-valuation-calculator",
         "anchor": "Salon & Barbershop Calculator",
         "title": "Calculate Salon & Barbershop value in Houston"
+      },
+      {
+        "url": "/auto-repair-shop-valuation-calculator",
+        "anchor": "Auto Repair Shop Calculator",
+        "title": "Calculate Auto Repair Shop value in Houston"
       }
     ],
     "phoenix": [
@@ -790,6 +837,11 @@
         "url": "/salon-barbershop-valuation-calculator",
         "anchor": "Salon & Barbershop Calculator",
         "title": "Calculate Salon & Barbershop value in Phoenix"
+      },
+      {
+        "url": "/auto-repair-shop-valuation-calculator",
+        "anchor": "Auto Repair Shop Calculator",
+        "title": "Calculate Auto Repair Shop value in Phoenix"
       }
     ]
   },
