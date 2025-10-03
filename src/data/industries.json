@@ -307,6 +307,28 @@
         "Equipment age and condition",
         "Location demographics and competition"
       ]
+    },
+    {
+      "id": "salon-barbershop",
+      "name": "Salon & Barbershop",
+      "title": "Salon & Barbershop Calculator - Value Your Salon with Industry Multiples",
+      "description": "Professional salon and barbershop valuation calculator with client base analysis, service revenue assessment, and beauty industry multiples for accurate valuations.",
+      "keywords": "salon valuation calculator, barbershop calculator, salon business worth, beauty salon value, hair salon appraisal, barbershop valuation, salon business calculator",
+      "multiple_range": { "min": 1.8, "max": 5.5 },
+      "characteristics": [
+        "Service-based revenue model",
+        "Client relationship dependency",
+        "Location and foot traffic critical",
+        "Staff skill and reputation focus",
+        "Seasonal service patterns"
+      ],
+      "key_factors": [
+        "Active client base size",
+        "Client retention rates",
+        "Average service ticket",
+        "Staff expertise and reputation",
+        "Location demographics and visibility"
+      ]
     }
   ]
 }

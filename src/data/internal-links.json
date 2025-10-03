@@ -377,6 +377,33 @@
         "anchor": "Gym & Fitness Center Valuation in Phoenix",
         "title": "Professional Gym & Fitness Center valuation services in Phoenix"
       }
+    ],
+    "salon-barbershop": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Salon & Barbershop Valuation in New York City",
+        "title": "Professional Salon & Barbershop valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Salon & Barbershop Valuation in Los Angeles",
+        "title": "Professional Salon & Barbershop valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Salon & Barbershop Valuation in Chicago",
+        "title": "Professional Salon & Barbershop valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Salon & Barbershop Valuation in Houston",
+        "title": "Professional Salon & Barbershop valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Salon & Barbershop Valuation in Phoenix",
+        "title": "Professional Salon & Barbershop valuation services in Phoenix"
+      }
     ]
   },
   "location_to_industry": {
@@ -450,6 +477,11 @@
         "url": "/gym-fitness-center-valuation-calculator",
         "anchor": "Gym & Fitness Center Calculator",
         "title": "Calculate Gym & Fitness Center value in New York City"
+      },
+      {
+        "url": "/salon-barbershop-valuation-calculator",
+        "anchor": "Salon & Barbershop Calculator",
+        "title": "Calculate Salon & Barbershop value in New York City"
       }
     ],
     "los-angeles": [
@@ -522,6 +554,11 @@
         "url": "/gym-fitness-center-valuation-calculator",
         "anchor": "Gym & Fitness Center Calculator",
         "title": "Calculate Gym & Fitness Center value in Los Angeles"
+      },
+      {
+        "url": "/salon-barbershop-valuation-calculator",
+        "anchor": "Salon & Barbershop Calculator",
+        "title": "Calculate Salon & Barbershop value in Los Angeles"
       }
     ],
     "chicago": [
@@ -594,6 +631,11 @@
         "url": "/gym-fitness-center-valuation-calculator",
         "anchor": "Gym & Fitness Center Calculator",
         "title": "Calculate Gym & Fitness Center value in Chicago"
+      },
+      {
+        "url": "/salon-barbershop-valuation-calculator",
+        "anchor": "Salon & Barbershop Calculator",
+        "title": "Calculate Salon & Barbershop value in Chicago"
       }
     ],
     "houston": [
@@ -666,6 +708,11 @@
         "url": "/gym-fitness-center-valuation-calculator",
         "anchor": "Gym & Fitness Center Calculator",
         "title": "Calculate Gym & Fitness Center value in Houston"
+      },
+      {
+        "url": "/salon-barbershop-valuation-calculator",
+        "anchor": "Salon & Barbershop Calculator",
+        "title": "Calculate Salon & Barbershop value in Houston"
       }
     ],
     "phoenix": [
@@ -738,6 +785,11 @@
         "url": "/gym-fitness-center-valuation-calculator",
         "anchor": "Gym & Fitness Center Calculator",
         "title": "Calculate Gym & Fitness Center value in Phoenix"
+      },
+      {
+        "url": "/salon-barbershop-valuation-calculator",
+        "anchor": "Salon & Barbershop Calculator",
+        "title": "Calculate Salon & Barbershop value in Phoenix"
       }
     ]
   },
