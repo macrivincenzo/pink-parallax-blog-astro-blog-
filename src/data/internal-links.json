@@ -405,6 +405,33 @@
         "title": "Professional Salon & Barbershop valuation services in Phoenix"
       }
     ],
+    "cleaning-service": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Cleaning Service Valuation in New York City",
+        "title": "Professional Cleaning Service valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Cleaning Service Valuation in Los Angeles",
+        "title": "Professional Cleaning Service valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Cleaning Service Valuation in Chicago",
+        "title": "Professional Cleaning Service valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Cleaning Service Valuation in Houston",
+        "title": "Professional Cleaning Service valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Cleaning Service Valuation in Phoenix",
+        "title": "Professional Cleaning Service valuation services in Phoenix"
+      }
+    ],
     "auto-repair-shop": [
       {
         "url": "/business-valuation-new-york-city",
@@ -511,6 +538,11 @@
         "title": "Calculate Salon & Barbershop value in New York City"
       },
       {
+        "url": "/cleaning-service-valuation-calculator",
+        "anchor": "Cleaning Service Calculator",
+        "title": "Calculate Cleaning Service value in New York City"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in New York City"
@@ -591,6 +623,11 @@
         "url": "/salon-barbershop-valuation-calculator",
         "anchor": "Salon & Barbershop Calculator",
         "title": "Calculate Salon & Barbershop value in Los Angeles"
+      },
+      {
+        "url": "/cleaning-service-valuation-calculator",
+        "anchor": "Cleaning Service Calculator",
+        "title": "Calculate Cleaning Service value in Los Angeles"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",
@@ -675,6 +712,11 @@
         "title": "Calculate Salon & Barbershop value in Chicago"
       },
       {
+        "url": "/cleaning-service-valuation-calculator",
+        "anchor": "Cleaning Service Calculator",
+        "title": "Calculate Cleaning Service value in Chicago"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Chicago"
@@ -757,6 +799,11 @@
         "title": "Calculate Salon & Barbershop value in Houston"
       },
       {
+        "url": "/cleaning-service-valuation-calculator",
+        "anchor": "Cleaning Service Calculator",
+        "title": "Calculate Cleaning Service value in Houston"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Houston"
@@ -837,6 +884,11 @@
         "url": "/salon-barbershop-valuation-calculator",
         "anchor": "Salon & Barbershop Calculator",
         "title": "Calculate Salon & Barbershop value in Phoenix"
+      },
+      {
+        "url": "/cleaning-service-valuation-calculator",
+        "anchor": "Cleaning Service Calculator",
+        "title": "Calculate Cleaning Service value in Phoenix"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",

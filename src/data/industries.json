@@ -331,6 +331,28 @@
       ]
     },
     {
+      "id": "cleaning-service",
+      "name": "Cleaning Service",
+      "title": "Cleaning Service Calculator - Calculate Cleaning Business Worth & SDE Analysis",
+      "description": "Professional cleaning service valuation calculator with recurring revenue analysis, client base assessment, and cleaning industry multiples for accurate service valuations.",
+      "keywords": "cleaning service valuation calculator, maid service calculator, cleaning business worth, janitorial service value, commercial cleaning valuation, residential cleaning appraisal",
+      "multiple_range": { "min": 2.0, "max": 4.5 },
+      "characteristics": [
+        "Recurring revenue model",
+        "Client relationship dependency",
+        "Labor-intensive operations",
+        "Location and service area critical",
+        "Equipment and supply management"
+      ],
+      "key_factors": [
+        "Recurring revenue percentage",
+        "Client retention rates",
+        "Service area coverage",
+        "Team quality and training",
+        "Contract terms and stability"
+      ]
+    },
+    {
       "id": "auto-repair-shop",
       "name": "Auto Repair Shop",
       "title": "Auto Repair Shop Calculator - Calculate Auto Shop Value & Service Revenue",
