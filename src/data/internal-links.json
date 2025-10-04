@@ -432,6 +432,33 @@
         "title": "Professional Cleaning Service valuation services in Phoenix"
       }
     ],
+    "landscaping-business": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Landscaping Business Valuation in New York City",
+        "title": "Professional Landscaping Business valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Landscaping Business Valuation in Los Angeles",
+        "title": "Professional Landscaping Business valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Landscaping Business Valuation in Chicago",
+        "title": "Professional Landscaping Business valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Landscaping Business Valuation in Houston",
+        "title": "Professional Landscaping Business valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Landscaping Business Valuation in Phoenix",
+        "title": "Professional Landscaping Business valuation services in Phoenix"
+      }
+    ],
     "auto-repair-shop": [
       {
         "url": "/business-valuation-new-york-city",
@@ -543,6 +570,11 @@
         "title": "Calculate Cleaning Service value in New York City"
       },
       {
+        "url": "/landscaping-business-valuation-calculator",
+        "anchor": "Landscaping Business Calculator",
+        "title": "Calculate Landscaping Business value in New York City"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in New York City"
@@ -628,6 +660,11 @@
         "url": "/cleaning-service-valuation-calculator",
         "anchor": "Cleaning Service Calculator",
         "title": "Calculate Cleaning Service value in Los Angeles"
+      },
+      {
+        "url": "/landscaping-business-valuation-calculator",
+        "anchor": "Landscaping Business Calculator",
+        "title": "Calculate Landscaping Business value in Los Angeles"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",
@@ -717,6 +754,11 @@
         "title": "Calculate Cleaning Service value in Chicago"
       },
       {
+        "url": "/landscaping-business-valuation-calculator",
+        "anchor": "Landscaping Business Calculator",
+        "title": "Calculate Landscaping Business value in Chicago"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Chicago"
@@ -804,6 +846,11 @@
         "title": "Calculate Cleaning Service value in Houston"
       },
       {
+        "url": "/landscaping-business-valuation-calculator",
+        "anchor": "Landscaping Business Calculator",
+        "title": "Calculate Landscaping Business value in Houston"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Houston"
@@ -889,6 +936,11 @@
         "url": "/cleaning-service-valuation-calculator",
         "anchor": "Cleaning Service Calculator",
         "title": "Calculate Cleaning Service value in Phoenix"
+      },
+      {
+        "url": "/landscaping-business-valuation-calculator",
+        "anchor": "Landscaping Business Calculator",
+        "title": "Calculate Landscaping Business value in Phoenix"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",

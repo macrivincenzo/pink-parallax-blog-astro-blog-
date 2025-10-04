@@ -330,28 +330,50 @@
         "Location demographics and visibility"
       ]
     },
-    {
-      "id": "cleaning-service",
-      "name": "Cleaning Service",
-      "title": "Cleaning Service Calculator - Calculate Cleaning Business Worth & SDE Analysis",
-      "description": "Professional cleaning service valuation calculator with recurring revenue analysis, client base assessment, and cleaning industry multiples for accurate service valuations.",
-      "keywords": "cleaning service valuation calculator, maid service calculator, cleaning business worth, janitorial service value, commercial cleaning valuation, residential cleaning appraisal",
-      "multiple_range": { "min": 2.0, "max": 4.5 },
-      "characteristics": [
-        "Recurring revenue model",
-        "Client relationship dependency",
-        "Labor-intensive operations",
-        "Location and service area critical",
-        "Equipment and supply management"
-      ],
-      "key_factors": [
-        "Recurring revenue percentage",
-        "Client retention rates",
-        "Service area coverage",
-        "Team quality and training",
-        "Contract terms and stability"
-      ]
-    },
+  {
+    "id": "cleaning-service",
+    "name": "Cleaning Service",
+    "title": "Cleaning Service Calculator - Calculate Cleaning Business Worth & SDE Analysis",
+    "description": "Professional cleaning service valuation calculator with recurring revenue analysis, client base assessment, and cleaning industry multiples for accurate service valuations.",
+    "keywords": "cleaning service valuation calculator, maid service calculator, cleaning business worth, janitorial service value, commercial cleaning valuation, residential cleaning appraisal",
+    "multiple_range": { "min": 2.0, "max": 4.5 },
+    "characteristics": [
+      "Recurring revenue model",
+      "Client relationship dependency",
+      "Labor-intensive operations",
+      "Location and service area critical",
+      "Equipment and supply management"
+    ],
+    "key_factors": [
+      "Recurring revenue percentage",
+      "Client retention rates",
+      "Service area coverage",
+      "Team quality and training",
+      "Contract terms and stability"
+    ]
+  },
+  {
+    "id": "landscaping-business",
+    "name": "Landscaping Business",
+    "title": "Landscaping Business Calculator - Calculate Lawn Care Company Worth & SDE Analysis",
+    "description": "Professional landscaping business valuation calculator with seasonal revenue analysis, equipment assessment, and green industry multiples for accurate business valuations.",
+    "keywords": "landscaping business valuation, lawn care company value, landscaping company worth, lawn service valuation, landscaping business appraisal, lawn maintenance valuation",
+    "multiple_range": { "min": 2.0, "max": 4.5 },
+    "characteristics": [
+      "Seasonal revenue cycles",
+      "Equipment-intensive operations",
+      "Weather dependency factors",
+      "Recurring maintenance contracts",
+      "Geographic service area limitations"
+    ],
+    "key_factors": [
+      "Seasonal revenue balance",
+      "Equipment quality and age",
+      "Client contract terms",
+      "Service area density",
+      "Weather mitigation strategies"
+    ]
+  },
     {
       "id": "auto-repair-shop",
       "name": "Auto Repair Shop",
