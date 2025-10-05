@@ -486,6 +486,33 @@
         "title": "Professional Consulting Firm valuation services in Phoenix"
       }
     ],
+    "real-estate-agency": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Real Estate Agency Valuation in New York City",
+        "title": "Professional Real Estate Agency valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Real Estate Agency Valuation in Los Angeles",
+        "title": "Professional Real Estate Agency valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Real Estate Agency Valuation in Chicago",
+        "title": "Professional Real Estate Agency valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Real Estate Agency Valuation in Houston",
+        "title": "Professional Real Estate Agency valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Real Estate Agency Valuation in Phoenix",
+        "title": "Professional Real Estate Agency valuation services in Phoenix"
+      }
+    ],
     "auto-repair-shop": [
       {
         "url": "/business-valuation-new-york-city",
@@ -607,6 +634,11 @@
         "title": "Calculate Consulting Firm value in New York City"
       },
       {
+        "url": "/real-estate-agency-valuation-calculator",
+        "anchor": "Real Estate Agency Calculator",
+        "title": "Calculate Real Estate Agency value in New York City"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in New York City"
@@ -702,6 +734,11 @@
         "url": "/consulting-firm-valuation-calculator",
         "anchor": "Consulting Firm Calculator",
         "title": "Calculate Consulting Firm value in Los Angeles"
+      },
+      {
+        "url": "/real-estate-agency-valuation-calculator",
+        "anchor": "Real Estate Agency Calculator",
+        "title": "Calculate Real Estate Agency value in Los Angeles"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",
@@ -801,6 +838,11 @@
         "title": "Calculate Consulting Firm value in Chicago"
       },
       {
+        "url": "/real-estate-agency-valuation-calculator",
+        "anchor": "Real Estate Agency Calculator",
+        "title": "Calculate Real Estate Agency value in Chicago"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Chicago"
@@ -898,6 +940,11 @@
         "title": "Calculate Consulting Firm value in Houston"
       },
       {
+        "url": "/real-estate-agency-valuation-calculator",
+        "anchor": "Real Estate Agency Calculator",
+        "title": "Calculate Real Estate Agency value in Houston"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Houston"
@@ -993,6 +1040,11 @@
         "url": "/consulting-firm-valuation-calculator",
         "anchor": "Consulting Firm Calculator",
         "title": "Calculate Consulting Firm value in Phoenix"
+      },
+      {
+        "url": "/real-estate-agency-valuation-calculator",
+        "anchor": "Real Estate Agency Calculator",
+        "title": "Calculate Real Estate Agency value in Phoenix"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",

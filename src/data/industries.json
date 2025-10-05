@@ -397,6 +397,28 @@
       ]
     },
     {
+      "id": "real-estate-agency",
+      "name": "Real Estate Agency",
+      "title": "Real Estate Agency Calculator - Calculate Commission-Based Brokerage Worth & SDE Analysis",
+      "description": "Professional real estate agency valuation calculator with commission-based analysis, agent productivity assessment, and industry multiples for accurate brokerage valuations.",
+      "keywords": "real estate agency valuation, real estate business calculator, realtor commission value, real estate brokerage worth, agent business appraisal, property agency valuation",
+      "multiple_range": { "min": 2.0, "max": 5.5 },
+      "characteristics": [
+        "Commission-based revenue model",
+        "Agent productivity dependent",
+        "Seasonal market variations",
+        "Local market penetration",
+        "Recruitment and retention focus"
+      ],
+      "key_factors": [
+        "Agent productivity and retention rates",
+        "Market share and brand recognition",
+        "Property management revenue streams",
+        "Geographic market coverage",
+        "Technology and marketing systems"
+      ]
+    },
+    {
       "id": "auto-repair-shop",
       "name": "Auto Repair Shop",
       "title": "Auto Repair Shop Calculator - Calculate Auto Shop Value & Service Revenue",
