@@ -441,6 +441,28 @@
       ]
     },
     {
+      "id": "pet-grooming",
+      "name": "Pet Grooming",
+      "title": "Pet Grooming Business Calculator - Calculate Pet Care Business Worth & SDE Analysis",
+      "description": "Professional pet grooming business valuation calculator with SDE analysis, service assessment, and pet care industry multiples for accurate grooming business valuations.",
+      "keywords": "pet grooming business valuation, dog grooming calculator, cat grooming worth, pet salon value, grooming business appraisal, pet care valuation",
+      "multiple_range": { "min": 1.5, "max": 4.5 },
+      "characteristics": [
+        "Service-based revenue model",
+        "Equipment-dependent operations",
+        "Customer loyalty and retention",
+        "Seasonal demand variations",
+        "Skilled labor requirements"
+      ],
+      "key_factors": [
+        "Customer base and retention rate",
+        "Service quality and reputation",
+        "Equipment condition and efficiency",
+        "Location and accessibility",
+        "Staff skills and certification"
+      ]
+    },
+    {
       "id": "auto-repair-shop",
       "name": "Auto Repair Shop",
       "title": "Auto Repair Shop Calculator - Calculate Auto Shop Value & Service Revenue",

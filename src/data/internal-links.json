@@ -540,6 +540,33 @@
         "title": "Professional Daycare Center valuation services in Phoenix"
       }
     ],
+    "pet-grooming": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Pet Grooming Business Valuation in New York City",
+        "title": "Professional Pet Grooming business valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Pet Grooming Business Valuation in Los Angeles",
+        "title": "Professional Pet Grooming business valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Pet Grooming Business Valuation in Chicago",
+        "title": "Professional Pet Grooming business valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Pet Grooming Business Valuation in Houston",
+        "title": "Professional Pet Grooming business valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Pet Grooming Business Valuation in Phoenix",
+        "title": "Professional Pet Grooming business valuation services in Phoenix"
+      }
+    ],
     "auto-repair-shop": [
       {
         "url": "/business-valuation-new-york-city",
@@ -671,6 +698,11 @@
         "title": "Calculate Daycare Center value in New York City"
       },
       {
+        "url": "/pet-grooming-business-valuation-calculator",
+        "anchor": "Pet Grooming Calculator",
+        "title": "Calculate Pet Grooming business value in New York City"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in New York City"
@@ -776,6 +808,11 @@
         "url": "/daycare-center-valuation-calculator",
         "anchor": "Daycare Center Calculator",
         "title": "Calculate Daycare Center value in Los Angeles"
+      },
+      {
+        "url": "/pet-grooming-business-valuation-calculator",
+        "anchor": "Pet Grooming Calculator",
+        "title": "Calculate Pet Grooming business value in Los Angeles"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",
@@ -885,6 +922,11 @@
         "title": "Calculate Daycare Center value in Chicago"
       },
       {
+        "url": "/pet-grooming-business-valuation-calculator",
+        "anchor": "Pet Grooming Calculator",
+        "title": "Calculate Pet Grooming business value in Chicago"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Chicago"
@@ -992,6 +1034,11 @@
         "title": "Calculate Daycare Center value in Houston"
       },
       {
+        "url": "/pet-grooming-business-valuation-calculator",
+        "anchor": "Pet Grooming Calculator",
+        "title": "Calculate Pet Grooming business value in Houston"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Houston"
@@ -1097,6 +1144,11 @@
         "url": "/daycare-center-valuation-calculator",
         "anchor": "Daycare Center Calculator",
         "title": "Calculate Daycare Center value in Phoenix"
+      },
+      {
+        "url": "/pet-grooming-business-valuation-calculator",
+        "anchor": "Pet Grooming Calculator",
+        "title": "Calculate Pet Grooming business value in Phoenix"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",
