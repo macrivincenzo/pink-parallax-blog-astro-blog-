@@ -419,6 +419,28 @@
       ]
     },
     {
+      "id": "daycare-center",
+      "name": "Daycare Center",
+      "title": "Daycare Center Calculator - Calculate Childcare Business Worth & Enrollment Analysis",
+      "description": "Professional daycare center valuation calculator with SDE analysis, enrollment assessment, and childcare industry multiples for accurate center valuations.",
+      "keywords": "daycare center valuation, childcare business calculator, daycare center value, childcare business worth, daycare appraisal, daycare valuation calculator",
+      "multiple_range": { "min": 1.5, "max": 6.0 },
+      "characteristics": [
+        "Enrollment-based revenue model",
+        "Licensed capacity dependent",
+        "Seasonal enrollment variations",
+        "Staff-to-child ratio requirements",
+        "Regulatory compliance focus"
+      ],
+      "key_factors": [
+        "Enrollment rate and stability",
+        "Facility quality and ownership",
+        "License capacity and accreditation",
+        "Staff quality and retention",
+        "Location demographics and competition"
+      ]
+    },
+    {
       "id": "auto-repair-shop",
       "name": "Auto Repair Shop",
       "title": "Auto Repair Shop Calculator - Calculate Auto Shop Value & Service Revenue",

@@ -513,6 +513,33 @@
         "title": "Professional Real Estate Agency valuation services in Phoenix"
       }
     ],
+    "daycare-center": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Daycare Center Valuation in New York City",
+        "title": "Professional Daycare Center valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Daycare Center Valuation in Los Angeles",
+        "title": "Professional Daycare Center valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Daycare Center Valuation in Chicago",
+        "title": "Professional Daycare Center valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Daycare Center Valuation in Houston",
+        "title": "Professional Daycare Center valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Daycare Center Valuation in Phoenix",
+        "title": "Professional Daycare Center valuation services in Phoenix"
+      }
+    ],
     "auto-repair-shop": [
       {
         "url": "/business-valuation-new-york-city",
@@ -639,6 +666,11 @@
         "title": "Calculate Real Estate Agency value in New York City"
       },
       {
+        "url": "/daycare-center-valuation-calculator",
+        "anchor": "Daycare Center Calculator",
+        "title": "Calculate Daycare Center value in New York City"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in New York City"
@@ -739,6 +771,11 @@
         "url": "/real-estate-agency-valuation-calculator",
         "anchor": "Real Estate Agency Calculator",
         "title": "Calculate Real Estate Agency value in Los Angeles"
+      },
+      {
+        "url": "/daycare-center-valuation-calculator",
+        "anchor": "Daycare Center Calculator",
+        "title": "Calculate Daycare Center value in Los Angeles"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",
@@ -843,6 +880,11 @@
         "title": "Calculate Real Estate Agency value in Chicago"
       },
       {
+        "url": "/daycare-center-valuation-calculator",
+        "anchor": "Daycare Center Calculator",
+        "title": "Calculate Daycare Center value in Chicago"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Chicago"
@@ -945,6 +987,11 @@
         "title": "Calculate Real Estate Agency value in Houston"
       },
       {
+        "url": "/daycare-center-valuation-calculator",
+        "anchor": "Daycare Center Calculator",
+        "title": "Calculate Daycare Center value in Houston"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Houston"
@@ -1045,6 +1092,11 @@
         "url": "/real-estate-agency-valuation-calculator",
         "anchor": "Real Estate Agency Calculator",
         "title": "Calculate Real Estate Agency value in Phoenix"
+      },
+      {
+        "url": "/daycare-center-valuation-calculator",
+        "anchor": "Daycare Center Calculator",
+        "title": "Calculate Daycare Center value in Phoenix"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",
