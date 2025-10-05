@@ -352,28 +352,50 @@
       "Contract terms and stability"
     ]
   },
-  {
-    "id": "landscaping-business",
-    "name": "Landscaping Business",
-    "title": "Landscaping Business Calculator - Calculate Lawn Care Company Worth & SDE Analysis",
-    "description": "Professional landscaping business valuation calculator with seasonal revenue analysis, equipment assessment, and green industry multiples for accurate business valuations.",
-    "keywords": "landscaping business valuation, lawn care company value, landscaping company worth, lawn service valuation, landscaping business appraisal, lawn maintenance valuation",
-    "multiple_range": { "min": 2.0, "max": 4.5 },
-    "characteristics": [
-      "Seasonal revenue cycles",
-      "Equipment-intensive operations",
-      "Weather dependency factors",
-      "Recurring maintenance contracts",
-      "Geographic service area limitations"
-    ],
-    "key_factors": [
-      "Seasonal revenue balance",
-      "Equipment quality and age",
-      "Client contract terms",
-      "Service area density",
-      "Weather mitigation strategies"
-    ]
-  },
+    {
+      "id": "landscaping-business",
+      "name": "Landscaping Business",
+      "title": "Landscaping Business Calculator - Calculate Lawn Care Company Worth & SDE Analysis",
+      "description": "Professional landscaping business valuation calculator with seasonal revenue analysis, equipment assessment, and green industry multiples for accurate business valuations.",
+      "keywords": "landscaping business valuation, lawn care company value, landscaping company worth, lawn service valuation, landscaping business appraisal, lawn maintenance valuation",
+      "multiple_range": { "min": 2.0, "max": 4.5 },
+      "characteristics": [
+        "Seasonal revenue cycles",
+        "Equipment-intensive operations",
+        "Weather dependency factors",
+        "Recurring maintenance contracts",
+        "Geographic service area limitations"
+      ],
+      "key_factors": [
+        "Seasonal revenue balance",
+        "Equipment quality and age",
+        "Client contract terms",
+        "Service area density",
+        "Weather mitigation strategies"
+      ]
+    },
+    {
+      "id": "consulting-firm",
+      "name": "Consulting Firm",
+      "title": "Consulting Firm Calculator - Calculate Business Consulting Worth & SDE Analysis",
+      "description": "Professional consulting firm valuation calculator with SDE analysis, industry multiples, and client base assessment for accurate business consulting valuations.",
+      "keywords": "consulting firm valuation, business consulting value, consulting company worth, professional services valuation, consulting firm appraisal, management consulting valuation",
+      "multiple_range": { "min": 2.5, "max": 6.5 },
+      "characteristics": [
+        "Knowledge-based services",
+        "Human capital intensive",
+        "Project-based revenue models",
+        "Client relationship dependency",
+        "Intellectual property assets"
+      ],
+      "key_factors": [
+        "Client base quality and retention",
+        "Revenue model (retainer vs project)",
+        "Consultant team depth and expertise",
+        "Owner dependency levels",
+        "Specialized methodology and IP"
+      ]
+    },
     {
       "id": "auto-repair-shop",
       "name": "Auto Repair Shop",

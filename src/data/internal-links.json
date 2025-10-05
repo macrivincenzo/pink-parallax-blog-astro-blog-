@@ -459,6 +459,33 @@
         "title": "Professional Landscaping Business valuation services in Phoenix"
       }
     ],
+    "consulting-firm": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Consulting Firm Valuation in New York City",
+        "title": "Professional Consulting Firm valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Consulting Firm Valuation in Los Angeles",
+        "title": "Professional Consulting Firm valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Consulting Firm Valuation in Chicago",
+        "title": "Professional Consulting Firm valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Consulting Firm Valuation in Houston",
+        "title": "Professional Consulting Firm valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Consulting Firm Valuation in Phoenix",
+        "title": "Professional Consulting Firm valuation services in Phoenix"
+      }
+    ],
     "auto-repair-shop": [
       {
         "url": "/business-valuation-new-york-city",
@@ -575,6 +602,11 @@
         "title": "Calculate Landscaping Business value in New York City"
       },
       {
+        "url": "/consulting-firm-valuation-calculator",
+        "anchor": "Consulting Firm Calculator",
+        "title": "Calculate Consulting Firm value in New York City"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in New York City"
@@ -665,6 +697,11 @@
         "url": "/landscaping-business-valuation-calculator",
         "anchor": "Landscaping Business Calculator",
         "title": "Calculate Landscaping Business value in Los Angeles"
+      },
+      {
+        "url": "/consulting-firm-valuation-calculator",
+        "anchor": "Consulting Firm Calculator",
+        "title": "Calculate Consulting Firm value in Los Angeles"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",
@@ -759,6 +796,11 @@
         "title": "Calculate Landscaping Business value in Chicago"
       },
       {
+        "url": "/consulting-firm-valuation-calculator",
+        "anchor": "Consulting Firm Calculator",
+        "title": "Calculate Consulting Firm value in Chicago"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Chicago"
@@ -851,6 +893,11 @@
         "title": "Calculate Landscaping Business value in Houston"
       },
       {
+        "url": "/consulting-firm-valuation-calculator",
+        "anchor": "Consulting Firm Calculator",
+        "title": "Calculate Consulting Firm value in Houston"
+      },
+      {
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Houston"
@@ -941,6 +988,11 @@
         "url": "/landscaping-business-valuation-calculator",
         "anchor": "Landscaping Business Calculator",
         "title": "Calculate Landscaping Business value in Phoenix"
+      },
+      {
+        "url": "/consulting-firm-valuation-calculator",
+        "anchor": "Consulting Firm Calculator",
+        "title": "Calculate Consulting Firm value in Phoenix"
       },
       {
         "url": "/auto-repair-shop-valuation-calculator",
