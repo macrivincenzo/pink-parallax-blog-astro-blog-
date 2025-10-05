@@ -9,25 +9,18 @@
 4. IMPORTANT: NEVER include `<base target="_blank">` tag - this causes new tab opening issues
 5. Ensure all CTAs point to: `https://thevaluationgenie.com/`
 
-### STEP 2: UPDATE ALL HTML FILES NAVIGATION (15 files total)
+### STEP 2: UPDATE ALL HTML FILES NAVIGATION
 Update navigation in ALL existing HTML calculator files to include new article link:
 
 **Files to update:**
-- src/pages/medical-practice-calculator.html
-- src/pages/restaurant-calculator.html
-- src/pages/ecommerce-calculator.html
-- src/pages/saas-calculator.html
-- src/pages/manufacturing-calculator.html
-- src/pages/service-business-calculator.html
-- src/pages/retail-store-calculator.html
-- src/pages/franchise-calculator.html
-- src/pages/law-firm-calculator.html
-- src/pages/accounting-firm-calculator.html
-- src/pages/dental-practice-calculator.html
-- src/pages/veterinary-clinic-calculator.html
-- src/pages/gym-fitness-center-calculator.html
-- src/pages/salon-barbershop-calculator.html
-- src/pages/auto-repair-shop-calculator.html
+- Find ALL existing HTML calculator files in src/pages/ directory
+- Update navigation in every single one of them
+- Count the total number of HTML files to get the correct count
+
+**Navigation order should be:**
+Home → Medical Practice → Restaurant → E-commerce → SaaS → Manufacturing → Services → Retail Store → Franchise → Law Firm → Accounting Firm → Dental Practice → Veterinary Clinic → Gym/Fitness Center → Salon/Barbershop → Cleaning Service → Landscaping Business → Consulting Firm → Real Estate Agency → Daycare Center → Pet Grooming → [NEW ARTICLE] → Auto Repair Shop → About
+
+**Note:** The exact position of [NEW ARTICLE] will depend on where it fits alphabetically or by user's specified order. Insert it in the correct position between existing articles.
 
 **Navigation Update Pattern:**
 Find this exact pattern in each file:
@@ -176,3 +169,117 @@ git push
 4. Report completion with summary
 
 This template ensures PERFECT consistency every time!
+
+# ADDING NEW ARTICLE - EXACT STEP-BY-STEP PROMPT
+
+## CRITICAL INSTRUCTIONS:
+- Follow these steps EXACTLY in this order
+- Do NOT deviate from the process
+- Do NOT make assumptions or changes
+- Use the chunked writing approach for large HTML files
+- Complete ALL 5 steps before finishing
+
+---
+
+## STEP 1: CREATE HTML ARTICLE WITH CHUNKED WRITING
+**What to do:**
+1. Delete any existing HTML file with the same name (if it exists)
+2. Create the new HTML file using the EXACT HTML content provided by user
+3. Use chunked writing approach (write first part, then append remaining sections)
+4. Ensure the file contains the complete HTML from user
+5. Verify the file ends properly with `</html>` tag
+
+**Important:** 
+- Use the user's EXACT HTML content - do not modify or change anything
+- If file is large, use search_replace to append additional content
+- Make sure navigation includes ALL existing calculators in correct order
+- Add active state styling to the current article's navigation link
+
+---
+
+## STEP 2: UPDATE NAVIGATION IN ALL HTML FILES
+**What to do:**
+1. Add the new calculator link to ALL existing HTML files
+2. Place it in the correct position in the navigation order
+3. Use search_replace to update each file individually
+4. The new link should appear between the correct existing links
+
+**Files to update:**
+- Find ALL existing HTML calculator files in src/pages/ directory
+- Update navigation in every single one of them
+- Count the total number of HTML files to get the correct count
+
+**Navigation order should be:**
+Home → Medical Practice → Restaurant → E-commerce → SaaS → Manufacturing → Services → Retail Store → Franchise → Law Firm → Accounting Firm → Dental Practice → Veterinary Clinic → Gym/Fitness Center → Salon/Barbershop → Cleaning Service → Landscaping Business → Consulting Firm → Real Estate Agency → Daycare Center → Pet Grooming → [NEW ARTICLE] → Auto Repair Shop → About
+
+**Note:** The exact position of [NEW ARTICLE] will depend on where it fits alphabetically or by user's specified order. Insert it in the correct position between existing articles.
+
+---
+
+## STEP 3: UPDATE ASTRO COMPONENTS
+**What to do:**
+1. Update `src/components/Header.astro`:
+   - Add new HeaderLink for the new calculator
+   - Place it in the correct position in the navigation order
+
+2. Update `src/pages/blog/index.astro`:
+   - Add new entry to the `seoArticles` array
+   - Include: id, title, description, icon, url, featured (false), category
+   - Place it in the correct position in the array
+
+---
+
+## STEP 4: UPDATE DATA FILES
+**What to do:**
+1. Update `src/data/internal-links.json`:
+   - Add new industry section in `industry_to_location`
+   - Include location links for: New York City, Los Angeles, Chicago, Houston, Phoenix
+   - Add new calculator links to all location sections in `location_to_industry`
+   - Place links in the correct position in each location's array
+
+2. Update `src/data/industries.json`:
+   - Add new industry object with:
+     - id, name, title, description, keywords
+     - multiple_range (min/max values)
+     - characteristics array
+     - key_factors array
+   - Place it in the correct position in the industries array
+
+---
+
+## STEP 5: GIT COMMIT AND PUSH
+**What to do:**
+1. Run `git add .`
+2. Run `git commit -m "Add [ARTICLE NAME] Business Valuation Calculator 2025
+
+- Create complete [filename]-calculator.html with full HTML content
+- Update navigation in all [NUMBER] HTML files to include [ARTICLE NAME] link
+- Update Header.astro with [ARTICLE NAME] navigation
+- Update blog/index.astro with [ARTICLE NAME] article entry
+- Update internal-links.json with [ARTICLE NAME] data for all locations
+- Update industries.json with [ARTICLE NAME] industry data
+- Complete 5-step implementation following Adding article prompt template"`
+
+3. Run `git push`
+
+---
+
+## FINAL VERIFICATION:
+Before completing, verify:
+- [ ] HTML file created with complete user content
+- [ ] Navigation updated in all existing HTML files
+- [ ] Header.astro updated with new link
+- [ ] blog/index.astro updated with new article entry
+- [ ] internal-links.json updated with new data
+- [ ] industries.json updated with new industry data
+- [ ] All changes committed and pushed to GitHub
+
+---
+
+## REMINDERS:
+- Do NOT change the user's HTML content
+- Do NOT skip any steps
+- Do NOT make assumptions about file names or content
+- Use the exact same process every time
+- Complete ALL 5 steps in order
+- Update the todo list to track progress through each step
