@@ -29,18 +29,25 @@ Home → Medical Practice → Restaurant → E-commerce → SaaS → Manufacturi
 ---
 
 ## STEP 2: CREATE HTML ARTICLE WITH CHUNKED WRITING
+
+**CRITICAL NAVIGATION REQUIREMENT:**
+- **MANDATORY:** The new HTML article MUST contain ALL navigation links from existing articles
+- **MANDATORY:** Navigation must be in the correct order as specified in STEP 1
+- **MANDATORY:** The new article's navigation link must have active state styling
+- **MANDATORY:** Count and verify ALL navigation links are present (should match total from other articles)
+
+**Important:** 
+- Use the user's EXACT HTML content - do not modify or change anything
+- If file is large, use search_replace to append additional content
+- If user's HTML is missing navigation links, ADD THEM to match other articles
+- Navigation completeness is CRITICAL for SEO and user experience
+
 **What to do:**
 1. Delete any existing HTML file with the same name (if it exists)
 2. Create the new HTML file using the EXACT HTML content provided by user
 3. Use chunked writing approach (write first part, then append remaining sections)
 4. Ensure the file contains the complete HTML from user
 5. Verify the file ends properly with `</html>` tag
-
-**Important:** 
-- Use the user's EXACT HTML content - do not modify or change anything
-- If file is large, use search_replace to append additional content
-- Make sure navigation includes ALL existing calculators in correct order
-- Add active state styling to the current article's navigation link
 
 ---
 

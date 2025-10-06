@@ -463,6 +463,28 @@
       ]
     },
     {
+      "id": "boutique-store",
+      "name": "Boutique Store",
+      "title": "Boutique Store Valuation Calculator 2025 - Calculate Fashion Retail Business Worth & SDE Analysis",
+      "description": "Professional boutique store valuation calculator with SDE analysis, inventory valuation, and fashion retail industry multiples for accurate boutique store valuations.",
+      "keywords": "boutique store valuation calculator, fashion retail calculator, boutique business worth, clothing store value, fashion boutique appraisal, retail store valuation",
+      "multiple_range": { "min": 1.2, "max": 3.0 },
+      "characteristics": [
+        "Inventory-dependent operations",
+        "Fashion trend sensitivity",
+        "Location and foot traffic critical",
+        "Seasonal inventory cycles",
+        "Brand differentiation focus"
+      ],
+      "key_factors": [
+        "Inventory turnover and quality",
+        "Location demographics and visibility",
+        "Brand recognition and uniqueness",
+        "Customer loyalty and retention",
+        "Seasonal sales patterns"
+      ]
+    },
+    {
       "id": "food-truck",
       "name": "Food Truck",
       "title": "Food Truck Valuation Calculator 2025 - Calculate Food Truck Business Worth & SDE Analysis",
