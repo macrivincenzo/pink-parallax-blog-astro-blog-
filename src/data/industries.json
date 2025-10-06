@@ -463,6 +463,28 @@
       ]
     },
     {
+      "id": "food-truck",
+      "name": "Food Truck",
+      "title": "Food Truck Valuation Calculator 2025 - Calculate Food Truck Business Worth & SDE Analysis",
+      "description": "Professional food truck business valuation calculator with SDE analysis, location assessment, and food service industry multiples for accurate food truck valuations.",
+      "keywords": "food truck valuation calculator, food truck business worth, mobile food business value, food truck appraisal, street food business valuation, food truck calculator",
+      "multiple_range": { "min": 1.5, "max": 3.5 },
+      "characteristics": [
+        "Mobile location flexibility",
+        "Equipment and vehicle intensive",
+        "Location and event dependency",
+        "Seasonal demand variations",
+        "Permit and licensing requirements"
+      ],
+      "key_factors": [
+        "Location quality and consistency",
+        "Equipment condition and efficiency",
+        "Customer base and repeat business",
+        "Permit and licensing status",
+        "Menu differentiation and pricing"
+      ]
+    },
+    {
       "id": "auto-repair-shop",
       "name": "Auto Repair Shop",
       "title": "Auto Repair Shop Calculator - Calculate Auto Shop Value & Service Revenue",

@@ -9,23 +9,7 @@
 
 ---
 
-## STEP 1: CREATE HTML ARTICLE WITH CHUNKED WRITING
-**What to do:**
-1. Delete any existing HTML file with the same name (if it exists)
-2. Create the new HTML file using the EXACT HTML content provided by user
-3. Use chunked writing approach (write first part, then append remaining sections)
-4. Ensure the file contains the complete HTML from user
-5. Verify the file ends properly with `</html>` tag
-
-**Important:** 
-- Use the user's EXACT HTML content - do not modify or change anything
-- If file is large, use search_replace to append additional content
-- Make sure navigation includes ALL existing calculators in correct order
-- Add active state styling to the current article's navigation link
-
----
-
-## STEP 2: UPDATE NAVIGATION IN ALL HTML FILES
+## STEP 1: UPDATE NAVIGATION IN ALL HTML FILES
 **What to do:**
 1. Add the new calculator link to ALL existing HTML files
 2. Place it in the correct position in the navigation order
@@ -41,6 +25,22 @@
 Home → Medical Practice → Restaurant → E-commerce → SaaS → Manufacturing → Services → Retail Store → Franchise → Law Firm → Accounting Firm → Dental Practice → Veterinary Clinic → Gym/Fitness Center → Salon/Barbershop → Cleaning Service → Landscaping Business → Consulting Firm → Real Estate Agency → Daycare Center → Pet Grooming → [NEW ARTICLE] → Auto Repair Shop → About
 
 **Note:** The exact position of [NEW ARTICLE] will depend on where it fits alphabetically or by user's specified order. Insert it in the correct position between existing articles.
+
+---
+
+## STEP 2: CREATE HTML ARTICLE WITH CHUNKED WRITING
+**What to do:**
+1. Delete any existing HTML file with the same name (if it exists)
+2. Create the new HTML file using the EXACT HTML content provided by user
+3. Use chunked writing approach (write first part, then append remaining sections)
+4. Ensure the file contains the complete HTML from user
+5. Verify the file ends properly with `</html>` tag
+
+**Important:** 
+- Use the user's EXACT HTML content - do not modify or change anything
+- If file is large, use search_replace to append additional content
+- Make sure navigation includes ALL existing calculators in correct order
+- Add active state styling to the current article's navigation link
 
 ---
 
