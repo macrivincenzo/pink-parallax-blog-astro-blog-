@@ -647,6 +647,33 @@
         "anchor": "Auto Repair Shop Valuation in Phoenix",
         "title": "Professional Auto Repair Shop valuation services in Phoenix"
       }
+    ],
+    "home-health-care": [
+      {
+        "url": "/business-valuation-new-york-city",
+        "anchor": "Home Health Care Valuation in New York City",
+        "title": "Professional Home Health Care valuation services in New York City"
+      },
+      {
+        "url": "/business-valuation-los-angeles",
+        "anchor": "Home Health Care Valuation in Los Angeles",
+        "title": "Professional Home Health Care valuation services in Los Angeles"
+      },
+      {
+        "url": "/business-valuation-chicago",
+        "anchor": "Home Health Care Valuation in Chicago",
+        "title": "Professional Home Health Care valuation services in Chicago"
+      },
+      {
+        "url": "/business-valuation-houston",
+        "anchor": "Home Health Care Valuation in Houston",
+        "title": "Professional Home Health Care valuation services in Houston"
+      },
+      {
+        "url": "/business-valuation-phoenix",
+        "anchor": "Home Health Care Valuation in Phoenix",
+        "title": "Professional Home Health Care valuation services in Phoenix"
+      }
     ]
   },
   "location_to_industry": {
@@ -770,6 +797,11 @@
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in New York City"
+      },
+      {
+        "url": "/home-health-care-calculator",
+        "anchor": "Home Health Care Calculator",
+        "title": "Calculate Home Health Care business value in New York City"
       }
     ],
     "los-angeles": [
@@ -892,6 +924,11 @@
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Los Angeles"
+      },
+      {
+        "url": "/home-health-care-calculator",
+        "anchor": "Home Health Care Calculator",
+        "title": "Calculate Home Health Care business value in Los Angeles"
       }
     ],
     "chicago": [
@@ -1014,6 +1051,11 @@
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Chicago"
+      },
+      {
+        "url": "/home-health-care-calculator",
+        "anchor": "Home Health Care Calculator",
+        "title": "Calculate Home Health Care business value in Chicago"
       }
     ],
     "houston": [
@@ -1136,6 +1178,11 @@
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Houston"
+      },
+      {
+        "url": "/home-health-care-calculator",
+        "anchor": "Home Health Care Calculator",
+        "title": "Calculate Home Health Care business value in Houston"
       }
     ],
     "phoenix": [
@@ -1258,6 +1305,11 @@
         "url": "/auto-repair-shop-valuation-calculator",
         "anchor": "Auto Repair Shop Calculator",
         "title": "Calculate Auto Repair Shop value in Phoenix"
+      },
+      {
+        "url": "/home-health-care-calculator",
+        "anchor": "Home Health Care Calculator",
+        "title": "Calculate Home Health Care business value in Phoenix"
       }
     ]
   },

@@ -527,6 +527,28 @@
         "Facility size and bay count",
         "Specialty certifications and expertise"
       ]
+    },
+    {
+      "id": "home-health-care",
+      "name": "Home Health Care",
+      "title": "Home Health Care Valuation Calculator 2025 | Home Care Business Worth & SDE Analysis",
+      "description": "Professional home health care agency valuation calculator with SDE analysis, payor mix assessment, and healthcare industry multiples for accurate home care valuations.",
+      "keywords": "home health care valuation, home care calculator, home health business value, home care agency worth, home health appraisal, home care valuation calculator",
+      "multiple_range": { "min": 2.0, "max": 6.0 },
+      "characteristics": [
+        "Payor mix critical",
+        "Medicare certification value",
+        "Regulatory compliance intensive",
+        "Staffing dependent operations",
+        "Reimbursement timing challenges"
+      ],
+      "key_factors": [
+        "Medicare certification status",
+        "Quality STAR ratings",
+        "Payor mix composition",
+        "Patient census stability",
+        "Nurse retention rates"
+      ]
     }
   ]
 }
