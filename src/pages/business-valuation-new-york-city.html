@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Valuation in New York City 2025 | Professional NYC Business Appraisal Services</title>
+    <meta name="description" content="Get professional business valuation services in New York City for 2025. Expert NYC business appraisals, SDE analysis, and industry-specific valuations for all business types.">
+    <meta name="keywords" content="business valuation New York City, NYC business appraisal, business worth NYC, company valuation New York, business value calculator NYC">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        .calculator-section {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            color: white;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        input:focus, select:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+        }
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 10px;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .result {
+            background: #2ecc71;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .info-box {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #3498db;
+        }
+        .highlight {
+            background: #f39c12;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+        .steps {
+            background: #e8f4f8;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .step {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .factors {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .factor-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #e9ecef;
+            transition: transform 0.3s ease;
+        }
+        .factor-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .factor-card h4 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        .nyc-specific {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        .industry-examples {
+            background: #f1f2f6;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .example {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid #ff6b6b;
+        }
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .cta-section h2 {
+            color: white;
+            border-bottom: 3px solid white;
+        }
+        .contact-info {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .contact-info h3 {
+            color: #ecf0f1;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .disclaimer {
+            background: #e74c3c;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .factors {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav style="background: #1976d2; color: white; padding: 15px 0; margin-bottom: 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <div style="font-size: 24px; font-weight: bold;">
+                <a href="/" style="color: white; text-decoration: none;">The Valuation Genie</a>
+            </div>
+            <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                <a href="/" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Home</a>
+                <a href="/medical-practice-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Medical Practice</a>
+                <a href="/restaurant-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Restaurant</a>
+                <a href="/ecommerce-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">E-commerce</a>
+                <a href="/saas-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">SaaS</a>
+                <a href="/manufacturing-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Manufacturing</a>
+                <a href="/service-business-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Services</a>
+                <a href="/retail-store-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Retail Store</a>
+                <a href="/franchise-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Franchise</a>
+                <a href="/law-firm-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Law Firm</a>
+                <a href="/accounting-firm-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Accounting Firm</a>
+                <a href="/dental-practice-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Dental Practice</a>
+                <a href="/veterinary-clinic-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Veterinary Clinic</a>
+                <a href="/gym-fitness-center-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Gym/Fitness Center</a>
+                <a href="/salon-barbershop-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Salon/Barbershop</a>
+                <a href="/cleaning-service-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Cleaning Service</a>
+                <a href="/landscaping-business-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">🌱 Landscaping Business</a>
+                <a href="/consulting-firm-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Consulting Firm</a>
+                <a href="/real-estate-agency-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Real Estate Agency</a>
+                <a href="/daycare-center-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Daycare Center</a>
+                <a href="/pet-grooming-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Pet Grooming</a>
+                <a href="/business-valuation-new-york-city" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; background: rgba(255,255,255,0.2); transition: background 0.3s ease;">Business Valuation NYC</a>
+                <a href="/boutique-store-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Boutique Store</a>
+                <a href="/food-truck-valuation-calculator-2025" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Food Truck</a>
+                <a href="/auto-repair-shop-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">🔧 Auto Repair Shop</a>
+                <a href="/home-health-care-calculator" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">Home Health Care</a>
+                <a href="/about" style="color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 5px; transition: background 0.3s ease;">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>🏙️ Business Valuation in New York City 2025</h1>
+        <p style="text-align: center; font-size: 1.2em; color: #7f8c8d; margin-bottom: 40px;">
+            Professional business appraisal services for New York City companies. Get accurate valuations using industry-standard methods and NYC-specific market factors.
+        </p>
+
+        <div class="calculator-section">
+            <h2 style="color: white; border-bottom: 3px solid white;">NYC Business Valuation Calculator 2025</h2>
+            <p style="font-size: 1.1em; margin-bottom: 30px;">
+                Calculate your New York City business value using our comprehensive valuation tool designed specifically for NYC market conditions.
+            </p>
+            
+            <div class="form-group">
+                <label for="businessType">Business Type:</label>
+                <select id="businessType">
+                    <option value="">Select Business Type</option>
+                    <option value="retail">Retail Store</option>
+                    <option value="restaurant">Restaurant/Food Service</option>
+                    <option value="professional">Professional Services</option>
+                    <option value="manufacturing">Manufacturing</option>
+                    <option value="tech">Technology/SaaS</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="real-estate">Real Estate</option>
+                    <option value="consulting">Consulting</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="annualRevenue">Annual Revenue ($):</label>
+                <input type="number" id="annualRevenue" placeholder="Enter annual revenue">
+            </div>
+
+            <div class="form-group">
+                <label for="netProfit">Net Profit ($):</label>
+                <input type="number" id="netProfit" placeholder="Enter net profit">
+            </div>
+
+            <div class="form-group">
+                <label for="sde">Seller's Discretionary Earnings - SDE ($):</label>
+                <input type="number" id="sde" placeholder="Enter SDE (owner benefits + net profit)">
+            </div>
+
+            <div class="form-group">
+                <label for="location">NYC Location:</label>
+                <select id="location">
+                    <option value="">Select NYC Location</option>
+                    <option value="manhattan">Manhattan</option>
+                    <option value="brooklyn">Brooklyn</option>
+                    <option value="queens">Queens</option>
+                    <option value="bronx">Bronx</option>
+                    <option value="staten-island">Staten Island</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="yearsInBusiness">Years in Business:</label>
+                <input type="number" id="yearsInBusiness" placeholder="Enter years in business">
+            </div>
+
+            <div class="form-group">
+                <label for="employees">Number of Employees:</label>
+                <input type="number" id="employees" placeholder="Enter number of employees">
+            </div>
+
+            <button onclick="calculateNYCValue()">Calculate NYC Business Value</button>
+            <button onclick="resetCalculator()">Reset Calculator</button>
+
+            <div id="result" class="result" style="display: none;"></div>
+        </div>
+
+        <div class="info-box">
+            <h3>🎯 Why NYC Business Valuations Are Unique</h3>
+            <p>New York City presents unique challenges and opportunities for business valuations:</p>
+            <ul>
+                <li><strong>High Operating Costs:</strong> Rent, labor, and overhead costs are significantly higher than national averages</li>
+                <li><strong>Market Density:</strong> Access to large customer bases but intense competition</li>
+                <li><strong>Regulatory Environment:</strong> Complex local and state regulations affecting business operations</li>
+                <li><strong>Economic Factors:</strong> NYC's role as a global financial center impacts business valuations</li>
+                <li><strong>Location Premium:</strong> Prime locations command premium valuations</li>
+            </ul>
+        </div>
+
+        <h2>📊 NYC Business Valuation Methods</h2>
+        
+        <div class="factors">
+            <div class="factor-card">
+                <h4>🏢 Asset-Based Valuation</h4>
+                <p>Evaluates the fair market value of all business assets including:</p>
+                <ul>
+                    <li>Real estate and leasehold improvements</li>
+                    <li>Equipment and inventory</li>
+                    <li>Intellectual property</li>
+                    <li>Goodwill and brand value</li>
+                </ul>
+            </div>
+
+            <div class="factor-card">
+                <h4>💰 Income-Based Valuation</h4>
+                <p>Focuses on the business's earning capacity:</p>
+                <ul>
+                    <li>Discounted Cash Flow (DCF) analysis</li>
+                    <li>Capitalization of earnings</li>
+                    <li>Seller's Discretionary Earnings (SDE)</li>
+                    <li>EBITDA multiples</li>
+                </ul>
+            </div>
+
+            <div class="factor-card">
+                <h4>📈 Market-Based Valuation</h4>
+                <p>Compares to similar businesses in NYC:</p>
+                <ul>
+                    <li>Comparable company analysis</li>
+                    <li>Recent transaction data</li>
+                    <li>Industry-specific multiples</li>
+                    <li>NYC market adjustments</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nyc-specific">
+            <h2 style="color: white; border-bottom: 3px solid white;">🗽 NYC-Specific Valuation Factors</h2>
+            
+            <h3>Location Impact on Valuation</h3>
+            <div class="factors">
+                <div class="factor-card" style="background: rgba(255,255,255,0.1); color: white;">
+                    <h4>Manhattan Premium</h4>
+                    <p>Businesses in Manhattan typically command 15-30% higher valuations due to:</p>
+                    <ul>
+                        <li>Prime real estate locations</li>
+                        <li>High foot traffic</li>
+                        <li>Prestige factor</li>
+                        <li>Access to corporate clients</li>
+                    </ul>
+                </div>
+
+                <div class="factor-card" style="background: rgba(255,255,255,0.1); color: white;">
+                    <h4>Brooklyn Growth</h4>
+                    <p>Brooklyn businesses benefit from:</p>
+                    <ul>
+                        <li>Rapid gentrification</li>
+                        <li>Lower operating costs</li>
+                        <li>Growing customer base</li>
+                        <li>Development opportunities</li>
+                    </ul>
+                </div>
+
+                <div class="factor-card" style="background: rgba(255,255,255,0.1); color: white;">
+                    <h4>Queens Diversity</h4>
+                    <p>Queens offers unique advantages:</p>
+                    <ul>
+                        <li>Diverse customer demographics</li>
+                        <li>Industrial zones</li>
+                        <li>Transportation hubs</li>
+                        <li>Manufacturing opportunities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2>🏭 Industry-Specific NYC Valuations</h2>
+        
+        <div class="industry-examples">
+            <h3>Retail & E-commerce</h3>
+            <div class="example">
+                <strong>Typical Multiple Range:</strong> 2.5x - 4.5x SDE<br>
+                <strong>NYC Factors:</strong> High foot traffic, premium locations, seasonal variations, tourist impact
+            </div>
+
+            <h3>Restaurants & Food Service</h3>
+            <div class="example">
+                <strong>Typical Multiple Range:</strong> 2.0x - 3.5x SDE<br>
+                <strong>NYC Factors:</strong> Delivery competition, high rent costs, diverse cuisine demand, tourist traffic
+            </div>
+
+            <h3>Professional Services</h3>
+            <div class="example">
+                <strong>Typical Multiple Range:</strong> 3.0x - 6.0x SDE<br>
+                <strong>NYC Factors:</strong> Access to corporate clients, high billing rates, talent pool, networking opportunities
+            </div>
+
+            <h3>Technology & SaaS</h3>
+            <div class="example">
+                <strong>Typical Multiple Range:</strong> 4.0x - 8.0x SDE<br>
+                <strong>NYC Factors:</strong> Access to investors, talent acquisition, networking, market access
+            </div>
+
+            <h3>Healthcare</h3>
+            <div class="example">
+                <strong>Typical Multiple Range:</strong> 3.5x - 6.5x SDE<br>
+                <strong>NYC Factors:</strong> High patient volume, insurance complexity, regulatory requirements, competition
+            </div>
+        </div>
+
+        <h2>📋 Step-by-Step NYC Valuation Process</h2>
+        
+        <div class="steps">
+            <div class="step">
+                <strong>Step 1: Financial Analysis</strong><br>
+                Review 3-5 years of financial statements, tax returns, and bank statements. Adjust for owner benefits and non-recurring items.
+            </div>
+
+            <div class="step">
+                <strong>Step 2: Market Research</strong><br>
+                Analyze comparable businesses in NYC, recent transactions, and industry-specific multiples for the local market.
+            </div>
+
+            <div class="step">
+                <strong>Step 3: Asset Assessment</strong><br>
+                Evaluate all business assets including real estate, equipment, inventory, and intangible assets like customer lists and contracts.
+            </div>
+
+            <div class="step">
+                <strong>Step 4: Risk Analysis</strong><br>
+                Assess NYC-specific risks including regulatory compliance, competition, economic factors, and location-specific challenges.
+            </div>
+
+            <div class="step">
+                <strong>Step 5: Valuation Calculation</strong><br>
+                Apply appropriate valuation methods and adjust for NYC market conditions, location factors, and business-specific risks.
+            </div>
+
+            <div class="step">
+                <strong>Step 6: Documentation</strong><br>
+                Prepare comprehensive valuation report with supporting documentation, assumptions, and methodology explanations.
+            </div>
+        </div>
+
+        <h2>⚠️ Common NYC Valuation Challenges</h2>
+        
+        <div class="info-box">
+            <h3>High Operating Costs</h3>
+            <p>NYC businesses face significantly higher costs that must be factored into valuations:</p>
+            <ul>
+                <li><strong>Commercial Rent:</strong> $50-200+ per square foot in prime areas</li>
+                <li><strong>Labor Costs:</strong> Higher minimum wages and competitive salaries</li>
+                <li><strong>Insurance:</strong> Higher premiums due to risk factors</li>
+                <li><strong>Utilities:</strong> Above-average utility costs</li>
+                <li><strong>Permits & Licenses:</strong> Complex and expensive regulatory requirements</li>
+            </ul>
+        </div>
+
+        <div class="info-box">
+            <h3>Market Volatility</h3>
+            <p>NYC markets can be more volatile than national averages:</p>
+            <ul>
+                <li>Economic downturns affect NYC businesses more severely</li>
+                <li>Tourism-dependent businesses face seasonal and external risks</li>
+                <li>Real estate market fluctuations impact business valuations</li>
+                <li>Regulatory changes can significantly impact certain industries</li>
+            </ul>
+        </div>
+
+        <h2>💡 Maximizing Your NYC Business Value</h2>
+        
+        <div class="factors">
+            <div class="factor-card">
+                <h4>📈 Revenue Growth</h4>
+                <p>Focus on sustainable revenue growth through:</p>
+                <ul>
+                    <li>Customer acquisition and retention</li>
+                    <li>Product/service expansion</li>
+                    <li>Market penetration strategies</li>
+                    <li>Digital transformation</li>
+                </ul>
+            </div>
+
+            <div class="factor-card">
+                <h4>💰 Profitability Improvement</h4>
+                <p>Enhance profitability by:</p>
+                <ul>
+                    <li>Cost optimization strategies</li>
+                    <li>Operational efficiency improvements</li>
+                    <li>Pricing optimization</li>
+                    <li>Vendor negotiations</li>
+                </ul>
+            </div>
+
+            <div class="factor-card">
+                <h4>🏢 Asset Optimization</h4>
+                <p>Maximize asset value through:</p>
+                <ul>
+                    <li>Equipment upgrades and maintenance</li>
+                    <li>Inventory management</li>
+                    <li>Real estate optimization</li>
+                    <li>Intellectual property development</li>
+                </ul>
+            </div>
+
+            <div class="factor-card">
+                <h4>📋 Documentation</h4>
+                <p>Maintain comprehensive records:</p>
+                <ul>
+                    <li>Financial statements and tax returns</li>
+                    <li>Customer contracts and agreements</li>
+                    <li>Employee documentation</li>
+                    <li>Regulatory compliance records</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>Ready to Get Your NYC Business Valued?</h2>
+            <p style="font-size: 1.2em; margin-bottom: 30px;">
+                Get a professional business valuation from certified appraisers who understand the unique challenges and opportunities of the New York City market.
+            </p>
+            <button onclick="scrollToContact()" style="background: white; color: #667eea; font-size: 18px; padding: 15px 30px;">
+                Get Professional Valuation
+            </button>
+        </div>
+
+        <div class="contact-info" id="contact">
+            <h3>📞 Contact Our NYC Valuation Experts</h3>
+            <p><strong>Phone:</strong> <a href="tel:+12125551234">(212) 555-1234</a></p>
+            <p><strong>Email:</strong> <a href="mailto:nyc@valuationgenie.com">nyc@valuationgenie.com</a></p>
+            <p><strong>Address:</strong> 123 Business District, New York, NY 10001</p>
+            <p><strong>Hours:</strong> Monday - Friday: 9:00 AM - 6:00 PM EST</p>
+            <p style="margin-top: 20px;">
+                <strong>Free Consultation:</strong> Schedule a complimentary 30-minute consultation to discuss your NYC business valuation needs.
+            </p>
+        </div>
+
+        <div class="disclaimer">
+            <strong>Disclaimer:</strong> This calculator provides estimates only. Professional business valuations should be conducted by certified appraisers. Results may vary based on market conditions, business specifics, and valuation methodology. The Valuation Genie is not responsible for decisions made based on these estimates.
+        </div>
+    </div>
+
+    <script>
+        function calculateNYCValue() {
+            const businessType = document.getElementById('businessType').value;
+            const annualRevenue = parseFloat(document.getElementById('annualRevenue').value) || 0;
+            const netProfit = parseFloat(document.getElementById('netProfit').value) || 0;
+            const sde = parseFloat(document.getElementById('sde').value) || 0;
+            const location = document.getElementById('location').value;
+            const yearsInBusiness = parseInt(document.getElementById('yearsInBusiness').value) || 0;
+            const employees = parseInt(document.getElementById('employees').value) || 0;
+
+            if (!businessType || !location || sde <= 0) {
+                alert('Please fill in all required fields with valid values.');
+                return;
+            }
+
+            // Base multiples for different business types
+            const baseMultiples = {
+                'retail': 3.0,
+                'restaurant': 2.5,
+                'professional': 4.5,
+                'manufacturing': 3.5,
+                'tech': 6.0,
+                'healthcare': 5.0,
+                'real-estate': 4.0,
+                'consulting': 4.5,
+                'other': 3.5
+            };
+
+            // NYC location adjustments
+            const locationAdjustments = {
+                'manhattan': 1.25,
+                'brooklyn': 1.10,
+                'queens': 1.05,
+                'bronx': 1.00,
+                'staten-island': 1.00
+            };
+
+            // Business maturity adjustments
+            let maturityAdjustment = 1.0;
+            if (yearsInBusiness >= 10) maturityAdjustment = 1.15;
+            else if (yearsInBusiness >= 5) maturityAdjustment = 1.05;
+            else if (yearsInBusiness < 2) maturityAdjustment = 0.85;
+
+            // Size adjustments
+            let sizeAdjustment = 1.0;
+            if (employees >= 50) sizeAdjustment = 1.10;
+            else if (employees >= 20) sizeAdjustment = 1.05;
+            else if (employees < 5) sizeAdjustment = 0.95;
+
+            // Calculate base value
+            const baseMultiple = baseMultiples[businessType];
+            const locationAdjustment = locationAdjustments[location];
+            const adjustedMultiple = baseMultiple * locationAdjustment * maturityAdjustment * sizeAdjustment;
+            
+            const estimatedValue = sde * adjustedMultiple;
+
+            // Display result
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `
+                <h3>🏙️ Your NYC Business Valuation Estimate</h3>
+                <p><strong>Estimated Value:</strong> $${estimatedValue.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}</p>
+                <p><strong>Multiple Used:</strong> ${adjustedMultiple.toFixed(2)}x SDE</p>
+                <p><strong>Location Factor:</strong> ${(locationAdjustment * 100).toFixed(0)}% (${location.charAt(0).toUpperCase() + location.slice(1)})</p>
+                <p><strong>Business Type:</strong> ${businessType.charAt(0).toUpperCase() + businessType.slice(1)}</p>
+                <hr style="border: 1px solid rgba(255,255,255,0.3); margin: 20px 0;">
+                <p><em>This is an estimate. Professional valuations may vary based on detailed analysis of your specific business circumstances.</em></p>
+            `;
+            resultDiv.style.display = 'block';
+        }
+
+        function resetCalculator() {
+            document.getElementById('businessType').value = '';
+            document.getElementById('annualRevenue').value = '';
+            document.getElementById('netProfit').value = '';
+            document.getElementById('sde').value = '';
+            document.getElementById('location').value = '';
+            document.getElementById('yearsInBusiness').value = '';
+            document.getElementById('employees').value = '';
+            document.getElementById('result').style.display = 'none';
+        }
+
+        function scrollToContact() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Add some interactive features
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add hover effects to navigation links
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('mouseenter', function() {
+                    this.style.background = 'rgba(255,255,255,0.2)';
+                });
+                link.addEventListener('mouseleave', function() {
+                    if (!this.style.background.includes('0.2)')) {
+                        this.style.background = 'transparent';
+                    }
+                });
+            });
+
+            // Add smooth scrolling to all internal links
+            const internalLinks = document.querySelectorAll('a[href^="#"]');
+            internalLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

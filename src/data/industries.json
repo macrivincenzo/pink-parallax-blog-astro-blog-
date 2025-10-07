@@ -463,6 +463,28 @@
       ]
     },
     {
+      "id": "business-valuation-nyc",
+      "name": "Business Valuation NYC",
+      "title": "Business Valuation in New York City 2025 | Professional NYC Business Appraisal Services",
+      "description": "Get professional business valuation services in New York City for 2025. Expert NYC business appraisals, SDE analysis, and industry-specific valuations for all business types.",
+      "keywords": "business valuation New York City, NYC business appraisal, business worth NYC, company valuation New York, business value calculator NYC",
+      "multiple_range": { "min": 2.0, "max": 6.0 },
+      "characteristics": [
+        "NYC market premium factors",
+        "High operating cost environment",
+        "Diverse industry concentration",
+        "Regulatory complexity",
+        "Location-based valuation adjustments"
+      ],
+      "key_factors": [
+        "NYC location premium",
+        "Industry-specific multiples",
+        "Market density and competition",
+        "Regulatory compliance costs",
+        "Economic environment factors"
+      ]
+    },
+    {
       "id": "boutique-store",
       "name": "Boutique Store",
       "title": "Boutique Store Valuation Calculator 2025 - Calculate Fashion Retail Business Worth & SDE Analysis",
