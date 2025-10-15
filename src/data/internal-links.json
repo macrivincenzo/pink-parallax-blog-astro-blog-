@@ -2,11 +2,6 @@
   "industry_to_location": {
     "restaurant": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Restaurant Valuation in New York City",
-        "title": "Professional Restaurant valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Restaurant Valuation in Los Angeles",
         "title": "Professional Restaurant valuation services in Los Angeles"
@@ -28,11 +23,6 @@
       }
     ],
     "ecommerce": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "E-commerce Valuation in New York City",
-        "title": "Professional E-commerce valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "E-commerce Valuation in Los Angeles",
@@ -56,11 +46,6 @@
     ],
     "saas": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "SaaS Company Valuation in New York City",
-        "title": "Professional SaaS Company valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "SaaS Company Valuation in Los Angeles",
         "title": "Professional SaaS Company valuation services in Los Angeles"
@@ -82,11 +67,6 @@
       }
     ],
     "manufacturing": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Manufacturing Business Valuation in New York City",
-        "title": "Professional Manufacturing Business valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Manufacturing Business Valuation in Los Angeles",
@@ -110,11 +90,6 @@
     ],
     "service-business": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Service Business Valuation in New York City",
-        "title": "Professional Service Business valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Service Business Valuation in Los Angeles",
         "title": "Professional Service Business valuation services in Los Angeles"
@@ -136,11 +111,6 @@
       }
     ],
     "retail-store": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Retail Store Valuation in New York City",
-        "title": "Professional Retail Store valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Retail Store Valuation in Los Angeles",
@@ -164,11 +134,6 @@
     ],
     "franchise": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Franchise Valuation in New York City",
-        "title": "Professional Franchise valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Franchise Valuation in Los Angeles",
         "title": "Professional Franchise valuation services in Los Angeles"
@@ -190,11 +155,6 @@
       }
     ],
     "law-firm": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Law Firm Valuation in New York City",
-        "title": "Professional Law Firm valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Law Firm Valuation in Los Angeles",
@@ -218,11 +178,6 @@
     ],
     "medical-practice": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Medical Practice Valuation in New York City",
-        "title": "Professional Medical Practice valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Medical Practice Valuation in Los Angeles",
         "title": "Professional Medical Practice valuation services in Los Angeles"
@@ -244,11 +199,6 @@
       }
     ],
     "law-firm": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Law Firm Valuation in New York City",
-        "title": "Professional Law Firm valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Law Firm Valuation in Los Angeles",
@@ -272,11 +222,6 @@
     ],
     "accounting-firm": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Accounting Firm Valuation in New York City",
-        "title": "Professional Accounting Firm valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Accounting Firm Valuation in Los Angeles",
         "title": "Professional Accounting Firm valuation services in Los Angeles"
@@ -298,11 +243,6 @@
       }
     ],
     "dental-practice": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Dental Practice Valuation in New York City",
-        "title": "Professional Dental Practice valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Dental Practice Valuation in Los Angeles",
@@ -326,11 +266,6 @@
     ],
     "veterinary-clinic": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Veterinary Clinic Valuation in New York City",
-        "title": "Professional Veterinary Clinic valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Veterinary Clinic Valuation in Los Angeles",
         "title": "Professional Veterinary Clinic valuation services in Los Angeles"
@@ -352,11 +287,6 @@
       }
     ],
     "gym-fitness-center": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Gym & Fitness Center Valuation in New York City",
-        "title": "Professional Gym & Fitness Center valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Gym & Fitness Center Valuation in Los Angeles",
@@ -380,11 +310,6 @@
     ],
     "salon-barbershop": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Salon & Barbershop Valuation in New York City",
-        "title": "Professional Salon & Barbershop valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Salon & Barbershop Valuation in Los Angeles",
         "title": "Professional Salon & Barbershop valuation services in Los Angeles"
@@ -406,11 +331,6 @@
       }
     ],
     "cleaning-service": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Cleaning Service Valuation in New York City",
-        "title": "Professional Cleaning Service valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Cleaning Service Valuation in Los Angeles",
@@ -434,11 +354,6 @@
     ],
     "landscaping-business": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Landscaping Business Valuation in New York City",
-        "title": "Professional Landscaping Business valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Landscaping Business Valuation in Los Angeles",
         "title": "Professional Landscaping Business valuation services in Los Angeles"
@@ -460,11 +375,6 @@
       }
     ],
     "consulting-firm": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Consulting Firm Valuation in New York City",
-        "title": "Professional Consulting Firm valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Consulting Firm Valuation in Los Angeles",
@@ -488,11 +398,6 @@
     ],
     "real-estate-agency": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Real Estate Agency Valuation in New York City",
-        "title": "Professional Real Estate Agency valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Real Estate Agency Valuation in Los Angeles",
         "title": "Professional Real Estate Agency valuation services in Los Angeles"
@@ -514,11 +419,6 @@
       }
     ],
     "daycare-center": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Daycare Center Valuation in New York City",
-        "title": "Professional Daycare Center valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Daycare Center Valuation in Los Angeles",
@@ -542,11 +442,6 @@
     ],
     "pet-grooming": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Pet Grooming Business Valuation in New York City",
-        "title": "Professional Pet Grooming business valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Pet Grooming Business Valuation in Los Angeles",
         "title": "Professional Pet Grooming business valuation services in Los Angeles"
@@ -568,11 +463,6 @@
       }
     ],
     "boutique-store": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Boutique Store Valuation in New York City",
-        "title": "Professional Boutique Store valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Boutique Store Valuation in Los Angeles",
@@ -596,11 +486,6 @@
     ],
     "food-truck": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Food Truck Business Valuation in New York City",
-        "title": "Professional Food Truck business valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Food Truck Business Valuation in Los Angeles",
         "title": "Professional Food Truck business valuation services in Los Angeles"
@@ -622,11 +507,6 @@
       }
     ],
     "auto-repair-shop": [
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Auto Repair Shop Valuation in New York City",
-        "title": "Professional Auto Repair Shop valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Auto Repair Shop Valuation in Los Angeles",
@@ -650,11 +530,6 @@
     ],
     "home-health-care": [
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Home Health Care Valuation in New York City",
-        "title": "Professional Home Health Care valuation services in New York City"
-      },
-      {
         "url": "/business-valuation-los-angeles",
         "anchor": "Home Health Care Valuation in Los Angeles",
         "title": "Professional Home Health Care valuation services in Los Angeles"
@@ -676,11 +551,6 @@
       }
     ],
     "business-valuation-nyc": [
-      {
-        "url": "/nyc-business-valuation-calculator-2025",
-        "anchor": "Business Valuation in New York City",
-        "title": "Professional Business Valuation services in New York City"
-      },
       {
         "url": "/business-valuation-los-angeles",
         "anchor": "Business Valuation in Los Angeles",
@@ -811,11 +681,6 @@
         "title": "Calculate Pet Grooming business value in New York City"
       },
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Business Valuation NYC Calculator",
-        "title": "Calculate Business value in New York City"
-      },
-      {
         "url": "/boutique-store-calculator",
         "anchor": "Boutique Store Calculator",
         "title": "Calculate Boutique Store value in New York City"
@@ -941,11 +806,6 @@
         "url": "/pet-grooming-business-valuation-calculator",
         "anchor": "Pet Grooming Calculator",
         "title": "Calculate Pet Grooming business value in Los Angeles"
-      },
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Business Valuation NYC Calculator",
-        "title": "Calculate Business value in Los Angeles"
       },
       {
         "url": "/boutique-store-calculator",
@@ -1075,11 +935,6 @@
         "title": "Calculate Pet Grooming business value in Chicago"
       },
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Business Valuation NYC Calculator",
-        "title": "Calculate Business value in Chicago"
-      },
-      {
         "url": "/boutique-store-calculator",
         "anchor": "Boutique Store Calculator",
         "title": "Calculate Boutique Store value in Chicago"
@@ -1207,11 +1062,6 @@
         "title": "Calculate Pet Grooming business value in Houston"
       },
       {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Business Valuation NYC Calculator",
-        "title": "Calculate Business value in Houston"
-      },
-      {
         "url": "/boutique-store-calculator",
         "anchor": "Boutique Store Calculator",
         "title": "Calculate Boutique Store value in Houston"
@@ -1337,11 +1187,6 @@
         "url": "/pet-grooming-business-valuation-calculator",
         "anchor": "Pet Grooming Calculator",
         "title": "Calculate Pet Grooming business value in Phoenix"
-      },
-      {
-        "url": "/business-valuation-new-york-city",
-        "anchor": "Business Valuation NYC Calculator",
-        "title": "Calculate Business value in Phoenix"
       },
       {
         "url": "/boutique-store-calculator",
