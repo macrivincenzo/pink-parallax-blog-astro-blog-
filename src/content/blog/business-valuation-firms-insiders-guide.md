@@ -118,8 +118,8 @@ This hybrid approach provides the best of both worlds:
 <div class="cta-section">
     <h3>Ready for a Smarter, Faster, and More Affordable Valuation?</h3>
     <p>Stop guessing what your business is worth. Get an instant estimate with our free calculator, or order a comprehensive, professional valuation report for just $39.</p>
-    <a href="/restaurant-valuation-calculator" class="cta-btn">Use Free Calculator</a>
-    <a href="/professional-report" class="cta-btn">Order Certified Report - $39</a>
+    <a href="https://thevaluationgenie.com/" class="cta-btn">Use Free Calculator</a>
+    <a href="https://thevaluationgenie.com/" class="cta-btn">Order Certified Report - $39</a>
 </div>
 
 ## Conclusion: Don't Overpay for Your Business Valuation

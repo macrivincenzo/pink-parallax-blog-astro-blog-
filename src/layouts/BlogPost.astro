@@ -22,57 +22,137 @@ const breadcrumbItems = [
 	<head>
 		<BaseHead title={title} description={description} />
 		<style>
-			main {
-				width: calc(100% - 2em);
-				max-width: 100%;
-				margin: 0;
-			}
-			.hero-image {
-				width: 100%;
-			}
-			.hero-image img {
-				display: block;
-				margin: 0 auto;
-				border-radius: 12px;
-				box-shadow: var(--box-shadow);
+			.blog-post-container {
+				background-color: #ffffff;
+				padding: 2rem 0;
 			}
 			.prose {
-				width: 720px;
-				max-width: calc(100% - 2em);
-				margin: auto;
-				padding: 1em;
-				color: rgb(var(--gray-dark));
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 2em;
+				background: white;
+				border-radius: 12px;
+				box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 			}
 			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
-				text-align: center;
-				line-height: 1;
+				margin-bottom: 2em;
+				text-align: left;
+				border-bottom: 1px solid #e9ecef;
+				padding-bottom: 1.5em;
 			}
 			.title h1 {
-				margin: 0 0 0.5em 0;
+				font-size: 3em;
+				margin: 0 0 0.25em 0;
+				line-height: 1.2;
+				color: #2c3e50;
 			}
-			.date {
-				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
+			.date-container {
+				font-size: 0.9em;
+				color: #7f8c8d;
+				margin-bottom: 1em;
 			}
 			.last-updated-on {
+				display: block;
 				font-style: italic;
+				margin-top: 0.5em;
+			}
+			.prose :global(h2) {
+				font-size: 2.2em;
+				color: #2c3e50;
+				margin-top: 2em;
+				margin-bottom: 1em;
+				padding-bottom: 0.3em;
+				border-bottom: 2px solid #3498db;
+			}
+			.prose :global(h3) {
+				font-size: 1.8em;
+				color: #34495e;
+				margin-top: 1.8em;
+				margin-bottom: 0.8em;
+			}
+			.prose :global(p), .prose :global(ul), .prose :global(ol) {
+				font-size: 1.1em;
+				line-height: 1.8;
+				color: #34495e;
+			}
+			.prose :global(ul), .prose :global(ol) {
+				padding-left: 1.5em;
+			}
+			.prose :global(li) {
+				margin-bottom: 0.75em;
+			}
+			.prose :global(strong) {
+				color: #2c3e50;
+			}
+			.prose :global(a) {
+				color: #3498db;
+				text-decoration: none;
+				border-bottom: 2px solid transparent;
+				transition: border-color 0.3s ease;
+			}
+			.prose :global(a:hover) {
+				border-color: #3498db;
+			}
+			.prose :global(table) {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 2em 0;
+				font-size: 1em;
+				box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+			}
+			.prose :global(th), .prose :global(td) {
+				border: 1px solid #e9ecef;
+				padding: 0.8em 1em;
+				text-align: left;
+			}
+			.prose :global(th) {
+				background-color: #f8f9fa;
+				font-weight: bold;
+				color: #2c3e50;
+			}
+			.prose :global(.cta-section) {
+				background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+				color: white;
+				padding: 2.5rem;
+				border-radius: 12px;
+				text-align: center;
+				margin: 3rem 0;
+			}
+			.prose :global(.cta-section h3) {
+				color: white;
+				font-size: 2em;
+				margin-top: 0;
+			}
+			.prose :global(.cta-btn) {
+				background: #ffffff;
+				color: #2c3e50;
+				padding: 15px 35px;
+				border: 2px solid transparent;
+				border-radius: 8px;
+				font-size: 1.1em;
+				font-weight: bold;
+				cursor: pointer;
+				text-decoration: none;
+				display: inline-block;
+				margin: 0.5em;
+				transition: all 0.3s ease;
+			}
+			.prose :global(.cta-btn:hover) {
+				background: transparent;
+				color: white;
+				border-color: white;
 			}
 		</style>
 	</head>
 
 	<body>
 		<Header />
-		<Breadcrumbs items={breadcrumbItems} />
 		<main>
-			<article>
-				<div class="hero-image">
-					{heroImage && <Image width={1020} height={510} src={heroImage} alt={`Hero image for ${title}`} />}
-				</div>
-				<div class="prose">
+			<Breadcrumbs items={breadcrumbItems} />
+			<div class="blog-post-container">
+				<article class="prose">
 					<div class="title">
-						<div class="date">
+						<div class="date-container">
 							{pubDate && <FormattedDate date={pubDate} />}
 							{
 								updatedDate && (
@@ -83,11 +163,10 @@ const breadcrumbItems = [
 							}
 						</div>
 						<h1>{title}</h1>
-						<hr />
 					</div>
 					<slot />
-				</div>
-			</article>
+				</article>
+			</div>
 		</main>
 		<Footer />
 	</body>

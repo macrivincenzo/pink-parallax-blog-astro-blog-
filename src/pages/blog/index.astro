@@ -18,88 +18,138 @@ const otherPosts = posts.filter(post => post.slug !== 'business-valuation-firms-
 	<head>
 		<BaseHead title={`Blog - ${SITE_TITLE}`} description="In-depth articles, guides, and insights on business valuation, market trends, and maximizing your company's worth." />
 		<style>
-			main {
-				width: 960px;
+			.blog-container {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 2rem 1rem;
 			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
+			.page-header {
 				text-align: center;
+				margin-bottom: 3rem;
+				padding-bottom: 2rem;
+				border-bottom: 1px solid #e9ecef;
 			}
-			ul li:first-child img {
-				width: 100%;
+			.page-header h1 {
+				font-size: 3.5em;
+				color: #2c3e50;
+				margin-bottom: 0.5rem;
 			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
+			.page-header p {
+				font-size: 1.2em;
+				color: #7f8c8d;
+				max-width: 700px;
+				margin: 0 auto;
 			}
-			.featured-post {
-				grid-column: 1 / -1;
+
+			/* Featured Post Styles */
+			.featured-post-section {
+				margin-bottom: 4rem;
+			}
+			.featured-post-section h2 {
+				font-size: 2.5em;
+				color: #2c3e50;
+				text-align: center;
 				margin-bottom: 2rem;
-				border: 1px solid #e0e0e0;
-				padding: 2rem;
-				border-radius: 8px;
-				background-color: #f9f9f9;
 			}
-			.featured-post a {
+			.featured-card {
+				display: block;
+				background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+				color: white;
+				padding: 3rem;
+				border-radius: 15px;
+				text-decoration: none;
+				transition: all 0.3s ease;
+				box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+			}
+			.featured-card:hover {
+				transform: translateY(-5px);
+				box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+			}
+			.featured-card .title {
+				font-size: 2.8em;
+				margin: 0 0 1rem 0;
+				line-height: 1.2;
+			}
+			.featured-card .description {
+				font-size: 1.3em;
+				opacity: 0.9;
+				max-width: 80%;
+			}
+			
+			/* Post List Styles */
+			.post-list-section h2 {
+				font-size: 2.5em;
+				color: #2c3e50;
+				text-align: center;
+				margin-bottom: 2rem;
+			}
+			.post-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+				gap: 2rem;
+			}
+			.post-card {
+				display: block;
+				background: #ffffff;
+				border: 1px solid #e9ecef;
+				border-radius: 12px;
 				text-decoration: none;
 				color: inherit;
+				transition: all 0.3s ease;
+				overflow: hidden;
+				box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 			}
-			.featured-post .title {
-				font-size: 2.5em;
-				margin-bottom: 0.5em;
+			.post-card:hover {
+				transform: translateY(-5px);
+				box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+				border-color: #3498db;
+			}
+			.post-card .card-content {
+				padding: 1.5rem;
+			}
+			.post-card .title {
+				font-size: 1.5em;
 				color: #2c3e50;
+				margin: 0 0 0.75rem 0;
 			}
-			.featured-post .description {
-				font-size: 1.2em;
-				color: #34495e;
-			}
-			.post-list {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-				gap: 2rem;
+			.post-card .description {
+				font-size: 1em;
+				color: #7f8c8d;
+				line-height: 1.6;
 			}
 		</style>
 	</head>
 
 	<body>
 		<Header />
-		<main>
-			<h1>The Valuation Genie Blog</h1>
-			<p>In-depth articles, guides, and insights on business valuation, market trends, and maximizing your company's worth.</p>
-			
+		<main class="blog-container">
+			<header class="page-header">
+				<h1>The Valuation Genie Blog</h1>
+				<p>In-depth articles, guides, and insights on business valuation, market trends, and maximizing your company's worth.</p>
+		</header>
+		
 			{featuredPost && (
-				<section class="featured-post">
-					<a href={`/blog/${featuredPost.slug}/`}>
-						<h2 class="title">{featuredPost.data.title}</h2>
+				<section class="featured-post-section">
+					<h2>Featured Guide</h2>
+					<a href={`/blog/${featuredPost.slug}/`} class="featured-card">
+						<h3 class="title">{featuredPost.data.title}</h3>
 						<p class="description">{featuredPost.data.description}</p>
 					</a>
-				</section>
+			</section>
 			)}
 
-			<section class="post-list">
-				{otherPosts.map((post) => (
-					<article>
-						<a href={`/blog/${post.slug}/`}>
-							<h3 class="title">{post.data.title}</h3>
-							<p>{post.data.description}</p>
+			<section class="post-list-section">
+				<h2>Latest Articles</h2>
+				<div class="post-grid">
+					{otherPosts.map((post) => (
+						<a href={`/blog/${post.slug}/`} class="post-card">
+							<div class="card-content">
+								<h3 class="title">{post.data.title}</h3>
+								<p class="description">{post.data.description}</p>
+					</div>
 						</a>
-					</article>
-				))}
+					))}
+				</div>
 			</section>
 		</main>
 		<Footer />
