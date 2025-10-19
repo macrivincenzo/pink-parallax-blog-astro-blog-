@@ -1,0 +1,107 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+		<style>
+			body {
+				font-family: 'Inter', sans-serif;
+				background-color: #f8f9fa;
+				color: #343a40;
+				line-height: 1.7;
+				margin: 0;
+			}
+			main {
+				max-width: 960px;
+				margin: 0 auto;
+				padding: 2rem 1rem;
+			}
+			.content-container {
+				background-color: white;
+				padding: 2rem 3rem;
+				border-radius: 12px;
+				box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+			}
+			h1, h2, h3 {
+				color: #2c3e50;
+				line-height: 1.3;
+			}
+			h1 {
+				font-size: 2.8em;
+				margin-bottom: 0.5em;
+			}
+			h2 {
+				font-size: 2.2em;
+				border-bottom: 2px solid #3498db;
+				padding-bottom: 0.5rem;
+				margin-top: 2rem;
+			}
+			h3 {
+				font-size: 1.8em;
+				margin-top: 1.5rem;
+			}
+			p {
+				margin-bottom: 1.2rem;
+			}
+			a {
+				color: #3498db;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 2rem 0;
+				box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+			}
+			th, td {
+				padding: 12px 15px;
+				border: 1px solid #dee2e6;
+				text-align: left;
+			}
+			th {
+				background-color: #3498db;
+				color: white;
+			}
+			tr:nth-of-type(even) {
+				background-color: #f8f9fa;
+			}
+			.cta-button {
+				background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+				color: white;
+				padding: 15px 30px;
+				border-radius: 8px;
+				text-decoration: none;
+				font-weight: bold;
+				display: inline-block;
+				transition: transform 0.3s ease;
+			}
+			.cta-button:hover {
+				transform: translateY(-3px);
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="content-container">
+				<slot />
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

@@ -1,105 +1,71 @@
 ---
-import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
 ---
-
-<header>
-	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/medical-practice-calculator">Medical Practice</HeaderLink>
-			<HeaderLink href="/restaurant-calculator">Restaurant</HeaderLink>
-			<HeaderLink href="/ecommerce-calculator">E-commerce</HeaderLink>
-			<HeaderLink href="/saas-calculator">SaaS</HeaderLink>
-			<HeaderLink href="/manufacturing-calculator">Manufacturing</HeaderLink>
-			<HeaderLink href="/service-business-calculator">Services</HeaderLink>
-			<HeaderLink href="/retail-store-calculator">Retail Store</HeaderLink>
-			<HeaderLink href="/franchise-calculator">Franchise</HeaderLink>
-			<HeaderLink href="/law-firm-calculator">Law Firm</HeaderLink>
-			<HeaderLink href="/accounting-firm-calculator">Accounting Firm</HeaderLink>
-			<HeaderLink href="/dental-practice-calculator">Dental Practice</HeaderLink>
-			<HeaderLink href="/veterinary-clinic-calculator">Veterinary Clinic</HeaderLink>
-			<HeaderLink href="/gym-fitness-center-calculator">Gym/Fitness Center</HeaderLink>
-			<HeaderLink href="/salon-barbershop-calculator">Salon/Barbershop</HeaderLink>
-			<HeaderLink href="/cleaning-service-calculator">Cleaning Service</HeaderLink>
-			<HeaderLink href="/auto-repair-shop-calculator">Auto Repair Shop</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
-	</nav>
+<header class="header">
+    <nav class="nav-container">
+        <div class="logo">
+            <a href="/">The Valuation Genie</a>
+        </div>
+        <div class="nav-links">
+            <HeaderLink href="/">Home</HeaderLink>
+            <HeaderLink href="/medical-practice-calculator">Medical Practice</HeaderLink>
+            <HeaderLink href="/restaurant-calculator">Restaurant</HeaderLink>
+            <HeaderLink href="/ecommerce-calculator">E-commerce</HeaderLink>
+            <HeaderLink href="/saas-calculator">SaaS</HeaderLink>
+            <HeaderLink href="/manufacturing-calculator">Manufacturing</HeaderLink>
+            <HeaderLink href="/service-business-calculator">Services</HeaderLink>
+            <HeaderLink href="/retail-store-calculator">Retail Store</HeaderLink>
+            <HeaderLink href="/franchise-calculator">Franchise</HeaderLink>
+            <HeaderLink href="/law-firm-calculator">Law Firm</HeaderLink>
+            <HeaderLink href="/accounting-firm-calculator">Accounting Firm</HeaderLink>
+            <HeaderLink href="/dental-practice-calculator">Dental Practice</HeaderLink>
+            <HeaderLink href="/veterinary-clinic-calculator">Veterinary Clinic</HeaderLink>
+            <HeaderLink href="/gym-fitness-center-calculator">Gym/Fitness</HeaderLink>
+            <HeaderLink href="/salon-barbershop-calculator">Salon/Barbershop</HeaderLink>
+            <HeaderLink href="/cleaning-service-calculator">Cleaning Service</HeaderLink>
+            <HeaderLink href="/auto-repair-shop-calculator">Auto Repair</HeaderLink>
+            <HeaderLink href="/about">About</HeaderLink>
+        </div>
+    </nav>
 </header>
 <style>
-	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
-
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	.internal-links {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5em;
-	}
-	nav a {
-		padding: 0.8em 0.4em;
-		color: #212529;
-		border-bottom: 4px solid transparent;
-		text-decoration: none;
-		font-size: 0.9em;
-		white-space: nowrap;
-		transition: all 0.3s ease;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: #2337ff;
-	}
-	nav a:hover,
-	nav a:focus {
-		color: #2337ff;
-		border-bottom-color: #2337ff;
-		outline: 2px solid #2337ff;
-		outline-offset: 2px;
-	}
-	.social-links,
-	.social-links a {
-		display: flex;
-	}
-	@media (max-width: 1024px) {
-		.internal-links {
-			gap: 0.3em;
-		}
-		nav a {
-			padding: 0.6em 0.3em;
-			font-size: 0.85em;
-		}
-	}
-	@media (max-width: 720px) {
-		.social-links {
-			display: none;
-		}
-		.internal-links {
-			justify-content: center;
-			width: 100%;
-			margin-top: 1em;
-		}
-		nav {
-			flex-direction: column;
-			align-items: center;
-		}
-	}
+    .header {
+        background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+        color: white;
+        padding: 1rem 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    .nav-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .logo a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+    .nav-links {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+    @media (min-width: 1200px) {
+        .nav-container {
+            flex-wrap: nowrap;
+        }
+        .nav-links {
+            margin-top: 0;
+        }
+    }
 </style>

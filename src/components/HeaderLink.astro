@@ -14,11 +14,20 @@ const isActive = href === pathname || href === '/' + (subpath?.[0] || '');
 </a>
 <style>
 	a {
-		display: inline-block;
+		color: white;
 		text-decoration: none;
+		font-weight: 500;
+		padding: 8px 12px;
+		border-radius: 5px;
+		transition: background-color 0.3s ease, color 0.3s ease;
+		border-bottom: none; /* Remove default underline style */
+	}
+	a:hover {
+		background-color: rgba(255, 255, 255, 0.2);
 	}
 	a.active {
-		font-weight: bolder;
-		text-decoration: underline;
+		font-weight: 700; /* Bolder for active link */
+		background-color: rgba(255, 255, 255, 0.1);
+		text-decoration: none; /* Ensure no underline on active link */
 	}
 </style>
