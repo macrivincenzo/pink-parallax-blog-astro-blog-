@@ -1,4 +1,53 @@
 ---
-// Redirect to blog page
-return Astro.redirect('/blog');
+import MainLayout from '../layouts/MainLayout.astro';
 ---
+
+<MainLayout>
+	<div class="hero">
+		<h1>The Valuation Genie</h1>
+		<p>Get accurate, data-driven business valuations in minutes.</p>
+		<a href="/contact" class="cta-button">Get a Free Quote</a>
+	</div>
+
+	<div class="intro">
+		<h2>What is The Valuation Genie?</h2>
+		<p>
+			We provide business owners, buyers, and brokers with fast, affordable, and professional business valuations. Our tools are built on industry-standard methodologies and real-time market data to give you the most accurate picture of what your business is worth.
+		</p>
+	</div>
+</MainLayout>
+<style>
+	.hero {
+		text-align: center;
+		padding: 4rem 1rem;
+		background-color: var(--bg-offset);
+		border-radius: 8px;
+		margin-bottom: 4rem;
+	}
+	.hero h1 {
+		font-size: 3.5em;
+		margin-bottom: 0.5em;
+	}
+	.hero p {
+		font-size: 1.2em;
+		margin-bottom: 2em;
+	}
+	.cta-button {
+		background-color: var(--accent);
+		color: white;
+		padding: 15px 30px;
+		border-radius: 5px;
+		text-decoration: none;
+		font-weight: bold;
+		transition: background-color 0.3s ease;
+	}
+	.cta-button:hover {
+		background-color: var(--accent-dark);
+		text-decoration: none;
+	}
+	.intro {
+		text-align: center;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+</style>

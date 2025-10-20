@@ -1,71 +1,67 @@
 ---
 import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../consts';
 ---
-<header class="header">
-    <nav class="nav-container">
-        <div class="logo">
-            <a href="/">The Valuation Genie</a>
-        </div>
-        <div class="nav-links">
-            <HeaderLink href="/">Home</HeaderLink>
-            <HeaderLink href="/medical-practice-calculator">Medical Practice</HeaderLink>
-            <HeaderLink href="/restaurant-calculator">Restaurant</HeaderLink>
-            <HeaderLink href="/ecommerce-calculator">E-commerce</HeaderLink>
-            <HeaderLink href="/saas-calculator">SaaS</HeaderLink>
-            <HeaderLink href="/manufacturing-calculator">Manufacturing</HeaderLink>
-            <HeaderLink href="/service-business-calculator">Services</HeaderLink>
-            <HeaderLink href="/retail-store-calculator">Retail Store</HeaderLink>
-            <HeaderLink href="/franchise-calculator">Franchise</HeaderLink>
-            <HeaderLink href="/law-firm-calculator">Law Firm</HeaderLink>
-            <HeaderLink href="/accounting-firm-calculator">Accounting Firm</HeaderLink>
-            <HeaderLink href="/dental-practice-calculator">Dental Practice</HeaderLink>
-            <HeaderLink href="/veterinary-clinic-calculator">Veterinary Clinic</HeaderLink>
-            <HeaderLink href="/gym-fitness-center-calculator">Gym/Fitness</HeaderLink>
-            <HeaderLink href="/salon-barbershop-calculator">Salon/Barbershop</HeaderLink>
-            <HeaderLink href="/cleaning-service-calculator">Cleaning Service</HeaderLink>
-            <HeaderLink href="/auto-repair-shop-calculator">Auto Repair</HeaderLink>
-            <HeaderLink href="/about">About</HeaderLink>
-        </div>
-    </nav>
+
+<header>
+	<nav>
+		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<div class="internal-links">
+			<HeaderLink href="/">Home</HeaderLink>
+			<HeaderLink href="/blog">Blog</HeaderLink>
+			<HeaderLink href="/about">About</HeaderLink>
+		</div>
+		<a href="/contact" class="cta-button">Get a Free Quote</a>
+	</nav>
 </header>
 <style>
-    .header {
-        background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
-        color: white;
-        padding: 1rem 0;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
-    .nav-container {
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 0 1rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    .logo a {
-        color: white;
-        text-decoration: none;
-        font-size: 1.8em;
-        font-weight: 700;
-    }
-    .nav-links {
-        display: flex;
-        gap: 0.5rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 0.5rem;
-    }
-    @media (min-width: 1200px) {
-        .nav-container {
-            flex-wrap: nowrap;
-        }
-        .nav-links {
-            margin-top: 0;
-        }
-    }
+	header {
+		margin: 0;
+		padding: 0.5rem 1.5rem;
+		background: white;
+		box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+		border-bottom: 1px solid #f2f2f2;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	h2 {
+		margin: 0;
+		font-size: 1.5em;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	h2 a,
+	h2 a.active {
+		color: #1a1a1a;
+		font-weight: 700;
+	}
+	.internal-links {
+		display: none;
+	}
+	@media (min-width: 768px) {
+		.internal-links {
+			display: flex;
+			gap: 1.5rem;
+		}
+	}
+	.cta-button {
+		background-color: #007bff;
+		color: white;
+		padding: 10px 20px;
+		border-radius: 5px;
+		text-decoration: none;
+		font-weight: bold;
+		transition: background-color 0.3s ease;
+	}
+	.cta-button:hover {
+		background-color: #0056b3;
+	}
 </style>
