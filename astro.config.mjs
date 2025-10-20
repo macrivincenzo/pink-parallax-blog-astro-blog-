@@ -7,6 +7,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
+	// Trigger new build
 	site: 'https://blog.thevaluationgenie.com',
 	integrations: [
 		mdx(), 
